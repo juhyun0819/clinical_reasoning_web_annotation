@@ -1,0 +1,2275 @@
+[
+  {
+    "id": 150369,
+    "original_text": "The presented scan is a cross-sectional Optical Coherence Tomography (OCT) image rather than a color fundus photograph. In OCT imaging, we pay particular attention to the integrity and contour of the retinal pigment epithelium (RPE), the presence of any pigment epithelial detachments (PEDs), subretinal or intraretinal fluid collections, and hyperreflective material either above or below the RPE. In this particular image, one notes an undulating elevation of the RPE layer centrally, beneath which there is a mound of relatively hyperreflective tissue. Above this mound there is a hyporeflective pocket consistent with subretinal fluid. The overlying neurosensory retina appears detached from the RPE in that region, with a corresponding dome-shaped separation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "undulating elevation of the RPE layer centrally"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "hyporeflective pocket consistent with subretinal fluid"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:05:59.017212"
+  },
+  {
+    "id": 152846,
+    "original_text": "The provided image is a cross-sectional scan of the retina obtained by Optical Coherence Tomography (OCT). In OCT images of the posterior pole, we routinely assess the integrity and contour of the retinal pigment epithelium (RPE), the presence of fluid in the intraretinal, subretinal, or sub-RPE spaces, and any hyperreflective or hyporeflective material that may indicate neovascular tissue or scarring. In this particular scan, one notes an elevated, dome-shaped detachment of the RPE with underlying hyperreflective material. Above the RPE elevation there is a shallow subretinal fluid pocket, and directly beneath the elevation the shadowing suggests dense tissue beneath the RPE. The overlying neurosensory retina shows slight disruption but does not demonstrate cystoid intraretinal edema in this B-scan.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "elevated, dome-shaped detachment of the RPE with underlying hyperreflective material"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "shallow subretinal fluid pocket above the RPE elevation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:01.705008"
+  },
+  {
+    "id": 155817,
+    "original_text": "The provided image is an optical coherence tomography (OCT) B-scan rather than a color fundus photograph, which is immediately apparent from its cross-sectional, grayscale presentation of retinal and subretinal layers. In OCT imaging, clinicians assess the integrity of the retinal pigment epithelium (RPE), the ellipsoid zone, the neurosensory retina, and look for abnormal hyporeflective or hyperreflective spaces beneath or within these layers. Key diagnostic features include any pigment epithelial detachments, subretinal fluid pockets, hyperreflective material consistent with neovascular membranes, or signs of intraretinal cysts.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "pigment epithelial detachments",
+          "description": "abnormal elevation of the retinal pigment epithelium"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "pockets of fluid located beneath the retina"
+        },
+        {
+          "id": "f3",
+          "label": "hyperreflective material",
+          "description": "material consistent with neovascular membranes"
+        },
+        {
+          "id": "f4",
+          "label": "intraretinal cysts",
+          "description": "cystic spaces within the neurosensory retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:05.373176"
+  },
+  {
+    "id": 143730,
+    "original_text": "The provided image is an optical coherence tomography (OCT) B-scan of the macula rather than a color fundus photograph. In OCT images, we focus on the reflectivity and contour of the retinal layers, presence of subretinal or intraretinal fluid, pigment epithelial detachments, and any hyperreflective lesions that might indicate abnormal vascular or fibrotic tissue. In this scan, one can appreciate a pronounced dome-shaped elevation of the retinal pigment epithelium (RPE) with overlying disruption of normal outer retinal bands. Above this elevation is a heterogeneous, hyperreflective mass. There is also evidence of hyporeflective pockets both beneath the neurosensory retina and within the retinal layers themselves, consistent with subretinal and intraretinal fluid accumulation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "pronounced dome-shaped elevation of the retinal pigment epithelium (RPE)"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "hyporeflective pockets beneath the neurosensory retina"
+        },
+        {
+          "id": "f3",
+          "label": "intraretinal fluid",
+          "description": "hyporeflective pockets within the retinal layers"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:08.578013"
+  },
+  {
+    "id": 140358,
+    "original_text": "This is an Optical Coherence Tomography (OCT) scan of the macula, which provides high-resolution cross-sectional images of the retinal layers and underlying structures. When evaluating OCT, clinicians focus on the integrity of the retinal pigment epithelium (RPE), presence or absence of subretinal or intraretinal fluid, elevation or detachment of the RPE, the appearance of any hyperreflective material beneath or within the retina, and the contour of the neurosensory retina. In this particular image, there is a notable dome-shaped elevation of the RPE complex with overlying areas of low-to-medium reflectivity suggestive of subretinal fluid. Just above the RPE detachment, there is a localized band of irregular, densely hyperreflective material projecting into the subretinal space. The foveal contour is disrupted by this lesion, and adjacent retinal layers appear mildly thickened without classic cystoid spaces.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "notable dome-shaped elevation of the RPE complex"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "overlying areas of low-to-medium reflectivity suggestive of subretinal fluid"
+        },
+        {
+          "id": "f3",
+          "label": "hyperreflective material",
+          "description": "localized band of irregular, densely hyperreflective material projecting into the subretinal space"
+        },
+        {
+          "id": "f4",
+          "label": "disrupted foveal contour",
+          "description": "foveal contour is disrupted by the lesion"
+        },
+        {
+          "id": "f5",
+          "label": "mildly thickened retinal layers",
+          "description": "adjacent retinal layers appear mildly thickened without classic cystoid spaces"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:12.333475"
+  },
+  {
+    "id": 205079,
+    "original_text": "The image provided is a spectral-domain optical coherence tomography (OCT) B-scan through the foveal center. In OCT of the macula, we routinely inspect the overall retinal contour, the integrity of the photoreceptor inner segment/outer segment junction (also called the ellipsoid zone), the presence or absence of intraretinal or subretinal fluid, any thickening or thinning of individual layers, and signs of vitreomacular interface pathology such as traction or epiretinal membranes. On this particular scan, the macula demonstrates a smooth, gently concave foveal pit with well-defined retinal layers. The hyperreflective line of the external limiting membrane and the ellipsoid zone are intact and continuous. There is no evidence of hyporeflective cystoid spaces within the neurosensory retina, no elevation of the neurosensory layers to suggest subretinal fluid, and no focal thickening or hyperreflective deposits beneath the retinal pigment epithelium that would indicate drusen.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "intact ellipsoid zone",
+          "description": "the ellipsoid zone is intact and continuous"
+        },
+        {
+          "id": "f2",
+          "label": "no subretinal fluid",
+          "description": "no elevation of the neurosensory layers to suggest subretinal fluid"
+        },
+        {
+          "id": "f3",
+          "label": "no cystoid spaces",
+          "description": "no evidence of hyporeflective cystoid spaces within the neurosensory retina"
+        },
+        {
+          "id": "f4",
+          "label": "well-defined retinal layers",
+          "description": "the macula demonstrates well-defined retinal layers"
+        },
+        {
+          "id": "f5",
+          "label": "smooth foveal pit",
+          "description": "the foveal pit is smooth and gently concave"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:16.681980"
+  },
+  {
+    "id": 203479,
+    "original_text": "This is an Optical Coherence Tomography (OCT) B-scan of the macula rather than a color fundus photograph. In macular OCT, we evaluate the integrity of the retinal layers—especially the external limiting membrane, photoreceptor ellipsoid zone, and retinal pigment epithelium—as well as the overall retinal thickness, the contour of the foveal depression, and the presence or absence of intra- or subretinal fluid, cystic changes, or hyperreflective material. In this particular scan the foveal contour is smoothly excavated without blunting or irregularity, the retinal layers are well delineated throughout, and there are no pockets of hypo- or hyperreflectivity indicating fluid, hemorrhage, exudates, or neovascular membranes. The RPE band beneath is continuous and unremarkable, and the choroidal reflection appears homogeneous.",
+    "extracted_features": {
+      "features": []
+    },
+    "processing_timestamp": "2025-08-22 16:06:17.862915"
+  },
+  {
+    "id": 199960,
+    "original_text": "This is an Optical Coherence Tomography (OCT) scan of the macular region rather than a color fundus photograph. In OCT images, we routinely assess the integrity and contour of the retinal layers—particularly the vitreoretinal interface, the retinal nerve fiber layer, the inner and outer plexiform layers, the photoreceptor inner/outer segment junction, and the retinal pigment epithelium (RPE). We also look for any pockets of intraretinal or subretinal fluid, areas of retinal thickening or thinning, disruptions in the continuous hyperreflective bands, and signs of epiretinal or subretinal membranes.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "intraretinal fluid",
+          "description": "pockets of fluid within the retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "pockets of fluid beneath the retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "retinal thickening",
+          "description": "areas of increased thickness in the retinal layers"
+        },
+        {
+          "id": "f4",
+          "label": "retinal thinning",
+          "description": "areas of decreased thickness in the retinal layers"
+        },
+        {
+          "id": "f5",
+          "label": "disruptions in hyperreflective bands",
+          "description": "irregularities in the continuous hyperreflective bands of the retina"
+        },
+        {
+          "id": "f6",
+          "label": "epiretinal membranes",
+          "description": "membranes located on the surface of the retina"
+        },
+        {
+          "id": "f7",
+          "label": "subretinal membranes",
+          "description": "membranes located beneath the retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:21.958132"
+  },
+  {
+    "id": 1719,
+    "original_text": "The photograph before us is a Color Fundus Photograph (CFP), which provides a two-dimensional, true‐color view of the retina, including the optic nerve head, macula, retinal vessels, and the surrounding fundus. In evaluating a CFP, one scrutinizes the optic disc for cup‐to‐disc ratio, margin clarity, and color; examines the macula for pigmentary changes or hemorrhages; assesses the vascular tree for caliber abnormalities, microaneurysms, or neovascularization; and surveys the peripheral retina for any signs of degeneration or exudation. In this particular image, the optic disc appears well circumscribed with a healthy pink coloration and a normal cup‐to‐disc ratio. The macular region exhibits the expected slight central pigmentation without hemorrhages, exudates, or drusen. Retinal vessels have uniform caliber with smooth borders and no focal dilatations or beading, and the background retina shows a homogeneous orange–red hue without any focal lesions.",
+    "extracted_features": {
+      "features": []
+    },
+    "processing_timestamp": "2025-08-22 16:06:23.553443"
+  },
+  {
+    "id": 1380,
+    "original_text": "This image is a Color Fundus Photograph (CFP), which is the standard modality for evaluating the posterior pole of the eye. In CFPs we carefully inspect the optic nerve head for color, contour, and margins; the macula for foveal reflex, pigmentation changes, or hemorrhages; the retinal vessels for caliber, branching patterns, and any signs of vascular leakage; and the overall retinal background for any exudates, cotton-wool spots, drusen, or pigmentary disturbances. In this specific image, the optic disc appears round to slightly oval with well-defined, sharp margins and a healthy pinkish hue. The central macular region shows an intact foveal depression with a fine reflex, without any hemorrhages, microaneurysms, or exudative material. The retinal arterioles and venules follow normal branching patterns with no focal narrowing, beading, or flame-shaped hemorrhages. The peripheral retina and background exhibit uniform coloration and texture, without evidence of pigment clumping or other lesions.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc appearance",
+          "description": "round to slightly oval with well-defined, sharp margins and a healthy pinkish hue"
+        },
+        {
+          "id": "f2",
+          "label": "foveal reflex",
+          "description": "intact foveal depression with a fine reflex"
+        },
+        {
+          "id": "f3",
+          "label": "retinal vessels",
+          "description": "normal branching patterns with no focal narrowing, beading, or flame-shaped hemorrhages"
+        },
+        {
+          "id": "f4",
+          "label": "peripheral retina",
+          "description": "uniform coloration and texture, without evidence of pigment clumping or other lesions"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:27.166891"
+  },
+  {
+    "id": 182769,
+    "original_text": "The presented image is an Optical Coherence Tomography (OCT) B-scan of the macula. In OCT images we routinely evaluate the contour of the neurosensory retina, the integrity of the retinal pigment epithelium (RPE), the presence of subretinal or intraretinal fluid, and any focal elevations or deposits beneath the RPE. In this particular scan, the foveal depression is preserved but multiple small, dome-shaped elevations of the RPE layer are clearly visible. These elevations appear as localized, relatively uniform, hyperreflective elevations above a somewhat less reflective Bruch’s membrane, without overlying intraretinal cysts or subretinal fluid accumulation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "multiple small, dome-shaped elevations of the RPE layer"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "no subretinal fluid accumulation observed"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:29.609267"
+  },
+  {
+    "id": 184938,
+    "original_text": "The provided image is an optical coherence tomography (OCT) B-scan of the macula rather than a color fundus photograph. In OCT images, ophthalmologists focus on the layered architecture of the retina—from the nerve fiber layer at the top through the photoreceptor inner/outer segment junction down to the retinal pigment epithelium (RPE) and Bruch’s membrane. Key diagnostic landmarks include the contour of the foveal depression, the integrity of the outer retinal bands (especially the ellipsoid zone), and any material accumulating between the RPE and Bruch’s membrane. In this particular scan, one can appreciate a well-defined foveal pit with preservation of the retinal layers. Directly beneath the RPE, there are several small, discrete, hyperreflective mounds protruding into the hyporeflective space above Bruch’s membrane. These elevations are uniform, dome-shaped, and localized, without overlying outer retinal disruption or subretinal fluid.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "uniform, dome-shaped elevations beneath the RPE"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "no subretinal fluid present"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:31.728153"
+  },
+  {
+    "id": 190653,
+    "original_text": "The image provided is an Optical Coherence Tomography (OCT) scan of the macular region. In OCT imaging, we evaluate the retinal layer architecture in cross section, looking for irregularities in reflectivity, elevations or depressions of the retinal pigment epithelium (RPE), accumulations of material between the RPE and Bruch’s membrane, and any disruptions of the photoreceptor layers. In this particular scan, the retina’s outer hyperreflective RPE band appears undulated by multiple, well-circumscribed, dome-shaped elevations. Beneath each of these elevations, there is a discrete space suggesting deposition of material. The overlying neurosensory retina remains intact without intraretinal fluid or cystoid spaces, and there is no obvious subretinal fluid.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "multiple, well-circumscribed, dome-shaped elevations of the RPE"
+        },
+        {
+          "id": "f2",
+          "label": "material deposition",
+          "description": "discrete space beneath each elevation suggesting deposition of material"
+        },
+        {
+          "id": "f3",
+          "label": "no subretinal fluid",
+          "description": "no obvious subretinal fluid present"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:34.955713"
+  },
+  {
+    "id": 185643,
+    "original_text": "The provided image is an Optical Coherence Tomography (OCT) B-scan of the macular region. In OCT imaging, we focus on the cross-sectional anatomy of the retina—most importantly the layers around the retinal pigment epithelium (RPE) and photoreceptor interface, as well as any pockets of subretinal or intraretinal fluid. Clinicians look for elevation or separation of the RPE, accumulation of hyperreflective or hyporeflective material between retinal layers, and disturbances in the photoreceptor integrity. In this particular scan, the contour of the RPE is irregularly undulating, with multiple small, dome-shaped elevations. Underneath these elevations lies homogenous, mildly hyperreflective material, but there is no evidence of cystoid spaces in the overlying neurosensory retina or of a large serous detachment. The overlying photoreceptor inner/outer segment junction appears largely intact, and there is no sign of subretinal fluid leaking into the retina.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "irregularly undulating contour with multiple small, dome-shaped elevations"
+        },
+        {
+          "id": "f2",
+          "label": "hyperreflective material",
+          "description": "homogenous, mildly hyperreflective material underneath the RPE elevations"
+        },
+        {
+          "id": "f3",
+          "label": "no subretinal fluid",
+          "description": "no evidence of subretinal fluid leaking into the retina"
+        },
+        {
+          "id": "f4",
+          "label": "intact photoreceptor junction",
+          "description": "overlying photoreceptor inner/outer segment junction appears largely intact"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:38.245582"
+  },
+  {
+    "id": 185356,
+    "original_text": "The provided scan is an optical coherence tomography (OCT) B-scan rather than a color fundus photograph. On OCT of the macula, one normally evaluates the integrity of retinal layers—most critically the photoreceptor layer and the retinal pigment epithelium (RPE)—as well as the presence of subretinal or intraretinal fluid, pigment epithelial detachments, and any hyper- or hyporeflective material. In this particular image, the RPE band appears to be irregularly undulated with multiple small, dome-shaped elevations. Each of these elevations is relatively smooth and mound-like, with low to moderate internal reflectivity, and there is no overlying intraretinal cystoid change or subretinal fluid collection. The overlying photoreceptor ellipsoid zone remains largely intact, and there is no sign of acute retinal thickening or hemorrhagic shadowing.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "irregularly undulated with multiple small, dome-shaped elevations"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "no overlying subretinal fluid collection"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:40.538324"
+  },
+  {
+    "id": 179794,
+    "original_text": "The provided image is an Optical Coherence Tomography (OCT) scan of the macular region, as evidenced by the cross-sectional, high-resolution grayscale depiction of the retinal layers. In OCT images, we routinely assess the contour and thickness of the neurosensory retina, the presence and pattern of intra- or subretinal fluid, the integrity of the external limiting membrane and ellipsoid zone, and any associated hyperreflective foci or deposits. In this particular scan, the foveal contour is somewhat blunted rather than sharply excavated, and multiple hyporeflective (dark) cystoid cavities are visible in the inner nuclear and outer plexiform layers. There is also a mild increase in overall retinal thickness in the parafoveal region, but without a large serous detachment beneath the retinal pigment epithelium.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "blunted foveal contour",
+          "description": "foveal contour is somewhat blunted rather than sharply excavated"
+        },
+        {
+          "id": "f2",
+          "label": "cystoid cavities",
+          "description": "multiple hyporeflective cystoid cavities visible in the inner nuclear and outer plexiform layers"
+        },
+        {
+          "id": "f3",
+          "label": "increased retinal thickness",
+          "description": "mild increase in overall retinal thickness in the parafoveal region"
+        },
+        {
+          "id": "f4",
+          "label": "absence of serous detachment",
+          "description": "no large serous detachment beneath the retinal pigment epithelium"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:43.762766"
+  },
+  {
+    "id": 172476,
+    "original_text": "The image provided is a cross-sectional scan of the macula obtained by Optical Coherence Tomography (OCT). In macular OCTs, we routinely evaluate overall retinal thickness, the integrity of individual retinal layers (in particular the external limiting membrane, ellipsoid zone, and retinal pigment epithelium), the presence of intra- or subretinal fluid spaces, and any hyperreflective deposits or abnormalities in the vitreoretinal interface. In this particular scan, the central macular thickness is increased. There are multiple well-demarcated, hyporeflective (dark) cystic spaces within the inner and outer retina—most prominently in the outer plexiform and inner nuclear layers—indicating fluid accumulation. The overlying neurosensory retina is slightly elevated, but there is no large serous detachment or pigment epithelial detachment. There are subtle hyperreflective foci scattered around the cystoid spaces, consistent with lipid or proteinaceous exudates.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "increased central macular thickness",
+          "description": "thickening of the central macula observed in the OCT scan"
+        },
+        {
+          "id": "f2",
+          "label": "cystic spaces",
+          "description": "multiple well-demarcated, hyporeflective cystic spaces within the inner and outer retina"
+        },
+        {
+          "id": "f3",
+          "label": "elevated neurosensory retina",
+          "description": "slight elevation of the overlying neurosensory retina"
+        },
+        {
+          "id": "f4",
+          "label": "hyperreflective foci",
+          "description": "subtle hyperreflective foci scattered around the cystoid spaces, consistent with lipid or proteinaceous exudates"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:47.236975"
+  },
+  {
+    "id": 173178,
+    "original_text": "The presented image is a cross-sectional scan obtained by spectral-domain Optical Coherence Tomography (OCT), not a color fundus photograph. OCT provides high-resolution, in vivo tomographic slices of the retina, allowing us to evaluate retinal thickness, individual layer integrity, and the presence of fluid accumulation or cystoid spaces. In OCT images, normal foveal anatomy appears as a smooth contour with well-delineated hyperreflective bands corresponding to the retinal pigment epithelium and photoreceptor layers, overlying the darker, more laminar inner retinal strata. In this particular scan, the foveal contour is clearly disrupted by multiple hyporeflective (dark) cavities within the inner and outer retinal layers. These spaces correspond to cystoid fluid pockets. Additionally, there is an overall increase in central retinal thickness, and despite the relative continuity of the outer retinal hyperreflective bands, they appear slightly undulated adjacent to the cystic lesions.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "cystoid fluid pockets",
+          "description": "multiple hyporeflective cavities within the inner and outer retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "increased central retinal thickness",
+          "description": "overall increase in central retinal thickness observed in the scan"
+        },
+        {
+          "id": "f3",
+          "label": "undulated outer retinal hyperreflective bands",
+          "description": "slightly undulated appearance of the outer retinal hyperreflective bands adjacent to cystic lesions"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:06:51.102834"
+  },
+  {
+    "id": 181063,
+    "original_text": "The image provided is an optical coherence tomography (OCT) B-scan rather than a color fundus photograph. In macular OCTs we routinely evaluate overall retinal thickness, contour of the foveal depression, the presence of intraretinal or subretinal hyporeflective (dark) spaces that represent fluid, and any hyperreflective deposits or disruptions of the photoreceptor layers. In this particular scan the central macula appears uniformly thickened with multiple rounded, hyporeflective cavities within the inner and outer retinal layers. The foveal contour is flattened and somewhat blunted rather than sharply excavated, and there is no clear pigment epithelial detachment or subretinal serous fluid pocket—rather, the fluid is intraretinal.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal thickness",
+          "description": "central macula appears uniformly thickened"
+        },
+        {
+          "id": "f2",
+          "label": "hyporeflective cavities",
+          "description": "multiple rounded, hyporeflective cavities within the inner and outer retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "foveal contour",
+          "description": "foveal contour is flattened and somewhat blunted"
+        },
+        {
+          "id": "f4",
+          "label": "intraretinal fluid",
+          "description": "fluid is intraretinal, with no clear pigment epithelial detachment or subretinal serous fluid pocket"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:07:00.769921"
+  },
+  {
+    "id": 176049,
+    "original_text": "The image presented is an Optical Coherence Tomography (OCT) B-scan of the macula. In macular OCTs, clinicians assess the contour and thickness of the retinal layers, the presence of intraretinal or subretinal fluid, cystic spaces, and any disruption of the outer retinal bands. In this particular scan, the foveal depression is partially effaced, and there are multiple small, round to oval hyporeflective (dark) cystic spaces within the inner and outer retinal layers, accompanied by a generalized increase in retinal thickness.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "foveal depression effacement",
+          "description": "partial loss of the foveal depression contour"
+        },
+        {
+          "id": "f2",
+          "label": "cystic spaces",
+          "description": "multiple small, round to oval hyporeflective cystic spaces within the inner and outer retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "increased retinal thickness",
+          "description": "generalized increase in the thickness of the retinal layers"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:07:07.636307"
+  },
+  {
+    "id": 2600,
+    "original_text": "The photograph provided is a wide-field Color Fundus Photography (CFP) image of the retina. In CFPs, clinicians typically evaluate the presence and distribution of microaneurysms, dot-blot and flame-shaped hemorrhages, hard exudates (lipid deposits), cotton-wool spots (nerve fiber layer infarcts), venous beading, intraretinal microvascular abnormalities (IRMA), and any neovascular proliferation. In this particular image, there are numerous small, yellow-white deposits scattered throughout the posterior pole consistent with hard exudates, multiple pinpoint and blot hemorrhages in the macular and midperipheral regions, a few fluffy white patches suggestive of cotton-wool spots, and—most critically—fine, abnormal vascular fronds emerging near the optic disc rim that are not part of the normal retinal vascular architecture.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hard exudates",
+          "description": "numerous small, yellow-white deposits scattered throughout the posterior pole"
+        },
+        {
+          "id": "f2",
+          "label": "hemorrhages",
+          "description": "multiple pinpoint and blot hemorrhages in the macular and midperipheral regions"
+        },
+        {
+          "id": "f3",
+          "label": "cotton-wool spots",
+          "description": "a few fluffy white patches suggestive of nerve fiber layer infarcts"
+        },
+        {
+          "id": "f4",
+          "label": "neovascular proliferation",
+          "description": "fine, abnormal vascular fronds emerging near the optic disc rim"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:07:15.595847"
+  },
+  {
+    "id": 3383,
+    "original_text": "This is a Color Fundus Photograph (CFP) of the patient’s retina. In CFPs we look for the distribution and appearance of small vascular lesions (microaneurysms, dot-blot hemorrhages), larger hemorrhages, hard exudates, cotton-wool spots, venous beading, and especially any abnormal new vessel formation on the disc or elsewhere (neovascularization). In this image I note multiple tiny red dots consistent with microaneurysms scattered throughout the posterior pole; there are several deeper dot-blot hemorrhages among the vessels. More importantly, there is a fine, irregular network of delicate, fine-caliber vessels emerging from the margin of the optic disc and along the superior vascular arcade—findings that represent neovascular tufts rather than normal retinal capillaries. There are also subtle patches of preretinal hemorrhage and early fibrous proliferation tracking along a vessel arcade.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "microaneurysms",
+          "description": "multiple tiny red dots scattered throughout the posterior pole"
+        },
+        {
+          "id": "f2",
+          "label": "dot-blot hemorrhages",
+          "description": "several deeper dot-blot hemorrhages among the vessels"
+        },
+        {
+          "id": "f3",
+          "label": "neovascularization",
+          "description": "fine, irregular network of delicate, fine-caliber vessels emerging from the margin of the optic disc and along the superior vascular arcade"
+        },
+        {
+          "id": "f4",
+          "label": "preretinal hemorrhage",
+          "description": "subtle patches of preretinal hemorrhage"
+        },
+        {
+          "id": "f5",
+          "label": "fibrous proliferation",
+          "description": "early fibrous proliferation tracking along a vessel arcade"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:07:26.017372"
+  },
+  {
+    "id": 1497,
+    "original_text": "The image presented is a Color Fundus Photograph (CFP) of the posterior pole. In CFPs, we routinely evaluate the retinal vasculature for caliber changes, microaneurysms, hemorrhages (dot-blot, flame, or pre-retinal), cotton-wool spots, hard exudates, and any evidence of neovascularization or fibrovascular proliferation. In this particular photograph, the fundus background appears diffusely orange-red, and there is a large, dark, boat-shaped area of hemorrhage overlying the macular region. Surrounding this hemorrhage are patchy lighter yellowish-white regions suggestive of cotton-wool spots or early exudates. Subtle fine, frond-like vessels can also be discerned nasally and at the disc margin, raising concern for new vessel formation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hemorrhage",
+          "description": "large, dark, boat-shaped area of hemorrhage overlying the macular region"
+        },
+        {
+          "id": "f2",
+          "label": "cotton-wool spots",
+          "description": "patchy lighter yellowish-white regions suggestive of cotton-wool spots or early exudates"
+        },
+        {
+          "id": "f3",
+          "label": "neovascularization",
+          "description": "subtle fine, frond-like vessels discerned nasally and at the disc margin"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:07:38.913529"
+  },
+  {
+    "id": 1938,
+    "original_text": "The provided image is a color fundus photograph (CFP), which is routinely used to assess the retinal vasculature, optic disc, macula, and surrounding retinal tissue. In CFPs, clinicians typically evaluate the caliber and course of retinal vessels, the presence of microaneurysms, hemorrhages, exudates, neovascular membranes, and any signs of traction or fibrovascular proliferation. In this particular photograph, the retina appears diffusely orange with multiple dot-blot hemorrhages scattered throughout the posterior pole. There are clustered yellowish hard exudates near the foveal region and along the temporal arcades. Most strikingly, one can discern fine, tortuous new vessels abnormally sprouting near the optic disc and along the major vascular arcades, often with a slightly elevated, whitish fibrovascular membrane hinting at pre-retinal proliferation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "dot-blot hemorrhages",
+          "description": "multiple scattered dot-blot hemorrhages throughout the posterior pole"
+        },
+        {
+          "id": "f2",
+          "label": "hard exudates",
+          "description": "clustered yellowish hard exudates near the foveal region and along the temporal arcades"
+        },
+        {
+          "id": "f3",
+          "label": "neovascularization",
+          "description": "fine, tortuous new vessels abnormally sprouting near the optic disc and along the major vascular arcades"
+        },
+        {
+          "id": "f4",
+          "label": "fibrovascular membrane",
+          "description": "slightly elevated, whitish fibrovascular membrane hinting at pre-retinal proliferation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:07:47.901877"
+  },
+  {
+    "id": 2350,
+    "original_text": "This is a Color Fundus Photograph (CFP) of the retina. In CFPs we routinely assess the optic disc, retinal vessels, macula, and peripheral retina for changes such as microaneurysms, hemorrhages, exudates, neovascularization, and laser scars. In this particular image, the optic disc appears well-circumscribed but surrounded by fine, tortuous vessels. The posterior pole and midperiphery show numerous round, pale circular areas consistent with laser photocoagulation scars. Additionally, there is patchy retinal whitening and multiple small dot-blot hemorrhages scattered throughout the macula and periphery.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc appearance",
+          "description": "well-circumscribed optic disc surrounded by fine, tortuous vessels"
+        },
+        {
+          "id": "f2",
+          "label": "laser photocoagulation scars",
+          "description": "numerous round, pale circular areas in the posterior pole and midperiphery"
+        },
+        {
+          "id": "f3",
+          "label": "retinal whitening",
+          "description": "patchy retinal whitening observed"
+        },
+        {
+          "id": "f4",
+          "label": "dot-blot hemorrhages",
+          "description": "multiple small dot-blot hemorrhages scattered throughout the macula and periphery"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:08:03.298541"
+  },
+  {
+    "id": 60662,
+    "original_text": "The presented image is a Color Fundus Photograph, in which the optic nerve head, neuroretinal rim, and peripapillary retina are visualized in natural color. In this modality, the main features we assess include the cup‐to‐disc ratio, the contour and thickness of the neuroretinal rim, presence of disc hemorrhages, and any peripapillary changes such as atrophy or pigmentary alterations. In this particular photograph, the optic disc exhibits a central pale excavation (cup) that occupies a substantial portion of the disc’s diameter. The inferior neuroretinal rim appears notably thinned, creating an uneven rim contour, and the superior rim similarly shows some loss of tissue volume. No obvious exudates, hemorrhages at the disc margin, or drusen are visible, and the surrounding retina and retinal vessels appear otherwise unremarkable.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "cup-to-disc ratio",
+          "description": "central pale excavation (cup) occupying a substantial portion of the disc’s diameter"
+        },
+        {
+          "id": "f2",
+          "label": "thinned neuroretinal rim",
+          "description": "notably thinned inferior neuroretinal rim creating an uneven rim contour"
+        },
+        {
+          "id": "f3",
+          "label": "tissue volume loss",
+          "description": "superior rim shows some loss of tissue volume"
+        },
+        {
+          "id": "f4",
+          "label": "absence of exudates",
+          "description": "no obvious exudates visible"
+        },
+        {
+          "id": "f5",
+          "label": "absence of hemorrhages",
+          "description": "no hemorrhages at the disc margin visible"
+        },
+        {
+          "id": "f6",
+          "label": "absence of drusen",
+          "description": "no drusen visible"
+        },
+        {
+          "id": "f7",
+          "label": "unremarkable surrounding retina",
+          "description": "surrounding retina and retinal vessels appear otherwise unremarkable"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:08:08.209912"
+  },
+  {
+    "id": 60824,
+    "original_text": "This image is a color fundus photograph capturing the optic nerve head and surrounding retina. In such photographs, clinicians focus on the optic disc’s size and shape, the cup-to-disc (C:D) ratio, the contour and thickness of the neuroretinal rim, the appearance of retinal nerve fiber layer (RNFL) striations, any peripapillary changes, and the course of retinal vessels as they emerge from the disc. In this particular photograph, I observe an optic disc with a moderately enlarged cup relative to the disc diameter—especially along the vertical meridian—and narrowing of the neuroretinal rim most prominently inferiorly. There is subtle nasal displacement of small vessels across the cup floor and faint peripapillary atrophy encircling the disc edge. The surrounding retina appears unremarkable, without exudates or hemorrhages.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "enlarged cup",
+          "description": "moderately enlarged cup relative to the disc diameter, especially along the vertical meridian"
+        },
+        {
+          "id": "f2",
+          "label": "narrowing of neuroretinal rim",
+          "description": "narrowing of the neuroretinal rim most prominently inferiorly"
+        },
+        {
+          "id": "f3",
+          "label": "nasal displacement of vessels",
+          "description": "subtle nasal displacement of small vessels across the cup floor"
+        },
+        {
+          "id": "f4",
+          "label": "peripapillary atrophy",
+          "description": "faint peripapillary atrophy encircling the disc edge"
+        },
+        {
+          "id": "f5",
+          "label": "unremarkable surrounding retina",
+          "description": "surrounding retina appears unremarkable, without exudates or hemorrhages"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:08:15.850112"
+  },
+  {
+    "id": 60688,
+    "original_text": "The provided image is a Color Fundus Photograph, the standard modality for documenting the appearance of the optic nerve head, peripapillary retina, and retinal vasculature. In a fundus photograph we typically assess the optic disc’s size and color, the cup-to-disc ratio and its symmetry, the integrity of the neuroretinal rim, retinal nerve fiber layer striations, any hemorrhages at the disc margin, and the configuration of the retinal vessels as they emerge from the optic nerve. In this particular image, the optic disc appears relatively pale centrally, with a more pronounced cup exposing underlying sclera. The neuroretinal rim is thinned, especially in the inferior quadrant, and there is a subtle inferotemporal notch. The peripapillary nerve fiber layer striations are less distinct inferiorly. No obvious flame-shaped hemorrhages are present, and the major vessels do not show signs of neovascularization or significant arteriovenous nicking.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc pallor",
+          "description": "the optic disc appears relatively pale centrally"
+        },
+        {
+          "id": "f2",
+          "label": "thinned neuroretinal rim",
+          "description": "the neuroretinal rim is thinned, especially in the inferior quadrant"
+        },
+        {
+          "id": "f3",
+          "label": "inferotemporal notch",
+          "description": "there is a subtle inferotemporal notch"
+        },
+        {
+          "id": "f4",
+          "label": "less distinct peripapillary nerve fiber layer striations",
+          "description": "the peripapillary nerve fiber layer striations are less distinct inferiorly"
+        },
+        {
+          "id": "f5",
+          "label": "absence of flame-shaped hemorrhages",
+          "description": "no obvious flame-shaped hemorrhages are present"
+        },
+        {
+          "id": "f6",
+          "label": "absence of neovascularization",
+          "description": "the major vessels do not show signs of neovascularization"
+        },
+        {
+          "id": "f7",
+          "label": "absence of significant arteriovenous nicking",
+          "description": "the major vessels do not show significant arteriovenous nicking"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:08:24.808153"
+  },
+  {
+    "id": 60859,
+    "original_text": "The image provided is a Color Fundus Photograph (CFP) centered on the optic nerve head and adjacent retina. In CFPs we routinely evaluate the size and shape of the optic disc and cup, the configuration of the neuroretinal rim, the pattern and thickness of the retinal nerve fiber layer (RNFL), the presence of peripapillary changes, and any hemorrhages or pigmentary alterations. In this particular image, the optic disc exhibits a distinct central excavation (cup) bounded by a pale, thin rim of neural tissue. The cup‐to‐disc ratio appears enlarged—particularly in the vertical axis—with focal notching of the neuroretinal rim inferiorly. The surrounding RNFL shows subtle attenuation inferotemporally without obvious hemorrhages or exudates in the peripapillary area.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc excavation",
+          "description": "distinct central excavation (cup) bounded by a pale, thin rim of neural tissue"
+        },
+        {
+          "id": "f2",
+          "label": "enlarged cup-to-disc ratio",
+          "description": "cup-to-disc ratio appears enlarged, particularly in the vertical axis"
+        },
+        {
+          "id": "f3",
+          "label": "focal notching of neuroretinal rim",
+          "description": "focal notching of the neuroretinal rim inferiorly"
+        },
+        {
+          "id": "f4",
+          "label": "subtle RNFL attenuation",
+          "description": "surrounding RNFL shows subtle attenuation inferotemporally"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:08:31.368472"
+  },
+  {
+    "id": 60875,
+    "original_text": "The photograph provided is a Color Fundus Photograph (CFP) centered on the optic nerve head. In CFPs we routinely evaluate the optic disc contours (in particular the cup‐to‐disc ratio), the configuration and thickness of the neuroretinal rim, the presence or absence of splinter hemorrhages at the disc margin, peripapillary atrophy, and the retinal nerve fiber layer (RNFL) visibility. In this particular image, the optic disc exhibits a relatively large central depression (cup) compared with the overall disc diameter. The neuroretinal rim appears thinned most prominently in the inferotemporal quadrant. There is also subtle peripapillary atrophy adjacent to the temporal disc border, and the RNFL bundles in that sector appear slightly attenuated. No signs of concomitant optic disc swelling or retinal exudates are present.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "relatively large central depression (cup) compared with the overall disc diameter"
+        },
+        {
+          "id": "f2",
+          "label": "thinned neuroretinal rim",
+          "description": "neuroretinal rim appears thinned most prominently in the inferotemporal quadrant"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "subtle peripapillary atrophy adjacent to the temporal disc border"
+        },
+        {
+          "id": "f4",
+          "label": "attenuated RNFL",
+          "description": "RNFL bundles in that sector appear slightly attenuated"
+        },
+        {
+          "id": "f5",
+          "label": "absence of optic disc swelling",
+          "description": "no signs of concomitant optic disc swelling present"
+        },
+        {
+          "id": "f6",
+          "label": "absence of retinal exudates",
+          "description": "no signs of retinal exudates present"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:08:40.738142"
+  },
+  {
+    "id": 60167,
+    "original_text": "This image is a Color Fundus Photograph (CFP) of the posterior pole, focused on the optic nerve head and peripapillary retina. In CFPs, clinicians primarily evaluate the optic disc’s neuroretinal rim, cup‐to‐disc ratio, color and contour of the disc, retinal nerve fiber layer (RNFL) appearance, peripapillary atrophy, and configuration of the central retinal vessels as they exit the disc. In this particular photograph, the optic disc shows a markedly enlarged, pale excavation occupying most of the disc area, such that only a thin sliver of neuroretinal rim remains visible temporally. The cup‐to‐disc ratio approaches 0.9, rim tissue is thinned and bow‐shaped, and there is fine peripapillary atrophy encircling the disc. The central retinal vessels appear displaced and “bayoneted” at the level of the cup, indicating significant loss of supporting rim tissue.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "enlarged optic disc excavation",
+          "description": "markedly enlarged, pale excavation occupying most of the disc area"
+        },
+        {
+          "id": "f2",
+          "label": "thin neuroretinal rim",
+          "description": "only a thin sliver of neuroretinal rim remains visible temporally"
+        },
+        {
+          "id": "f3",
+          "label": "high cup-to-disc ratio",
+          "description": "cup-to-disc ratio approaches 0.9"
+        },
+        {
+          "id": "f4",
+          "label": "thinned rim tissue",
+          "description": "rim tissue is thinned and bow-shaped"
+        },
+        {
+          "id": "f5",
+          "label": "peripapillary atrophy",
+          "description": "fine peripapillary atrophy encircling the disc"
+        },
+        {
+          "id": "f6",
+          "label": "displaced central retinal vessels",
+          "description": "central retinal vessels appear displaced and 'bayoneted' at the level of the cup"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:08:51.827482"
+  },
+  {
+    "id": 60242,
+    "original_text": "The photograph before us is a color fundus photograph, a standard modality for examining the retinal surface and optic nerve head. In CFP images, we routinely assess the optic disc’s shape, color, and the cup-to-disc ratio; the integrity of the neuroretinal rim; the presence of peripapillary atrophy; vessel caliber and positioning; and signs of hemorrhage or exudation. In this particular image, the optic disc appears markedly excavated. The central depression (the cup) occupies the vast majority of the disc area, leaving only a sliver of surviving neuroretinal rim tissue. There is notable thinning of the superior and inferior rims, giving an overall cup-to-disc ratio that likely exceeds 0.8. Surrounding the disc, a pale halo of peripapillary atrophy is evident, and the retinal vessels can be seen bending sharply as they traverse the rim, another sign of advanced rim loss. There are no hemorrhages or exudates in the macular or peripapillary regions.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "excavated optic disc",
+          "description": "markedly excavated optic disc with a central depression occupying the majority of the disc area"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of neuroretinal rim",
+          "description": "notable thinning of the superior and inferior neuroretinal rims"
+        },
+        {
+          "id": "f3",
+          "label": "cup-to-disc ratio",
+          "description": "cup-to-disc ratio likely exceeds 0.8"
+        },
+        {
+          "id": "f4",
+          "label": "peripapillary atrophy",
+          "description": "pale halo of peripapillary atrophy surrounding the disc"
+        },
+        {
+          "id": "f5",
+          "label": "bending of retinal vessels",
+          "description": "retinal vessels bending sharply as they traverse the rim"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:08:58.372525"
+  },
+  {
+    "id": 60388,
+    "original_text": "In this case, the image presented is a Color Fundus Photograph (CFP). In CFPs we focus on the appearance of the optic nerve head, the neuroretinal rim, the cup-to-disc ratio, the peripapillary retina, and the retinal vasculature. On careful inspection of this particular photograph, the optic disc appears markedly excavated with a pale central cup surrounded by a very thin rim of residual neuroretinal tissue. The cup-to-disc ratio is dramatically increased—approaching near-total cupping—and the remaining rim tissue is not only attenuated but also shows focal notching, especially inferiorly. There is peripapillary atrophy encircling the disc, and the central retinal vessels appear deflected and nasalized at the disc margin.\n\nWorking through these findings step by step, I first note that the hallmark of significant optic nerve pathology here is the substantial cupping and rim loss. Inflammatory or ischemic optic neuropathies, while they can cause pallor, typically do not produce this degree of focal rim thinning and excavation. A compressive lesion might also cause pallor but would not typically induce such pronounced, asymmetric rim notching or the characteristic vessel bayonetting seen here. The combination of a very large cup, thin and notched rim, peripapillary atrophy, and nasalization of vessels is classic for progressive loss of retinal ganglion cell axons as seen in glaucomatous optic neuropathy. The severity of these changes—near-total cupping and minimal residual rim—points to an advanced stage of disease.\n\nTherefore, the correct diagnosis is Advanced Glaucoma.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc excavation",
+          "description": "markedly excavated optic disc with a pale central cup"
+        },
+        {
+          "id": "f2",
+          "label": "increased cup-to-disc ratio",
+          "description": "dramatically increased cup-to-disc ratio approaching near-total cupping"
+        },
+        {
+          "id": "f3",
+          "label": "thin neuroretinal rim",
+          "description": "very thin rim of residual neuroretinal tissue with focal notching"
+        },
+        {
+          "id": "f4",
+          "label": "peripapillary atrophy",
+          "description": "peripapillary atrophy encircling the disc"
+        },
+        {
+          "id": "f5",
+          "label": "nasalization of vessels",
+          "description": "central retinal vessels appear deflected and nasalized at the disc margin"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:09:06.995163"
+  },
+  {
+    "id": 60301,
+    "original_text": "The image provided is a Color Fundus Photograph (CFP) of the posterior pole, centered on the optic nerve head and peripapillary retina. In CFPs, ophthalmologists focus on the appearance of the optic disc (size, color, neuroretinal rim), the cup-to-disc ratio, the integrity of the retinal nerve fiber layer, any peripapillary atrophy, and the configuration of the retinal vessels as they emerge from the optic nerve. In this particular image we observe a markedly enlarged and pale central optic cup occupying the majority of the disc area. The remaining neuroretinal rim is thinned circumferentially, most pronounced inferiorly, and there is a halo of peripapillary atrophy bordering the disc. The retinal vessels show bayoneting and nasal displacement as they bend sharply over the excavated cup.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "enlarged optic cup",
+          "description": "markedly enlarged and pale central optic cup occupying the majority of the disc area"
+        },
+        {
+          "id": "f2",
+          "label": "thinned neuroretinal rim",
+          "description": "remaining neuroretinal rim is thinned circumferentially, most pronounced inferiorly"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "halo of peripapillary atrophy bordering the disc"
+        },
+        {
+          "id": "f4",
+          "label": "bayoneting of retinal vessels",
+          "description": "retinal vessels show bayoneting and nasal displacement as they bend sharply over the excavated cup"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:09:17.226196"
+  },
+  {
+    "id": 60460,
+    "original_text": "The provided image is a Color Fundus Photograph (CFP), which captures the back of the eye including the retina, optic disc, macula, and retinal vasculature in true color. In CFPs, clinicians primarily assess the appearance of the optic nerve head (disc size, shape, color, and cup-to-disc ratio), the retinal blood vessels (caliber and tortuosity), the macular region (for pigment changes or hemorrhages), and the retinal background (for signs of ischemia, exudates, or hemorrhages). In this particular image, the optic disc is pale and shows a markedly enlarged and vertically elongated central depression (cup). The rim of neural tissue around the disc is both thinned and pallid, especially in the superior and inferior poles. The retinal vessels appear to bend sharply at the edge of the cup (“bayoneting” or “notching” sign), and the remaining neuroretinal rim is narrow, indicating substantial loss of retinal ganglion cell axons.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "pale optic disc",
+          "description": "the optic disc appears pale with a markedly enlarged and vertically elongated central depression"
+        },
+        {
+          "id": "f2",
+          "label": "thinned neural rim",
+          "description": "the rim of neural tissue around the disc is thinned and pallid, especially in the superior and inferior poles"
+        },
+        {
+          "id": "f3",
+          "label": "bayoneting sign",
+          "description": "retinal vessels bend sharply at the edge of the cup"
+        },
+        {
+          "id": "f4",
+          "label": "narrow neuroretinal rim",
+          "description": "the remaining neuroretinal rim is narrow, indicating substantial loss of retinal ganglion cell axons"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:09:22.572176"
+  },
+  {
+    "id": 64347,
+    "original_text": "The presented image is a Color Fundus Photograph (CFP) of the posterior pole. In CFPs we routinely assess the optic disc for clarity and signs of swelling, the macula for edema or deposits, and the vascular arcades for microvascular changes. We also look for hemorrhages, cotton-wool spots, exudates, and neovascular membranes. In this particular photograph, the optic disc appears well-defined without neovascularization or disc edema. Radiating from the disc are normal-caliber retinal vessels. Throughout the temporal macula and perifoveal region there are multiple small yellowish deposits consistent with hard exudates. Scattered darker red-brown dots and blot hemorrhages are also evident among the exudates, and there is no evidence of florid neovascularization or fibrous proliferation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc clarity",
+          "description": "optic disc appears well-defined without neovascularization or disc edema"
+        },
+        {
+          "id": "f2",
+          "label": "hard exudates",
+          "description": "multiple small yellowish deposits throughout the temporal macula and perifoveal region"
+        },
+        {
+          "id": "f3",
+          "label": "blot hemorrhages",
+          "description": "scattered darker red-brown dots and blot hemorrhages among the exudates"
+        },
+        {
+          "id": "f4",
+          "label": "normal retinal vessels",
+          "description": "normal-caliber retinal vessels radiating from the disc"
+        },
+        {
+          "id": "f5",
+          "label": "absence of neovascularization",
+          "description": "no evidence of florid neovascularization or fibrous proliferation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:09:26.970448"
+  },
+  {
+    "id": 64318,
+    "original_text": "The image presented is a Color Fundus Photograph (CFP), a two-dimensional color rendering of the patient’s retina obtained via fundus camera. In CFPs we typically assess the optic disc, the macula, the retinal vasculature, and the neural retina for signs of vascular leakage, hemorrhage, exudation, or ischemia. We look for microaneurysms as tiny red dots, dot-blot hemorrhages, flame-shaped hemorrhages, hard exudates as yellowish lipid deposits, cotton wool spots indicating superficial nerve fiber layer infarcts, venous beading or dilation, and any preretinal or neovascular fronds. In this particular image, the optic disc appears well centered with a normal pinkish color and no obvious disc neovascularization. Scattered throughout the posterior pole and midperiphery are numerous small dot-blot hemorrhages. There are clusters of yellowish, waxy deposits consistent with hard exudates especially around the macular region. Additionally, a few pale, fluffy cotton wool spots are visible in the nerve fiber layer temporal to the disc. The major arterial and venous trunks are intact without obvious neovascular tufts, but there is mild irregularity in caliber.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "dot-blot hemorrhages",
+          "description": "numerous small dot-blot hemorrhages scattered throughout the posterior pole and midperiphery"
+        },
+        {
+          "id": "f2",
+          "label": "hard exudates",
+          "description": "clusters of yellowish, waxy deposits consistent with hard exudates especially around the macular region"
+        },
+        {
+          "id": "f3",
+          "label": "cotton wool spots",
+          "description": "few pale, fluffy cotton wool spots visible in the nerve fiber layer temporal to the disc"
+        },
+        {
+          "id": "f4",
+          "label": "optic disc appearance",
+          "description": "optic disc appears well centered with a normal pinkish color and no obvious disc neovascularization"
+        },
+        {
+          "id": "f5",
+          "label": "arterial and venous trunks",
+          "description": "major arterial and venous trunks are intact without obvious neovascular tufts, but there is mild irregularity in caliber"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:09:32.294103"
+  },
+  {
+    "id": 428,
+    "original_text": "The photograph presented is a color fundus photograph (CFP), the standard modality for visualizing the retinal surface, vasculature, and optic nerve head in clinical ophthalmology. When evaluating a CFP, clinicians focus on vascular changes (such as microaneurysms, hemorrhages, venous caliber alterations), the presence of exudates, cotton-wool spots, neovascular membranes, macular edema, and the appearance of the optic disc and foveal reflex. In this particular image, the optic disc appears well defined with a normal color, while the macular area shows a subtle blunting of the foveal reflex. Scattered throughout the posterior pole are multiple tiny red dots and blot hemorrhages, particularly in the temporal arcades. Microaneurysms appear as small, round, bright red punctate spots. There are no obvious white fluffy lesions or large pre-retinal hemorrhages, and there is no visible neovascular proliferation or fibrous tissue.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "blunting of the foveal reflex",
+          "description": "subtle blunting of the foveal reflex in the macular area"
+        },
+        {
+          "id": "f2",
+          "label": "blot hemorrhages",
+          "description": "multiple tiny red dots and blot hemorrhages scattered throughout the posterior pole"
+        },
+        {
+          "id": "f3",
+          "label": "microaneurysms",
+          "description": "small, round, bright red punctate spots observed in the image"
+        },
+        {
+          "id": "f4",
+          "label": "normal optic disc",
+          "description": "optic disc appears well defined with a normal color"
+        },
+        {
+          "id": "f5",
+          "label": "absence of neovascular proliferation",
+          "description": "no visible neovascular proliferation or fibrous tissue present"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:09:43.529751"
+  },
+  {
+    "id": 3371,
+    "original_text": "This is a Color Fundus Photography (CFP) image of the posterior pole of the eye. In CFPs we routinely evaluate the optic disc, retinal vessels, macula, and any lesions such as microaneurysms, hemorrhages, exudates, or cotton-wool spots. In this particular image, the optic disc appears well demarcated and of normal coloration. The macular region shows a blurred, grayish edematous area surrounded by small yellowish deposits. Scattered throughout the mid-peripheral retina are tiny, punctate spots of yellow lipid, and there is a fluffy, opaque white patch consistent with a cotton-wool spot. I do not observe any neovascular fronds on the surface of the retina or disc, nor do I see large flame or blot hemorrhages.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "edematous area",
+          "description": "blurred, grayish area in the macular region"
+        },
+        {
+          "id": "f2",
+          "label": "yellowish deposits",
+          "description": "small yellowish deposits surrounding the edematous area"
+        },
+        {
+          "id": "f3",
+          "label": "punctate spots",
+          "description": "tiny, punctate spots of yellow lipid scattered throughout the mid-peripheral retina"
+        },
+        {
+          "id": "f4",
+          "label": "cotton-wool spot",
+          "description": "fluffy, opaque white patch observed in the retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:09:55.232244"
+  },
+  {
+    "id": 1302,
+    "original_text": "This is a Color Fundus Photograph, in which the major diagnostic landmarks include the optic disc, macula, retinal vessels, and retinal surface for signs of vascular leakage or ischemia. On CFPs, we typically evaluate for microaneurysms, dot‐blot and flame hemorrhages, hard exudates, cotton wool spots, venous beading, intraretinal microvascular abnormalities, and any neovascularization. In this particular image, the optic nerve head at the right side of the field appears well defined without neovascular tufts. Scattered throughout the mid‐peripheral and posterior pole are numerous small, round red dots consistent with microaneurysms and some slightly larger blot hemorrhages. There are focal yellow‐white flecks subjacent to the retina, characteristic of hard exudates, and a few pale, soft‐edged patches that correspond to cotton wool spots. The retinal vasculature shows no obvious new vessels along the disc or elsewhere.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "microaneurysms",
+          "description": "numerous small, round red dots scattered throughout the mid-peripheral and posterior pole"
+        },
+        {
+          "id": "f2",
+          "label": "blot hemorrhages",
+          "description": "some slightly larger blot hemorrhages present"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "focal yellow-white flecks subjacent to the retina"
+        },
+        {
+          "id": "f4",
+          "label": "cotton wool spots",
+          "description": "a few pale, soft-edged patches corresponding to cotton wool spots"
+        },
+        {
+          "id": "f5",
+          "label": "no neovascularization",
+          "description": "optic nerve head appears well defined without neovascular tufts"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:10:05.622902"
+  },
+  {
+    "id": 65204,
+    "original_text": "The provided image is a color fundus photograph (CFP) of the posterior pole. In CFPs we routinely assess the clarity of the optic nerve head, the caliber and course of retinal vessels, the background retinal pigmentation, and any abnormalities at the macula—such as pigment mottling, drusen, hemorrhages, exudates, or subretinal fluid. In this particular photograph, the optic disc appears well-defined with normal neuroretinal rim coloration and no obvious optic disc swelling or pallor. The retinal vessels are of normal caliber without microaneurysms, intraretinal hemorrhages, or cotton-wool spots. The most striking feature is at the macula: there is a subtle, yellowish, granular change at the foveal center surrounded by faint pigmentary mottling. There are no hard exudates, no subretinal hemorrhages, and the perifoveal retina shows a slight alteration of the retinal pigment epithelium.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "macular granular change",
+          "description": "subtle, yellowish, granular change at the foveal center"
+        },
+        {
+          "id": "f2",
+          "label": "pigmentary mottling",
+          "description": "faint pigmentary mottling surrounding the macular granular change"
+        },
+        {
+          "id": "f3",
+          "label": "alteration of RPE",
+          "description": "slight alteration of the retinal pigment epithelium in the perifoveal retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:10:14.063221"
+  },
+  {
+    "id": 65162,
+    "original_text": "In this case, the image presented is a Color Fundus Photograph (CFP), as evidenced by the broad‐field view of the posterior pole with visible retinal vessels, optic disc and macular region rendered in natural color.  In CFPs, clinicians principally assess the optic nerve head for cupping or pallor, the retinal vasculature for caliber changes, hemorrhages or exudates, and the macular area for pigmentary changes, drusen, or neovascular membranes.  Upon careful inspection of this photograph, the optic disc appears normal in both color and contour, and there are no frank hemorrhages or hard exudates along the vascular arcades.  However, the macula—roughly in the center of the image—reveals subtle, fine granular yellow‐white deposits and mottled retinal pigment epithelium without evidence of subretinal fluid or neovascular proliferation.\n\nMoving from these observations to a targeted differential diagnosis, one first rules out diabetic retinopathy, since there are no microaneurysms, blot hemorrhages, or cotton‐wool spots.  Similarly, the absence of subretinal fluid or a well‐demarcated serous detachment makes central serous chorioretinopathy unlikely.  The lack of hard exudates or vascular anomalies also argues against hypertensive retinopathy.  Instead, the presence of tiny yellowish deposits at the level of the retinal pigment epithelium in the parafoveal area—characteristic drusen—alongside mild RPE mottling is most consistent with macular degeneration in its early, non‐exudative (“dry”) form.  Clinically, these changes fall under the broader category of maculopathy, as they directly affect the integrity and function of the macula.\n\nTherefore, the correct diagnosis is Maculopathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE mottling",
+          "description": "mottled retinal pigment epithelium"
+        },
+        {
+          "id": "f2",
+          "label": "drusen",
+          "description": "tiny yellowish deposits at the level of the retinal pigment epithelium"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:10:23.748083"
+  },
+  {
+    "id": 65224,
+    "original_text": "This image is a Color Fundus Photograph (CFP). In CFPs we routinely evaluate the optic disc, retinal vasculature, macular reflectivity, pigmentary changes, drusen, hemorrhages, exudates, and subretinal fluid or blood. In this particular photo, the optic disc is visible to the right and appears normal in color and margins. The retinal vessels are of regular caliber. Most striking is a rounded, dark red-to-brown lesion situated centrally in the macular region, with irregular borders and a somewhat elevated appearance, consistent with subretinal hemorrhage. There is also subtle surrounding yellowish discoloration suggesting lipid or fibrinous exudation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "subretinal hemorrhage",
+          "description": "rounded, dark red-to-brown lesion with irregular borders and somewhat elevated appearance"
+        },
+        {
+          "id": "f2",
+          "label": "lipid or fibrinous exudation",
+          "description": "subtle surrounding yellowish discoloration"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:10:32.513523"
+  },
+  {
+    "id": 65173,
+    "original_text": "This is a Color Fundus Photograph (CFP), in which we routinely assess the retinal vasculature, retinal pigment epithelium, nerve‐fiber layer, optic nerve head, macular contour, and any signs of fluid, hemorrhage, exudation or fibrosis. In this particular image, the optic disc appears in the nasal field, retinal vessels emerge normally but are surrounded by localized yellowish deposits and subtle pigmentary shifts in the macular region. There is a central area of mottled yellow‐white material with accompanying subretinal fibrosis or scar tissue, and a ring of hard exudates emanating outward from the foveal center. No large intraretinal hemorrhages or fluffy cotton‐wool spots are identified elsewhere.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "localized yellowish deposits",
+          "description": "surrounding retinal vessels"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fibrosis",
+          "description": "central area of mottled yellow-white material with accompanying scar tissue"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "ring of hard exudates emanating outward from the foveal center"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:10:39.529839"
+  },
+  {
+    "id": 65207,
+    "original_text": "The provided image is a Color Fundus Photograph (CFP) of the patient’s right eye. In CFPs, we routinely evaluate the optic disc for cupping or pallor, the retinal vasculature for caliber changes or neovascularization, and the macula for pigmentary alterations, hemorrhages, exudates, or edema. In this particular image, the optic disc appears well defined with normal color and margin, and the larger retinal vessels traverse the fundus without obvious tortuosity or neovascular fronds. However, the region of greatest concern is centered on the macula: there is a diffuse yellow-white, ill-defined area of retinal thickening and granular changes just temporal to the disc, extending into the foveal zone. Scattered hard exudates cluster inferiorly within this altered region, and faint blot hemorrhages lie adjacent. The foveal reflex is partly obscured by this disruption, and the surrounding retina shows mild mottling of the retinal pigment epithelium.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal thickening",
+          "description": "diffuse yellow-white, ill-defined area of retinal thickening and granular changes"
+        },
+        {
+          "id": "f2",
+          "label": "hard exudates",
+          "description": "scattered hard exudates cluster inferiorly within the altered region"
+        },
+        {
+          "id": "f3",
+          "label": "blot hemorrhages",
+          "description": "faint blot hemorrhages lie adjacent to the altered region"
+        },
+        {
+          "id": "f4",
+          "label": "mottling of RPE",
+          "description": "mild mottling of the retinal pigment epithelium surrounding the retina"
+        },
+        {
+          "id": "f5",
+          "label": "obscured foveal reflex",
+          "description": "the foveal reflex is partly obscured by retinal disruption"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:10:48.467188"
+  },
+  {
+    "id": 64886,
+    "original_text": "In this case, the image presented is clearly a Color Fundus Photograph (CFP), as evidenced by the broad–field, en face view of the ocular fundus bathed in orange-red light.  In interpreting CFPs, clinicians ordinarily focus on the clarity of the optic disc margins, the caliber and pattern of retinal vessels, the integrity of the foveal reflex, the pigmentary and vascular architecture of the posterior pole, and any signs of exudation, hemorrhage, or neovascular membranes.  In the photograph before us, however, these landmarks are all strikingly obscured.  The overall fundus appears uniformly hazy and out of focus; the disc head that would normally be a crisp, circular platform is only a faint, diffuse glow.  Retinal vessels cannot be traced with confidence, and the macular area shows no discrete reflex or surrounding pigmentation.  These findings suggest that the imaging medium itself—rather than true retinal pathology—is preventing visualization of the underlying structures.\n\nWhen considering causes of a nondiagnostic fundus photo, one must weigh media factors (such as corneal scarring, lens opacities, or vitreous haze) against true retinal disease (such as extensive hemorrhage or exudative detachment).  In this instance, the uniformity of the blur and the absence of any localized spot or layer of abnormality point away from discrete retinal lesions.  The absence of color layering (which might be seen in hemorrhage) and the lack of any sharply demarcated area of whitening or pigment migration make pathologies like central retinal artery occlusion, diabetic retinopathy, or age-related macular degeneration highly unlikely on the data available.  Similarly, if dense hemorrhage were present, one would often still discern vessel silhouettes at the periphery; here even the large temporal arcades vanish into the haze.  This diffuse loss of contrast strongly implies media turbidity.  Among media opacities, the most common in an adult is a mature cataract, though vitreous hemorrhage or inflammatory vitreous debris could present similarly.  Given that the overall tint remains the typical fundus red-orange rather than the dark brown or black of a hemorrhagic vitreous, a dense lens opacity is the most probable culprit.\n\nTherefore, the correct diagnosis is media opacity.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "media opacity",
+          "description": "uniform haziness preventing visualization of underlying structures"
+        },
+        {
+          "id": "f2",
+          "label": "mature cataract",
+          "description": "most probable cause of media opacity in this case"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:10:51.070242"
+  },
+  {
+    "id": 64974,
+    "original_text": "The image provided is a circular, monochromatic orange–yellow field with no discernible retinal landmarks such as the optic disc, blood vessels, or macula. This appearance is characteristic of a Color Fundus Photography (CFP) study in which the normal retinal architecture cannot be visualized. In a standard CFP, one expects to assess the clarity of the media, examine the sharpness of the optic nerve head margins, follow the course and caliber of the retinal vessels, and evaluate the foveal reflex and background pigmentation. In this particular image, none of those key structures—vessels, nerve head, or fovea—can be identified; instead, the photograph is uniformly hazy with a featureless yellow–brown tint.",
+    "extracted_features": {
+      "features": []
+    },
+    "processing_timestamp": "2025-08-22 16:10:55.919271"
+  },
+  {
+    "id": 64919,
+    "original_text": "The photograph before us is a Color Fundus Photography (CFP) image, as evidenced by the round, reddish–yellow circular field intended to capture the retinal surface. In a typical CFP, we evaluate the clarity of the optic disc margins, the continuity and caliber of retinal vessels, the presence of any hemorrhages or exudates, and the background coloration of the macula and peripheral retina. In this particular image, however, nearly all of those details are obscured: the entire fundus appears uniformly hazy with a yellow–orange tint. No distinct vessels, disc edges, or macular reflex can be discerned, and there is a diffuse light scattering across the field.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hazy fundus",
+          "description": "entire fundus appears uniformly hazy with a yellow–orange tint"
+        },
+        {
+          "id": "f2",
+          "label": "light scattering",
+          "description": "diffuse light scattering across the field"
+        },
+        {
+          "id": "f3",
+          "label": "obscured details",
+          "description": "no distinct vessels, disc edges, or macular reflex can be discerned"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:01.572989"
+  },
+  {
+    "id": 126752,
+    "original_text": "This is an Optical Coherence Tomography (OCT) scan of the macula, not a color fundus photograph. In OCT images we routinely assess the integrity and contour of the neurosensory retina, the presence of intra- or subretinal fluid, the condition of the retinal pigment epithelium (RPE), and any pigment epithelial detachments (PEDs). In this particular scan, the central foveal contour shows a subtle, smooth, dome-shaped elevation of the neurosensory retina with a clear hyporeflective space between the photoreceptor layer and the RPE, without evidence of intraretinal cysts, subretinal debris, or hyperreflective exudative material.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "subtle, smooth, dome-shaped elevation of the neurosensory retina"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "clear hyporeflective space between the photoreceptor layer and the RPE"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:04.265592"
+  },
+  {
+    "id": 126746,
+    "original_text": "The presented image is a spectral-domain Optical Coherence Tomography (OCT) B-scan of the macular region rather than a color fundus photograph. In macular OCTs, we routinely assess the integrity of the neurosensory retina, the presence and distribution of hypo- or hyperreflective spaces (indicating fluid or fibrosis), the contour and reflectivity of the retinal pigment epithelium (RPE), and any signs of pigment epithelial detachments (PEDs) or sub-RPE fluid. In this particular scan, one can clearly appreciate a dome-shaped elevation of the neurosensory retina, separated from the underlying RPE by a homogeneous, hyporeflective space. The RPE itself appears relatively smooth and continuous, without the irregular thickenings or hyperreflective drusen that one sees in neovascular age-related macular degeneration. There is no evidence of intraretinal cystoid changes or hyperreflective plaques that would suggest other forms of macular edema.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "dome-shaped elevation of the neurosensory retina, separated from the underlying RPE by a homogeneous, hyporeflective space"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "hyporeflective space between the neurosensory retina and the RPE"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:07.691903"
+  },
+  {
+    "id": 126760,
+    "original_text": "This is an Optical Coherence Tomography (OCT) B-scan of the macula. In OCT images, we routinely assess retinal contour, the integrity and reflectivity of individual retinal layers—particularly the retinal pigment epithelium (RPE) and photoreceptor inner–outer segment junction—as well as any subretinal or intraretinal fluid pockets. In this scan, there is a dome-shaped, hyporeflective (dark) space located between the neurosensory retina and the RPE, causing a smooth elevation of the overlying retinal layers. The RPE appears intact but slightly elevated, and there is no septation suggestive of fibrovascular proliferation or pigment epithelial detachment complexity. The neurosensory retina retains its layered appearance, with only minimal disruption of the photoreceptor band at the apex of the detachment.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "dome-shaped, hyporeflective elevation of the RPE"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "hyporeflective space located between the neurosensory retina and the RPE"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:15.106150"
+  },
+  {
+    "id": 126776,
+    "original_text": "The provided image is an Optical Coherence Tomography (OCT) B-scan of the macular region. In OCT images, we routinely assess the integrity of the retinal layers, the presence of subretinal or intraretinal fluid, the contour of the retinal pigment epithelium (RPE), and any hyper- or hypo-reflective deposits. On this particular scan, the inner retinal layers appear largely intact and coapted, but there is a smoothly dome-shaped elevation of the neurosensory retina above the level of the RPE. Beneath that elevated excursion, one can see a hyporeflective space consistent with fluid accumulation. The RPE itself maintains a fairly regular contour without obvious breaks or drusen, and there are no hyperreflective bands extending into the outer nuclear layer.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "smoothly dome-shaped elevation of the neurosensory retina above the level of the RPE"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "hyporeflective space consistent with fluid accumulation beneath the elevated retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:19.103870"
+  },
+  {
+    "id": 126790,
+    "original_text": "The presented image is an Optical Coherence Tomography (OCT) cross-section of the macula. In OCT scans, we evaluate the integrity of the neurosensory retina, the presence or absence of subretinal or intraretinal fluid, the status of the retinal pigment epithelium (RPE), and any abnormalities in the choroid–retinal interface. In this particular scan, there is a dome-shaped elevation of the neurosensory retina with an optically clear space beneath the photoreceptor layers. The underlying RPE appears slightly undulated but without obvious pigment epithelial detachments of irregular contour or drusen. There is a well-demarcated pocket of fluid separating the photoreceptor layer from the RPE, and the overlying outer retinal layers are modestly thinned at the apex of the elevation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "dome-shaped elevation of the neurosensory retina with slightly undulated RPE"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "well-demarcated pocket of fluid separating the photoreceptor layer from the RPE"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:21.786464"
+  },
+  {
+    "id": 126720,
+    "original_text": "The image presented is an Optical Coherence Tomography (OCT) B-scan through the macula rather than a color fundus photograph. In macular OCTs, we routinely evaluate the integrity of the retinal layers—most importantly the photoreceptor (ellipsoid) zone, the external limiting membrane, and the retinal pigment epithelium (RPE)—as well as the presence of any subretinal or intraretinal fluid and any elevations or irregularities of the RPE/Bruch’s membrane complex. In this particular scan, the foveal contour is preserved, but immediately temporal and nasal to the foveal depression the RPE band shows multiple small, dome-shaped elevations. These elevations sit between the neurosensory retina and Bruch’s membrane, causing subtle undulations of the overlying photoreceptor layers. There is no sign of hyporeflective cystoid spaces within the retina and no obvious subretinal hyperreflective material or fluid.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "multiple small, dome-shaped elevations of the RPE"
+        },
+        {
+          "id": "f2",
+          "label": "foveal contour preservation",
+          "description": "the foveal contour is preserved"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:24.939901"
+  },
+  {
+    "id": 126684,
+    "original_text": "The provided image is an Optical Coherence Tomography (OCT) scan of the macula. In macular OCTs, we routinely assess the integrity of the retinal pigment epithelium (RPE), the presence of drusen or pigment epithelial detachments (PEDs), intraretinal or subretinal fluid, and any hyperreflective foci or sub-RPE deposits. In this particular scan, a sharply demarcated, dome-shaped elevation of the RPE is visible beneath the neurosensory retina, with overlying subretinal fluid and a slight intraretinal cystoid space. The RPE elevation has a fairly homogenous, hypo- to medium-reflective interior, and above it lie scattered hyperreflective material suggesting fibrin or neovascular complex. The outer retinal bands are disrupted over the dome, and there is subtle thickening and increased backscatter in the choroid just beneath the pigment elevation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "sharply demarcated, dome-shaped elevation of the RPE beneath the neurosensory retina"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "overlying subretinal fluid present above the RPE elevation"
+        },
+        {
+          "id": "f3",
+          "label": "intraretinal cystoid space",
+          "description": "slight intraretinal cystoid space observed"
+        },
+        {
+          "id": "f4",
+          "label": "hyperreflective material",
+          "description": "scattered hyperreflective material suggesting fibrin or neovascular complex above the RPE elevation"
+        },
+        {
+          "id": "f5",
+          "label": "disrupted outer retinal bands",
+          "description": "outer retinal bands are disrupted over the dome of the RPE elevation"
+        },
+        {
+          "id": "f6",
+          "label": "choroidal thickening",
+          "description": "subtle thickening and increased backscatter in the choroid just beneath the pigment elevation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:31.387305"
+  },
+  {
+    "id": 126711,
+    "original_text": "The image presented is an Optical Coherence Tomography (OCT) B-scan of the macular region, as evidenced by the high-resolution, cross-sectional depiction of retinal layers in grayscale. In OCT images, we routinely evaluate the integrity and contour of the photoreceptor layer, the external limiting membrane, the ellipsoid zone, the retinal pigment epithelium (RPE), and any subretinal or intraretinal fluid. We also assess for elevations or detachments of the RPE and look for hyperreflective deposits indicative of drusen or neovascular tissue. In this particular scan, there is a smooth, dome-shaped elevation of the RPE, beneath which lies a hyporeflective (dark) space. Above that, the overlying retinal layers appear slightly thickened but maintain relatively preserved photoreceptor architecture, and there are small punctate areas of increased reflectivity just above the RPE elevation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "smooth, dome-shaped elevation of the RPE"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "hyporeflective (dark) space beneath the RPE elevation"
+        },
+        {
+          "id": "f3",
+          "label": "thickened retinal layers",
+          "description": "overlying retinal layers appear slightly thickened"
+        },
+        {
+          "id": "f4",
+          "label": "preserved photoreceptor architecture",
+          "description": "relatively preserved photoreceptor architecture"
+        },
+        {
+          "id": "f5",
+          "label": "punctate areas of increased reflectivity",
+          "description": "small punctate areas of increased reflectivity just above the RPE elevation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:35.440058"
+  },
+  {
+    "id": 126714,
+    "original_text": "This is an Optical Coherence Tomography (OCT) scan of the macula, rather than a color fundus photograph. In macular OCTs, one evaluates the contour of the neurosensory retina and retinal pigment epithelium (RPE), the reflectivity and integrity of the photoreceptor layers (notably the ellipsoid zone), and the presence of subretinal or intraretinal fluid. In this scan, the RPE–Bruch’s membrane complex shows one or more smooth, dome-shaped elevations beneath the foveal region. Within these elevations there is a mottled, hyperreflective band consistent with accumulated drusenoid material. The overlying photoreceptor inner/outer segment (ellipsoid) band appears slightly irregular but largely preserved, and there is no cystoid intraretinal fluid or obvious subretinal fluid pockets.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "smooth, dome-shaped elevations beneath the foveal region"
+        },
+        {
+          "id": "f2",
+          "label": "drusenoid material",
+          "description": "mottled, hyperreflective band consistent with accumulated drusenoid material"
+        },
+        {
+          "id": "f3",
+          "label": "photoreceptor integrity",
+          "description": "photoreceptor inner/outer segment (ellipsoid) band appears slightly irregular but largely preserved"
+        },
+        {
+          "id": "f4",
+          "label": "subretinal fluid",
+          "description": "no obvious subretinal fluid pockets"
+        },
+        {
+          "id": "f5",
+          "label": "intraretinal fluid",
+          "description": "no cystoid intraretinal fluid"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:39.355234"
+  },
+  {
+    "id": 3769,
+    "original_text": "The photograph presented is clearly a Color Fundus Photograph (CFP) of the posterior pole.  In CFPs, we routinely evaluate the optic nerve head for its size, shape, and cup‐to‐disc ratio; inspect the neuroretinal rim for focal or generalized thinning; look for peripapillary atrophy or pigmentary changes; assess the retinal nerve fiber layer (RNFL) for wedge‐shaped defects; and survey the macula and vasculature for any hemorrhages, exudates, or edema.  In this particular image, the optic disc exhibits a striking enlargement of the central cup relative to the overall disc diameter.  The neuroretinal rim appears markedly thinned, especially inferotemporally, and the small retinal vessels emerge from a deep, excavated cup.  There is mild peripapillary atrophy surrounding portions of the disc margin, and the RNFL appears subtly attenuated.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc enlargement",
+          "description": "striking enlargement of the central cup relative to the overall disc diameter"
+        },
+        {
+          "id": "f2",
+          "label": "thinned neuroretinal rim",
+          "description": "markedly thinned neuroretinal rim, especially inferotemporally"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "mild peripapillary atrophy surrounding portions of the disc margin"
+        },
+        {
+          "id": "f4",
+          "label": "attenuated RNFL",
+          "description": "subtly attenuated retinal nerve fiber layer"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:43.719379"
+  },
+  {
+    "id": 3797,
+    "original_text": "The photograph before us is a Color Fundus Photograph (CFP) capturing the posterior segment of the eye. In CFPs, ophthalmologists principally assess the optic nerve head (including cup-to-disc ratio and rim integrity), the appearance and caliber of the retinal blood vessels, the clarity and coloration of the retina, and any hemorrhages or exudates. In this particular image, the optic disc appears relatively pale centrally, with a pronounced depression suggesting an enlarged optic cup. The neuroretinal rim is thinned, most noticeably inferiorly, giving rise to an asymmetric contour. The surrounding peripapillary region exhibits a subtle zone of atrophy. Retinal vessels emerge from the cup margin without obvious engorgement or hemorrhagic change, and the macular area is not showing any exudates or drusen.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "pale optic disc",
+          "description": "optic disc appears relatively pale centrally"
+        },
+        {
+          "id": "f2",
+          "label": "enlarged optic cup",
+          "description": "pronounced depression suggesting an enlarged optic cup"
+        },
+        {
+          "id": "f3",
+          "label": "thinned neuroretinal rim",
+          "description": "neuroretinal rim is thinned, most noticeably inferiorly"
+        },
+        {
+          "id": "f4",
+          "label": "asymmetric contour",
+          "description": "asymmetric contour of the neuroretinal rim"
+        },
+        {
+          "id": "f5",
+          "label": "peripapillary atrophy",
+          "description": "subtle zone of atrophy in the surrounding peripapillary region"
+        },
+        {
+          "id": "f6",
+          "label": "normal retinal vessels",
+          "description": "retinal vessels emerge from the cup margin without obvious engorgement or hemorrhagic change"
+        },
+        {
+          "id": "f7",
+          "label": "no exudates or drusen",
+          "description": "macular area is not showing any exudates or drusen"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:48.459636"
+  },
+  {
+    "id": 3805,
+    "original_text": "This is a Color Fundus Photography (CFP) image of the posterior pole, in which the optic disc, retinal nerve fiber layer (RNFL), macula, and retinal vasculature are readily visualized. In CFPs, we routinely assess the optic nerve head for cup‐to‐disc ratio, neuroretinal rim integrity, peripapillary atrophy, RNFL striations, and any hemorrhages along the disc margin. In this particular photograph, the most striking feature is the optic nerve head: the central cup appears markedly excavated, occupying the majority of the disc diameter. The remaining neuroretinal rim is very thin, most noticeably in the inferior and superior quadrants, and peripapillary atrophy is visible adjacent to the disc margins. Retinal vessels appear to “dip” into a deep cup, and the surrounding RNFL striations are attenuated, suggesting localized fiber layer loss.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "excavated optic nerve head",
+          "description": "central cup appears markedly excavated, occupying the majority of the disc diameter"
+        },
+        {
+          "id": "f2",
+          "label": "thin neuroretinal rim",
+          "description": "remaining neuroretinal rim is very thin, most noticeably in the inferior and superior quadrants"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "visible adjacent to the disc margins"
+        },
+        {
+          "id": "f4",
+          "label": "attenuated RNFL striations",
+          "description": "surrounding RNFL striations are attenuated, suggesting localized fiber layer loss"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:52.426119"
+  },
+  {
+    "id": 63395,
+    "original_text": "The image presented is a Color Fundus Photograph (CFP). In CFPs, the principal diagnostic landmarks include the optic nerve head’s shape and color, the neuroretinal rim configuration, the cup-to-disc ratio, the presence or absence of peripapillary hemorrhages or notches, and the general appearance of retinal vessels and surrounding retina. In this particular photograph, the optic disc appears pale centrally with a markedly enlarged cup, producing an elevated cup-to-disc ratio. The neuroretinal rim is thinned especially in the inferior and superior sectors, and there is subtle peripapillary atrophy bordering the disc. The retinal nerve fiber layer around the disc looks attenuated nasally, and there is no overt sign of exudates or hemorrhages elsewhere in the retina except a faint splinter hemorrhage on the disc margin.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "pale optic disc",
+          "description": "optic disc appears pale centrally"
+        },
+        {
+          "id": "f2",
+          "label": "enlarged cup-to-disc ratio",
+          "description": "markedly enlarged cup producing an elevated cup-to-disc ratio"
+        },
+        {
+          "id": "f3",
+          "label": "thinned neuroretinal rim",
+          "description": "neuroretinal rim is thinned especially in the inferior and superior sectors"
+        },
+        {
+          "id": "f4",
+          "label": "subtle peripapillary atrophy",
+          "description": "subtle peripapillary atrophy bordering the disc"
+        },
+        {
+          "id": "f5",
+          "label": "attenuated retinal nerve fiber layer",
+          "description": "retinal nerve fiber layer around the disc looks attenuated nasally"
+        },
+        {
+          "id": "f6",
+          "label": "faint splinter hemorrhage",
+          "description": "faint splinter hemorrhage on the disc margin"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:11:56.669254"
+  },
+  {
+    "id": 63821,
+    "original_text": "The image provided is a Color Fundus Photograph (CFP) of the posterior pole, centered on the optic nerve head and macula. In CFPs, clinicians routinely evaluate the optic disc’s size, shape, and color; the cup-to-disc ratio; the configuration of the neuroretinal rim; the presence or absence of peripapillary atrophy; visible nerve fiber layer defects; and any hemorrhages or vascular anomalies at the disc margin. In this particular photograph, the optic disc exhibits a markedly enlarged, pale central excavation (cup), with a thin superior and inferior neuroretinal rim. Blood vessels appear to “bend” sharply as they leave the disc margin (so-called bayoneting), indicating loss of supporting neural tissue. There is also a subtle area of peripapillary atrophy adjacent to the disc, and the nerve fiber layer in the inferior quadrant appears attenuated.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "enlarged optic disc",
+          "description": "markedly enlarged, pale central excavation (cup)"
+        },
+        {
+          "id": "f2",
+          "label": "thin neuroretinal rim",
+          "description": "thin superior and inferior neuroretinal rim"
+        },
+        {
+          "id": "f3",
+          "label": "bayoneting of blood vessels",
+          "description": "blood vessels appear to bend sharply as they leave the disc margin"
+        },
+        {
+          "id": "f4",
+          "label": "peripapillary atrophy",
+          "description": "subtle area of peripapillary atrophy adjacent to the disc"
+        },
+        {
+          "id": "f5",
+          "label": "attenuated nerve fiber layer",
+          "description": "nerve fiber layer in the inferior quadrant appears attenuated"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:00.575031"
+  },
+  {
+    "id": 64618,
+    "original_text": "This is a Color Fundus Photography (CFP) image, as evidenced by the wide‐field view of the retina showing the optic disc, retinal vessels, and fundus background in natural coloration. In CFP studies, one typically evaluates the caliber, tortuosity, and branching pattern of retinal arteries and veins; the presence, distribution, and morphology of hemorrhages; cotton‐wool spots or retinal nerve fiber layer whitening; hard exudates; and any signs of macular edema such as a loss of foveal reflex or subtle retinal thickening. In the provided image, one notes a sectoral pattern of deep and flame‐shaped hemorrhages concentrated in the inferior temporal quadrant, accompanied by patchy areas of retinal whitening (cotton‐wool spots) and mild macular blur inferotemporally. The major venous trunks in that sector appear engorged and tortuous, whereas the vessels elsewhere in the retina are relatively normal in caliber and course.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "sectoral hemorrhages",
+          "description": "deep and flame-shaped hemorrhages concentrated in the inferior temporal quadrant"
+        },
+        {
+          "id": "f2",
+          "label": "cotton-wool spots",
+          "description": "patchy areas of retinal whitening"
+        },
+        {
+          "id": "f3",
+          "label": "macular blur",
+          "description": "mild macular blur inferotemporally"
+        },
+        {
+          "id": "f4",
+          "label": "engorged venous trunks",
+          "description": "major venous trunks in the sector appear engorged and tortuous"
+        },
+        {
+          "id": "f5",
+          "label": "normal retinal vessels",
+          "description": "vessels elsewhere in the retina are relatively normal in caliber and course"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:04.557823"
+  },
+  {
+    "id": 64603,
+    "original_text": "This is a Color Fundus Photograph, a modality in which the fundus of the eye is illuminated with white light and captured in true‐color. In such images, we routinely evaluate the caliber and course of the retinal vessels, the presence and distribution of hemorrhages or exudates, the appearance of the optic disc and macula, and any focal areas of retinal edema or ischemia. In the photograph before us, there is a well‐defined sector of the retina—extending roughly from the macula into the superotemporal quadrant—that shows numerous flame‐shaped and blot hemorrhages. The venules in this area appear dilated and tortuous compared with veins elsewhere. The optic disc margin itself is relatively sharp and not swollen, and the vessels in the uninvolved quadrants maintain a normal caliber and course. There is no obvious cotton-wool spot outside the hemorrhagic sector, nor any drusen or subretinal pigmentary changes.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "flame-shaped hemorrhages",
+          "description": "numerous flame-shaped hemorrhages in the retina"
+        },
+        {
+          "id": "f2",
+          "label": "blot hemorrhages",
+          "description": "numerous blot hemorrhages in the retina"
+        },
+        {
+          "id": "f3",
+          "label": "dilated venules",
+          "description": "venules in the affected area appear dilated and tortuous"
+        },
+        {
+          "id": "f4",
+          "label": "sharp optic disc margin",
+          "description": "optic disc margin is relatively sharp and not swollen"
+        },
+        {
+          "id": "f5",
+          "label": "normal caliber vessels",
+          "description": "vessels in uninvolved quadrants maintain a normal caliber and course"
+        },
+        {
+          "id": "f6",
+          "label": "absence of cotton-wool spots",
+          "description": "no obvious cotton-wool spots outside the hemorrhagic sector"
+        },
+        {
+          "id": "f7",
+          "label": "absence of drusen",
+          "description": "no drusen or subretinal pigmentary changes observed"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:11.411841"
+  },
+  {
+    "id": 64638,
+    "original_text": "The provided image is a Color Fundus Photograph (CFP). In CFPs, we routinely assess the optic disc for its color and margins, the retinal vasculature for caliber changes such as narrowing or dilation and tortuosity, the presence and distribution of hemorrhages or exudates, and any signs of macular edema or ischemia. In this particular image, the optic disc appears normal in color and contour, but the inferotemporal retina shows a localized cluster of flame-shaped and blot hemorrhages coupled with subtle venous dilation and tortuosity in that same quadrant. There are also a few cotton-wool spots suggesting localized retinal ischemia, and the macula adjacent to this area looks slightly edematous.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hemorrhages",
+          "description": "localized cluster of flame-shaped and blot hemorrhages"
+        },
+        {
+          "id": "f2",
+          "label": "venous dilation",
+          "description": "subtle venous dilation in the inferotemporal retina"
+        },
+        {
+          "id": "f3",
+          "label": "tortuosity",
+          "description": "tortuosity of retinal vessels in the inferotemporal quadrant"
+        },
+        {
+          "id": "f4",
+          "label": "cotton-wool spots",
+          "description": "presence of cotton-wool spots suggesting localized retinal ischemia"
+        },
+        {
+          "id": "f5",
+          "label": "macular edema",
+          "description": "slightly edematous appearance of the macula adjacent to the affected area"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:14.914873"
+  },
+  {
+    "id": 64624,
+    "original_text": "The image presented is a Color Fundus Photograph (CFP), a modality routinely used to evaluate the retinal vasculature, hemorrhages, exudates, and the optic nerve head. In CFPs we pay particular attention to the caliber and course of arterioles and venules, the presence and pattern of retinal hemorrhages (flame-shaped or dot-blot), areas of capillary nonperfusion manifesting as cotton-wool spots, lipid deposition as hard exudates, and any signs of macular edema or optic disc swelling. In this particular photograph, the inferior temporal quadrant exhibits numerous flame-shaped and dot-blot hemorrhages following the distribution of one venous arcade. The involved vessels appear engorged and tortuous in that sector, while the remainder of the retina demonstrates relatively normal vasculature. Yellowish hard exudates cluster near the macula, and there are a few cotton-wool spots suggesting localized ischemia. The optic disc appears sharp with no global swelling.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "flame-shaped hemorrhages",
+          "description": "numerous flame-shaped hemorrhages in the inferior temporal quadrant"
+        },
+        {
+          "id": "f2",
+          "label": "dot-blot hemorrhages",
+          "description": "numerous dot-blot hemorrhages in the inferior temporal quadrant"
+        },
+        {
+          "id": "f3",
+          "label": "engorged and tortuous vessels",
+          "description": "involved vessels appear engorged and tortuous in the inferior temporal quadrant"
+        },
+        {
+          "id": "f4",
+          "label": "hard exudates",
+          "description": "yellowish hard exudates clustered near the macula"
+        },
+        {
+          "id": "f5",
+          "label": "cotton-wool spots",
+          "description": "a few cotton-wool spots suggesting localized ischemia"
+        },
+        {
+          "id": "f6",
+          "label": "sharp optic disc",
+          "description": "optic disc appears sharp with no global swelling"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:18.768202"
+  },
+  {
+    "id": 3749,
+    "original_text": "The photograph presented is a Color Fundus Photograph (CFP), the standard modality for surveying the posterior segment. In a CFP exam we routinely evaluate the clarity of the image (which can be degraded by anterior or media opacities), the appearance of the optic nerve head, the caliber and contour of the retinal vessels, the macular reflex and foveal contour, and the general retinal background for any hemorrhages, exudates, pigmentary changes, or vascular abnormalities. In this particular image, the optic disc is visible with moderately sharp margins, the vascular architecture (arteries and veins) appears normal in course and caliber, and the macula shows a normal foveal reflex without signs of edema, drusen, or pigment mottling. What stands out, however, is a diffuse mild haziness over the entire fundus scene—there is a subtle decrease in contrast between the retinal vessels and the background, and the usual crisp red-orange coloration of the fundus is slightly muted by a grayish veil.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc margins",
+          "description": "moderately sharp margins of the optic disc"
+        },
+        {
+          "id": "f2",
+          "label": "vascular architecture",
+          "description": "normal course and caliber of retinal arteries and veins"
+        },
+        {
+          "id": "f3",
+          "label": "macular reflex",
+          "description": "normal foveal reflex without signs of edema, drusen, or pigment mottling"
+        },
+        {
+          "id": "f4",
+          "label": "fundus haziness",
+          "description": "diffuse mild haziness over the entire fundus scene with a subtle decrease in contrast"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:23.181041"
+  },
+  {
+    "id": 3682,
+    "original_text": "The provided image is a Color Fundus Photograph (CFP), recognizable by its circular field of view capturing the posterior pole of the eye in natural color. In CFPs, clinicians routinely assess the clarity of the ocular media, the sharpness and color of the optic disc, the branching pattern and caliber of the retinal vessels, the pigmentation and texture of the macula, and the presence of any hemorrhages, exudates, or other retinal lesions. In this particular photograph, the entire fundus appears uniformly hazy and out of focus: the normally crisp borders of the optic disc are blurred, the retinal vessels lack definition, and the macular region is essentially indistinct. Rather than localized retinal pathology, there is a global loss of contrast and detail across the entire image.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hazy fundus",
+          "description": "entire fundus appears uniformly hazy and out of focus"
+        },
+        {
+          "id": "f2",
+          "label": "blurred optic disc",
+          "description": "normally crisp borders of the optic disc are blurred"
+        },
+        {
+          "id": "f3",
+          "label": "lack of definition in retinal vessels",
+          "description": "retinal vessels lack definition"
+        },
+        {
+          "id": "f4",
+          "label": "indistinct macular region",
+          "description": "macular region is essentially indistinct"
+        },
+        {
+          "id": "f5",
+          "label": "global loss of contrast and detail",
+          "description": "global loss of contrast and detail across the entire image"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:26.653515"
+  },
+  {
+    "id": 65335,
+    "original_text": "The image provided is a Color Fundus Photograph (CFP). In CFPs, clinicians evaluate the optic disc’s size, shape, and color; the macular region for foveal reflex or pigmentary changes; the retinal vasculature for caliber and arteriovenous crossings; and the general fundus background for pigmentary patterns, areas of atrophy, or hemorrhage. In this particular photograph, the optic nerve head appears slightly elongated and tilted, with a crescent of peripapillary atrophy most pronounced on the temporal side. The choroidal vascular pattern is prominently visible through a thinned retinal pigment epithelium, creating a characteristic “tessellated” or “mosaic” appearance across the posterior pole. The macula lacks exudates or hemorrhages but shows generalized lightening from exposed choroidal vessels rather than distinct edema or drusen.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head elongation",
+          "description": "slightly elongated and tilted optic nerve head"
+        },
+        {
+          "id": "f2",
+          "label": "peripapillary atrophy",
+          "description": "crescent of peripapillary atrophy most pronounced on the temporal side"
+        },
+        {
+          "id": "f3",
+          "label": "thinned retinal pigment epithelium",
+          "description": "prominently visible choroidal vascular pattern through thinned RPE"
+        },
+        {
+          "id": "f4",
+          "label": "tessellated appearance",
+          "description": "characteristic 'tessellated' or 'mosaic' appearance across the posterior pole"
+        },
+        {
+          "id": "f5",
+          "label": "macular lightening",
+          "description": "generalized lightening from exposed choroidal vessels without distinct edema or drusen"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:31.617246"
+  },
+  {
+    "id": 65366,
+    "original_text": "This is a color fundus photograph. In fundus photography one evaluates the optic nerve head (size, shape, margins, any tilting), the peripapillary zone (atrophy or pigmentation), the macular region (presence of drusen, hemorrhages, pigmentary changes), the overall “tessellation” or visibility of the choroidal vasculature through the retina, and any linear streaks or cracks in the RPE/choroid. In this particular image the optic disc is elongated and tilted, and there is a crescent of whitish peripapillary atrophy extending temporally. The macular area shows pronounced choroidal tessellation with visible choroidal vessels, and there are fine linear pale streaks radiating from the posterior pole consistent with lacquer cracks. The retinal vessels are thinned and sclerotic in appearance, and focal chorioretinal atrophic spots are present.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc morphology",
+          "description": "elongated and tilted optic disc"
+        },
+        {
+          "id": "f2",
+          "label": "peripapillary atrophy",
+          "description": "crescent of whitish peripapillary atrophy extending temporally"
+        },
+        {
+          "id": "f3",
+          "label": "choroidal tessellation",
+          "description": "pronounced choroidal tessellation with visible choroidal vessels"
+        },
+        {
+          "id": "f4",
+          "label": "lacquer cracks",
+          "description": "fine linear pale streaks radiating from the posterior pole consistent with lacquer cracks"
+        },
+        {
+          "id": "f5",
+          "label": "retinal vessel appearance",
+          "description": "thinned and sclerotic retinal vessels"
+        },
+        {
+          "id": "f6",
+          "label": "chorioretinal atrophy",
+          "description": "focal chorioretinal atrophic spots present"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:36.066308"
+  },
+  {
+    "id": 65342,
+    "original_text": "The provided image is a Color Fundus Photograph (CFP). In this modality, clinicians routinely assess the optic nerve head for its size, shape, and neuroretinal rim, examine the surrounding peripapillary region for chorioretinal atrophy or “conus,” evaluate the macula for pigmentary changes, and inspect the retinal background for vascular caliber, tessellation, and any signs of hemorrhage or exudation. In this particular photograph, the optic disc appears obliquely oriented (so-called “tilted disc”) with a pronounced temporal crescent of pale peripapillary atrophy. The fundus exhibits a generalized reddish “tessellated” appearance from visible choroidal vessels, and the vessels themselves are slightly attenuated without obvious signs of leakage, hemorrhage, or cotton-wool spots. The macular region shows no neovascular membranes or hard exudates, but it does have subtle thinning contours consistent with an elongated globe.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "tilted disc",
+          "description": "obliquely oriented optic disc with a pronounced temporal crescent of pale peripapillary atrophy"
+        },
+        {
+          "id": "f2",
+          "label": "tessellated appearance",
+          "description": "generalized reddish appearance from visible choroidal vessels"
+        },
+        {
+          "id": "f3",
+          "label": "attenuated vessels",
+          "description": "slightly attenuated retinal vessels without obvious signs of leakage or hemorrhage"
+        },
+        {
+          "id": "f4",
+          "label": "subtle thinning contours",
+          "description": "thinning contours in the macular region consistent with an elongated globe"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:39.395003"
+  },
+  {
+    "id": 65279,
+    "original_text": "This image is a Color Fundus Photograph (CFP) of the posterior pole. In CFPs, clinicians principally evaluate the optic disc appearance, the macular contour and reflex, the vascular architecture, and any retinal surface or subretinal abnormalities such as hemorrhages, exudates, drusen, or pigmentary changes. In this particular photograph, the optic disc on the left appears well‐defined with a normal cup‐to‐disc ratio, and the major retinal vessels emerge and branch in a typical fashion. At the macula (just temporal to the disc), the usual bright foveal reflex is diminished and there is a subtle, glistening sheen across the inner retinal surface. The vascular arcades in the region of the macula show mild distortion and slight tortuosity, but there are no hemorrhages, exudates, or drusen deposits visible.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "diminished foveal reflex",
+          "description": "reduced brightness of the foveal reflex at the macula"
+        },
+        {
+          "id": "f2",
+          "label": "mild distortion of vascular arcades",
+          "description": "slight alteration in the normal shape of the vascular arcades in the macular region"
+        },
+        {
+          "id": "f3",
+          "label": "slight tortuosity of vessels",
+          "description": "minor twisting or bending of the retinal vessels in the macular area"
+        },
+        {
+          "id": "f4",
+          "label": "glistening sheen on inner retinal surface",
+          "description": "subtle reflective quality observed on the inner retinal surface"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:43.593297"
+  },
+  {
+    "id": 64800,
+    "original_text": "This is a Color Fundus Photograph (CFP), as evidenced by the broad, two-dimensional view of the retina showing the optic disc, retinal vessels, and surrounding choroidal tissue in natural color. In CFPs, we routinely assess the optic nerve head, vascular caliber, macular contour, presence of hemorrhages or exudates, and any localized lesions of the retinal pigment epithelium or choroid. In this particular image, the optic disc appears unremarkable aside from a distinct, well-circumscribed, pale yellow–white lesion with a slightly irregular pigmented margin located immediately temporal to the disc. There is no evidence of active hemorrhage, lipid exudation, or overlying retinal edema, and the surrounding retina shows normal vessel architecture without signs of neovascularization.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "pale yellow–white lesion",
+          "description": "distinct, well-circumscribed lesion with a slightly irregular pigmented margin located immediately temporal to the disc"
+        },
+        {
+          "id": "f2",
+          "label": "normal vessel architecture",
+          "description": "surrounding retina shows normal vessel architecture without signs of neovascularization"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:45.647165"
+  },
+  {
+    "id": 127011,
+    "original_text": "The provided scan is clearly an Optical Coherence Tomography (OCT) B-scan rather than a color fundus photograph. In OCT images we typically evaluate the integrity of the retinal layers—especially the foveal contour, the continuity of the neurosensory retina, any hyporeflective spaces (indicating fluid or tissue loss), and the relationship between vitreous and retinal surface. On this particular scan, there is a sharply demarcated, full-thickness defect traversing the neurosensory retina at the fovea. The surrounding retinal tissue shows cystic hyporeflective spaces at the margins of this defect. Above the defect, a hyperreflective strand of tissue appears tethered to the inner retinal surface, suggesting an operculum or persistent vitreomacular adhesion.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "full-thickness defect",
+          "description": "sharply demarcated defect traversing the neurosensory retina at the fovea"
+        },
+        {
+          "id": "f2",
+          "label": "cystic hyporeflective spaces",
+          "description": "hyporeflective spaces at the margins of the defect"
+        },
+        {
+          "id": "f3",
+          "label": "hyperreflective strand",
+          "description": "tethered tissue suggesting an operculum or persistent vitreomacular adhesion"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:12:49.179644"
+  },
+  {
+    "id": 64258,
+    "original_text": "The provided image is a Color Fundus Photograph (CFP), a two-dimensional, true-color capture of the ocular fundus including the optic disc, macula, and retinal vasculature. In CFPs, clinicians typically evaluate the optic disc morphology (including the cup-to-disc ratio and neuroretinal rim configuration), the presence of peripapillary changes (such as atrophy or hemorrhages), any vascular abnormalities, and macular or retinal lesions. In this particular photograph, attention is immediately drawn to the optic nerve head on the left side of the frame. The disc appears well defined with a pale, centrally excavated cup. The neuroretinal rim—especially inferotemporally—is thinned, and the cup-to-disc ratio seems enlarged. The surrounding retina shows subtle parapapillary atrophy (slight depigmentation adjacent to the disc margin), but there are no obvious hemorrhages, exudates, or macular edema.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc morphology",
+          "description": "well defined disc with a pale, centrally excavated cup and thinned neuroretinal rim"
+        },
+        {
+          "id": "f2",
+          "label": "cup-to-disc ratio",
+          "description": "enlarged cup-to-disc ratio"
+        },
+        {
+          "id": "f3",
+          "label": "parapapillary atrophy",
+          "description": "subtle parapapillary atrophy with slight depigmentation adjacent to the disc margin"
+        },
+        {
+          "id": "f4",
+          "label": "absence of hemorrhages",
+          "description": "no obvious hemorrhages present"
+        },
+        {
+          "id": "f5",
+          "label": "absence of exudates",
+          "description": "no obvious exudates present"
+        },
+        {
+          "id": "f6",
+          "label": "absence of macular edema",
+          "description": "no obvious macular edema present"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:13:03.858532"
+  },
+  {
+    "id": 64262,
+    "original_text": "The photograph presented is a color fundus photograph (CFP) of the posterior pole, demonstrating the optic nerve head, surrounding retinal nerve fiber layer, blood vessels, and macula. In fundus images, we routinely assess the size and shape of the optic disc, the cup-to-disc ratio, the integrity of the neuroretinal rim, the presence or absence of disc hemorrhages, peripapillary atrophy, and any signs of retinal nerve fiber layer (RNFL) defects. In this particular image, the optic disc appears enlarged relative to the cup, with a noticeably deep excavation centrally. The neuroretinal rim is thinned most prominently in the inferior and superior poles, and there is subtle peripapillary atrophy adjacent to the disc margins. The retinal vessels appear to emanate from a deeply cupped central cup, and there are no signs of hemorrhages, exudates, or macular edema.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "enlarged optic disc",
+          "description": "optic disc appears enlarged relative to the cup"
+        },
+        {
+          "id": "f2",
+          "label": "deep excavation",
+          "description": "notably deep excavation centrally in the optic disc"
+        },
+        {
+          "id": "f3",
+          "label": "thinned neuroretinal rim",
+          "description": "neuroretinal rim is thinned most prominently in the inferior and superior poles"
+        },
+        {
+          "id": "f4",
+          "label": "subtle peripapillary atrophy",
+          "description": "subtle peripapillary atrophy adjacent to the disc margins"
+        },
+        {
+          "id": "f5",
+          "label": "no signs of hemorrhages",
+          "description": "no signs of hemorrhages, exudates, or macular edema"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:13:07.732229"
+  },
+  {
+    "id": 65055,
+    "original_text": "The image presented is a color fundus photograph of the posterior pole. In this modality we routinely assess the coloration and translucency of the retina, the caliber and branching pattern of arteries and veins, the appearance of the optic disc, and any focal zones of retinal whitening, hemorrhage, or other anomalies. In this particular photograph, the macular region shows a striking diffuse whitening of the inner retina with preservation of the foveal color, creating a “cherry-red” spot appearance. The retinal arterioles appear notably narrowed and somewhat attenuated compared with the veins, and there is a general loss of transparency over much of the posterior pole. The optic disc is pink and sharp-edged, and there are no obvious intraretinal hemorrhages or cotton-wool spots.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "diffuse whitening of the inner retina",
+          "description": "striking diffuse whitening of the inner retina with preservation of the foveal color, creating a 'cherry-red' spot appearance"
+        },
+        {
+          "id": "f2",
+          "label": "narrowed retinal arterioles",
+          "description": "notably narrowed and somewhat attenuated retinal arterioles compared with the veins"
+        },
+        {
+          "id": "f3",
+          "label": "loss of transparency",
+          "description": "general loss of transparency over much of the posterior pole"
+        },
+        {
+          "id": "f4",
+          "label": "normal optic disc",
+          "description": "optic disc is pink and sharp-edged with no obvious intraretinal hemorrhages or cotton-wool spots"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:13:11.153821"
+  },
+  {
+    "id": 64731,
+    "original_text": "The presented image is a color fundus photograph (CFP), as evidenced by the broad, orange-red view of the retinal surface showing retinal vessels, the optic disc, and macular region in natural color. In CFPs, clinicians routinely evaluate the optic disc appearance, retinal vessel caliber and course, presence of hemorrhages or exudates, and any focal white or yellowish lesions within the retina. In this particular photograph, one can appreciate a discrete, fluffy, off-white lesion lying within the nerve fiber layer several disc diameters temporal to the optic nerve. It has indistinct (“cottony”) borders, lacks a precise shape, and does not layer like lipid exudates. The surrounding retinal vessels appear slightly tortuous but are otherwise intact without associated flame or blot hemorrhages at the lesion site.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "off-white lesion",
+          "description": "discrete, fluffy lesion within the nerve fiber layer with indistinct borders"
+        },
+        {
+          "id": "f2",
+          "label": "tortuous retinal vessels",
+          "description": "surrounding retinal vessels appear slightly tortuous but intact"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:13:13.905650"
+  },
+  {
+    "id": 64460,
+    "original_text": "The image provided is a Color Fundus Photograph (CFP) of the posterior pole of the eye. In CFPs, clinicians assess the optic disc appearance, the caliber and course of retinal vessels, the presence of hemorrhages, exudates, cotton-wool spots, and changes in the macula and peripheral retina. Specifically in this photograph, the optic disc appears slightly hyperemic with a blurred nasal border. The arterioles show generalized narrowing and increased light reflex (“copper wiring”), and there is focal arteriovenous nicking where arterioles cross venules. Scattered flame-shaped hemorrhages and small cotton-wool spots are visible in the mid-periphery. Hard exudates appear in a few clusters near the macula.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hyperemic optic disc",
+          "description": "slightly hyperemic appearance with a blurred nasal border"
+        },
+        {
+          "id": "f2",
+          "label": "generalized arteriolar narrowing",
+          "description": "narrowing of arterioles with increased light reflex ('copper wiring')"
+        },
+        {
+          "id": "f3",
+          "label": "focal arteriovenous nicking",
+          "description": "nicking observed where arterioles cross venules"
+        },
+        {
+          "id": "f4",
+          "label": "flame-shaped hemorrhages",
+          "description": "scattered flame-shaped hemorrhages visible in the mid-periphery"
+        },
+        {
+          "id": "f5",
+          "label": "cotton-wool spots",
+          "description": "small cotton-wool spots visible in the mid-periphery"
+        },
+        {
+          "id": "f6",
+          "label": "hard exudates",
+          "description": "clusters of hard exudates near the macula"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-22 16:13:25.746298"
+  }
+]

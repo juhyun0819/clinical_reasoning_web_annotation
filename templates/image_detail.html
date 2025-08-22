@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ophthalmology Picture Labeling -{{ current_image.filename }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <div class="flex min-h-screen">
+        <!-- 왼쪽 사이드바 -->
+        <div class="w-72 bg-white border-r border-gray-200 p-6 fixed h-screen overflow-y-auto">
+            <div class="mb-8 pb-6 border-b border-gray-200">
+                <h1 class="text-2xl font-semibold text-gray-900 cursor-pointer hover:text-blue-600 transition-colors duration-200" onclick="window.location.href='/'">Ophthalmology Picture Labeling</h1>
+            </div>
+            
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">카테고리</h3>
+                    <div class="space-y-1">
+                        {% for category in categories %}
+                        <div class="category-item flex items-center px-4 py-3 rounded-lg cursor-pointer transition-colors duration-200 hover:bg-gray-50 {% if category.id == selected_category.id %}bg-gray-100 text-gray-700{% endif %}" 
+                             data-category-id="{{ category.id }}">
+                            <i class="fas fa-folder text-gray-400 mr-3 w-5 text-center"></i>
+                            <span class="text-sm">{{ category.name }}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 메인 콘텐츠 영역 -->
+        <div class="flex-1 ml-72 p-8">
+            <!-- 상단 헤더 -->
+            <div class="flex justify-between items-center mb-8">
+                <div class="flex items-center gap-4">
+                    <a href="/" class="text-blue-600 hover:text-blue-800 transition-colors duration-200">
+                        <i class="fas fa-arrow-left mr-2"></i>목록으로 돌아가기
+                    </a>
+                    <span class="text-gray-400">|</span>
+                    <span class="text-sm text-gray-600">{{ selected_category.name }}</span>
+                </div>
+                
+                
+            </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
+                    <div class="flex h-2/3">
+                        <!-- 왼쪽 이미지 영역 (고정) -->
+                        <div class="flex-1 p-6 bg-gray-50 flex flex-col">
+                            <!-- 이미지 정보 헤더 -->
+                            <div class="mb-4 flex-shrink-0">
+                                <h2 class="text-2xl font-semibold text-gray-900 mb-2">{{ selected_category.name }}</h2>
+                                <p class="text-xl text-gray-500">
+                                    {% if current_image.id != 'N/A' %}
+                                        ID: {{ current_image.id }}
+                                    {% else %}
+                                        {{ current_image.filename }}
+                                    {% endif %}
+                                </p>
+                            </div>
+                            
+                            <!-- 이미지 (고정) -->
+                            <div class="flex-1 flex items-center justify-center">
+                                <img id="detail-image" src="{{ current_image.path }}" alt="{{ current_image.filename }}" class="max-w-full max-h-full object-contain rounded-lg">
+                            </div>
+                        </div>
+                        
+                    <!-- 오른쪽 텍스트 에디터 영역 (스크롤) -->
+                    <div class="flex-1 p-6 border-l border-gray-200 overflow-y-auto max-h-screen">
+                            
+                            <!-- 이미지 라벨 일치 여부 질문 -->
+                            {% if extracted_features and extracted_features.extracted_features.features %}
+                            <div class="feature-question bg-blue-50 p-4 rounded-lg border border-blue-200 mb-6" data-feature-id="image_label_match">
+                                <div class="mb-4">
+                                    <h4 class="text-lg font-semibold text-blue-900 mb-2">이미지의 실제 진단과 라벨이 일치하는지 확인해주세요.</h4>
+                                </div>
+                                
+                                <!-- 선택지 -->
+                                <div class="mb-4">
+                                    <div class="flex gap-8">
+                                        <label class="flex items-center">
+                                            <input type="radio" name="feature_image_label_match" value="yes" class="mr-2 text-blue-600">
+                                            <span class="text-sm text-blue-700">Yes</span>
+                                        </label>
+                                        <label class="flex items-center">
+                                            <input type="radio" name="feature_image_label_match" value="no" class="mr-2 text-blue-600">
+                                            <span class="text-sm text-blue-700">No</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <!-- No일 때 다른 병명 입력란 -->
+                                <div class="mb-4" id="alternative-diagnosis" style="display: none;">
+                                    <div class="flex items-center gap-2 mb-2">
+                                        <span class="text-sm text-blue-700">실제 진단명을 입력해주세요:</span>
+                                        <textarea 
+                                            class="flex-1 px-3 py-2 border border-blue-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm" 
+                                            rows="1" 
+                                            placeholder="예 : NPDR"
+                                            data-feature-reason="image_label_match"
+                                        ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                            
+                            <!-- 특징 질문 영역 -->
+                            <div id="features-questions" class="space-y-6">
+                                {% if extracted_features and extracted_features.extracted_features.features %}
+                                    {% for feature in extracted_features.extracted_features.features %}
+                                    <div class="feature-question bg-gray-50 p-4 rounded-lg border border-gray-200" data-feature-id="{{ feature.id }}">
+                                        <div class="mb-4">
+                                            <h4 class="text-lg font-semibold text-gray-900 mb-2">
+                                                {{ feature.label }}
+                                            </h4>
+                                            <p class="text-sm text-gray-600 leading-relaxed">
+                                                {{ feature.description }}
+                                            </p>
+                                        </div>
+                                        
+                                        <!-- 선택지 -->
+                                        <div class="mb-4">
+                                            <div class="flex gap-6">
+                                                <label class="flex items-center">
+                                                    <input type="radio" name="feature_{{ feature.id }}" value="yes" class="mr-2 text-blue-600">
+                                                    <span class="text-sm text-gray-700">Yes</span>
+                                                </label>
+                                                <label class="flex items-center">
+                                                    <input type="radio" name="feature_{{ feature.id }}" value="feature_없음" class="mr-2 text-blue-600">
+                                                    <span class="text-sm text-gray-700">No Feature</span>
+                                                </label>
+                                                <label class="flex items-center">
+                                                    <input type="radio" name="feature_{{ feature.id }}" value="description_틀림" class="mr-2 text-blue-600">
+                                                    <span class="text-sm text-gray-700">Wrong Description</span>
+                                                </label>
+                                                <label class="flex items-center">
+                                                    <input type="radio" name="feature_{{ feature.id }}" value="기타" class="mr-2 text-blue-600">
+                                                    <span class="text-sm text-gray-700">기타</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- 기타 선택 시 입력란 -->
+                                        <div class="mb-4" id="other-reason-{{ feature.id }}" style="display: none;">
+                                            <div class="flex items-center gap-2 mb-2">
+                                                <span class="text-sm text-gray-700">기타 사유를 입력해주세요:</span>
+                                                <textarea 
+                                                    class="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm" 
+                                                    rows="1" 
+                                                    placeholder="기타 사유 입력..."
+                                                    data-feature-reason="{{ feature.id }}"
+                                                ></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                {% else %}
+                                    <div class="text-center py-6 text-gray-500">
+                                        <p class="text-sm">이 이미지에 대한 특징 데이터가 없습니다.</p>
+                                    </div>
+                                {% endif %}
+                            </div>
+                            
+                            <div class="mt-6 pt-4 border-t border-gray-200">
+                                <div class="flex gap-3">
+                                    <button id="clear-answers" class="px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors duration-200">
+                                        <i class="fas fa-eraser mr-2"></i>모든 답변 초기화
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- 같은 카테고리의 다른 이미지들 -->
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <h3 class="text-lg font-semibold text-gray-900 mb-4">같은 카테고리의 다른 이미지들</h3>
+                    <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-3">
+                        {% for image in images %}
+                        <a href="/image/{{ selected_category.id }}/{{ image.filename }}" class="block">
+                            <div class="image-thumbnail bg-gray-100 rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-200 {% if image.filename == current_image.filename %}ring-2 ring-blue-500{% endif %}">
+                                <div class="w-full h-20 bg-gray-100 flex items-center justify-center overflow-hidden">
+                                    <img src="{{ image.path }}" alt="{{ image.filename }}" loading="lazy" class="w-full h-full object-contain">
+                                </div>
+                                <div class="p-1">
+                                    <div class="text-xs font-medium text-gray-900 truncate text-center">
+                                        {% if image.has_diagnosis %}
+                                            ID: {{ image.diagnosis_id }}
+                                        {% else %}
+                                            {{ image.filename }}
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        {% endfor %}
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/image_detail.js') }}"></script>
+</body>
+</html>

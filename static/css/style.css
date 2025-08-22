@@ -1,0 +1,53 @@
+/* Tailwind CSS 커스텀 스타일 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 커스텀 컴포넌트 스타일 */
+@layer components {
+    /* 이미지 카드 호버 효과 */
+    .image-card {
+        @apply transition-all duration-200 ease-in-out;
+    }
+    
+    /* 이미지 상세보기 애니메이션 */
+#image-detail-view {
+    @apply transition-all duration-300 ease-in-out;
+}
+    
+    /* 사이드바 스크롤바 스타일링 */
+    .sidebar::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    .sidebar::-webkit-scrollbar-track {
+        @apply bg-transparent;
+    }
+    
+    .sidebar::-webkit-scrollbar-thumb {
+        @apply bg-gray-300 rounded-full;
+    }
+    
+    .sidebar::-webkit-scrollbar-thumb:hover {
+        @apply bg-gray-400;
+    }
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .sidebar {
+        @apply w-full relative h-auto;
+    }
+    
+    .main-content {
+        @apply ml-0 p-4;
+    }
+    
+    #image-detail-view .flex {
+        @apply flex-col;
+    }
+    
+    #image-detail-view .border-l {
+        @apply border-l-0 border-t;
+    }
+}
