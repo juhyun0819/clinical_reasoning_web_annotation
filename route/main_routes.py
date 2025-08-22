@@ -179,31 +179,34 @@ def debug_features(diagnosis_id):
 @main_bp.route('/api/feature-answers/<image_name>', methods=['GET'])
 def get_feature_answers(image_name):
     """특정 이미지의 특징 답변을 가져옵니다."""
-    answers = database_service.get_feature_answers(image_name)
-    
-    # 이미지의 총 질문 개수 계산
-    total_questions = 0
-    # 모든 카테고리에서 해당 이미지 찾기
-    for category in image_service.get_categories():
-        category_images = image_service.get_images_in_category(category['id'])
-        for img in category_images:
-            if img['filename'] == image_name:
-                # 해당 이미지의 특징 데이터 확인
-                diagnosis_info = diagnosis_service.get_diagnosis_by_image(category['id'], image_name)
-                if diagnosis_info:
-                    extracted_features = diagnosis_service.get_extracted_features_by_diagnosis_id(diagnosis_info.get('id'))
-                    if extracted_features and extracted_features.get('extracted_features', {}).get('features'):
-                        # 이미지 라벨 일치 여부 질문 1개 + 특징 질문들
-                        total_questions = 1 + len(extracted_features['extracted_features']['features'])
+    try:
+        answers = database_service.get_feature_answers(image_name)
+        
+        # 이미지의 총 질문 개수 계산
+        total_questions = 0
+        # 모든 카테고리에서 해당 이미지 찾기
+        for category in image_service.get_categories():
+            category_images = image_service.get_images_in_category(category['id'])
+            for img in category_images:
+                if img['filename'] == image_name:
+                    # 해당 이미지의 특징 데이터 확인
+                    diagnosis_info = diagnosis_service.get_diagnosis_by_image(category['id'], image_name)
+                    if diagnosis_info:
+                        extracted_features = diagnosis_service.get_extracted_features_by_diagnosis_id(diagnosis_info.get('id'))
+                        if extracted_features and extracted_features.get('extracted_features', {}).get('features'):
+                            # 이미지 라벨 일치 여부 질문 1개 + 특징 질문들
+                            total_questions = 1 + len(extracted_features['extracted_features']['features'])
+                    break
+            if total_questions > 0:
                 break
-        if total_questions > 0:
-            break
-    
-    return jsonify({
-        'answers': answers,
-        'total_questions': total_questions,
-        'answered_questions': len(answers) if answers else 0
-    })
+        
+        return jsonify({
+            'answers': answers,
+            'total_questions': total_questions,
+            'answered_questions': len(answers) if answers else 0
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @main_bp.route('/api/feature-answers/<image_name>', methods=['POST'])
 def save_feature_answers(image_name):
@@ -372,11 +375,4 @@ def admin_answers():
         print(f"답변 요약 페이지 로드 오류: {e}")
         return "답변 요약을 불러올 수 없습니다.", 500
 
-@main_bp.route('/api/feature-answers/<image_name>')
-def get_feature_answers(image_name):
-    """특정 이미지의 특징 답변을 가져오는 API"""
-    try:
-        answers = database_service.get_feature_answers(image_name)
-        return jsonify({'answers': answers})
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+
