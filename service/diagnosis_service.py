@@ -13,10 +13,10 @@ class DiagnosisService:
             with open(self.json_file_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except FileNotFoundError:
-            print(f"진단 데이터 파일을 찾을 수 없습니다: {self.json_file_path}")
+            #print(f"진단 데이터 파일을 찾을 수 없습니다: {self.json_file_path}")
             return []
         except json.JSONDecodeError:
-            print(f"JSON 파일 파싱 오류: {self.json_file_path}")
+            #print(f"JSON 파일 파싱 오류: {self.json_file_path}")
             return []
     
     def _normalize_diagnosis_name(self, diagnosis_name: str) -> str:
@@ -30,28 +30,28 @@ class DiagnosisService:
     
     def get_diagnosis_by_image(self, category_id: str, filename: str) -> Optional[Dict]:
         """이미지 파일명과 카테고리 ID로 진단 정보를 찾습니다."""
-        print(f"🔍 진단 정보 검색: 카테고리={category_id}, 파일명={filename}")
+        #print(f"🔍 진단 정보 검색: 카테고리={category_id}, 파일명={filename}")
         
         # 먼저 파일명으로만 찾기 (더 정확함)
         for item in self.diagnosis_data:
             if self._extract_filename_from_path(item.get('image', '')) == filename:
-                print(f"✅ 파일명으로 찾음: {filename}")
+                #print(f"✅ 파일명으로 찾음: {filename}")
                 return item
         
-        print(f"❌ 파일명으로 찾을 수 없음: {filename}")
+        #print(f"❌ 파일명으로 찾을 수 없음: {filename}")
         
         # 파일명으로 못 찾으면 카테고리와 함께 찾기
         # 카테고리 ID 정규화 (폴더명 -> 진단명)
         normalized_category = category_id.replace('_', ' ').replace('(', '').replace(')', '')
-        print(f"🔍 정규화된 카테고리: '{normalized_category}'")
+        #print(f"🔍 정규화된 카테고리: '{normalized_category}'")
         
         for item in self.diagnosis_data:
             if (item.get('revised_answer_final') == normalized_category and 
                 self._extract_filename_from_path(item.get('image', '')) == filename):
-                print(f"✅ 카테고리와 파일명으로 찾음")
+                # print(f"✅ 카테고리와 파일명으로 찾음")
                 return item
         
-        print(f"❌ 진단 정보를 찾을 수 없음")
+        #print(f"❌ 진단 정보를 찾을 수 없음")
         return None
     
     def get_diagnosis_by_filename(self, filename: str) -> Optional[Dict]:
@@ -69,21 +69,21 @@ class DiagnosisService:
         try:
             # 현재 작업 디렉토리 기준으로 상대 경로 설정
             features_file_path = os.path.join(os.path.dirname(__file__), 'extracted_features.json')
-            print(f"특징 데이터 파일 경로: {features_file_path}")
+            #print(f"특징 데이터 파일 경로: {features_file_path}")
             
             with open(features_file_path, 'r', encoding='utf-8') as f:
                 features_data = json.load(f)
-                print(f"특징 데이터 파일 로드 성공: {len(features_data)}개 항목")
+                #print(f"특징 데이터 파일 로드 성공: {len(features_data)}개 항목")
                 
                 for item in features_data:
                     if item.get('id') == diagnosis_id:
-                        print(f"ID {diagnosis_id}에 대한 특징 데이터 찾음")
+                        #print(f"ID {diagnosis_id}에 대한 특징 데이터 찾음")
                         return item
                 
-                print(f"ID {diagnosis_id}에 대한 특징 데이터를 찾을 수 없습니다.")
+                #print(f"ID {diagnosis_id}에 대한 특징 데이터를 찾을 수 없습니다.")
                 return None
         except Exception as e:
-            print(f"extracted_features.json 읽기 오류: {e}")
+            #print(f"extracted_features.json 읽기 오류: {e}")
             import traceback
             traceback.print_exc()
             return None

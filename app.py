@@ -11,4 +11,5 @@ def create_app():
 
 if __name__ == '__main__':
     app = create_app()
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # debug=True로 하되 use_reloader=False로 설정하여 자동 리로드 비활성화
+    app.run(debug=True, host='0.0.0.0', port=5000, use_reloader=False)

@@ -1,8 +1,9 @@
-from flask import Blueprint, render_template, jsonify, send_from_directory, redirect
+from flask import Blueprint, render_template, jsonify, send_from_directory, redirect, request
 from service.image_service import ImageService
 from service.diagnosis_service import DiagnosisService
 from service.database_service import DatabaseService
 import os
+from datetime import datetime, timedelta
 
 main_bp = Blueprint('main', __name__)
 image_service = ImageService()
@@ -12,7 +13,6 @@ database_service = DatabaseService()
 @main_bp.route('/')
 def index():
     """메인 페이지 - 카테고리 목록과 모든 이미지들을 표시"""
-    from flask import request
     
     categories = image_service.get_categories()
     if not categories:
@@ -208,7 +208,6 @@ def get_feature_answers(image_name):
 @main_bp.route('/api/feature-answers/<image_name>', methods=['POST'])
 def save_feature_answers(image_name):
     """특정 이미지의 특징 답변을 저장합니다."""
-    from flask import request
     
     data = request.get_json()
     if not data or 'answers' not in data:
@@ -246,3 +245,72 @@ def delete_feature_answers(image_name):
         return jsonify({'success': True})
     else:
         return jsonify({'error': 'Failed to delete answers'}), 500
+
+@main_bp.route('/api/log-activity', methods=['POST'])
+def log_answer_activity():
+    """답변 활동을 로그로 기록합니다."""
+    try:
+        data = request.get_json()
+        if not data or 'action' not in data:
+            return jsonify({'error': 'Invalid data'}), 400
+        
+        # 답변 활동 로그 기록
+        success = database_service.log_answer_activity(
+            image_name=data.get('image_name', 'unknown'),
+            action=data['action'],
+            feature_id=data.get('feature_id'),
+            answer=data.get('answer'),
+            is_checked=data.get('is_checked'),
+            element_type=data.get('element_type'),
+            form_id=data.get('form_id'),
+            form_action=data.get('form_action')
+        )
+        
+        if success:
+            return jsonify({'success': True})
+        else:
+            return jsonify({'error': 'Failed to log activity'}), 500
+            
+    except Exception as e:
+        print(f"답변 활동 로그 기록 오류: {e}")
+        return jsonify({'error': 'Internal server error'}), 500
+
+@main_bp.route('/admin/logs')
+def admin_logs():
+    """관리자용 답변 활동 로그 페이지"""
+    try:
+        # 페이지네이션 파라미터
+        page = request.args.get('page', 1, type=int)
+        per_page = 50
+        
+        # 로그 데이터 가져오기
+        offset = (page - 1) * per_page
+        logs = database_service.get_answer_activity_logs(limit=per_page, offset=offset)
+        total_logs = database_service.get_answer_logs_count()
+        
+        # 통계 계산
+        answer_check_count = sum(1 for log in logs if log['action'] == 'answer_check')
+        form_submit_count = sum(1 for log in logs if log['action'] == 'form_submit')
+        
+        # 오늘 로그 개수 계산
+        today = datetime.now().date()
+        today_logs = database_service.get_answer_activity_logs(limit=1000, offset=0)
+        today_count = sum(1 for log in today_logs 
+                         if datetime.fromisoformat(log['timestamp']).date() == today)
+        
+        # 페이지네이션 계산
+        total_pages = (total_logs + per_page - 1) // per_page
+        
+        return render_template('admin_logs.html',
+                             logs=logs,
+                             total_logs=total_logs,
+                             answer_check_count=answer_check_count,
+                             form_submit_count=form_submit_count,
+                             today_count=today_count,
+                             page=page,
+                             per_page=per_page,
+                             total_pages=total_pages)
+                             
+    except Exception as e:
+        print(f"답변 활동 로그 페이지 로드 오류: {e}")
+        return "로그를 불러올 수 없습니다.", 500

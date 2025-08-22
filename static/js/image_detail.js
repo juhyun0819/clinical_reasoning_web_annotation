@@ -295,6 +295,14 @@ function clearFeatureAnswers() {
     .then(response => response.json())
     .then(data => {
         if (data.success) {
+            // 답변 삭제 로그 기록
+            if (window.logAnswerActivity) {
+                window.logAnswerActivity('answer_delete', {
+                    image_name: imageName,
+                    action: 'clear_all_answers'
+                });
+            }
+            
             // UI 초기화
             const featureQuestions = document.querySelectorAll('.feature-question');
             

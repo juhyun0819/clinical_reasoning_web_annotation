@@ -61,7 +61,7 @@
                 <!-- 특정 카테고리 선택 시 -->
                 <div id="images-grid" class="images-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
                     {% for image in images %}
-                        ]<div class="image-card bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 cursor-pointer hover:-translate-y-1 relative" 
+                        <div class="image-card bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 cursor-pointer hover:-translate-y-1 relative" 
                          data-image-path="{{ image.path }}" 
                          data-image-name="{{ image.filename }}" 
                          data-category-id="{{ selected_category.id }}"
@@ -141,5 +141,6 @@
 
 
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/activity_logger.js') }}"></script>
 </body>
 </html>
