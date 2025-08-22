@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 - 답변 요약</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen">
+        <!-- 헤더 -->
+        <header class="bg-white shadow-sm border-b">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center py-4">
+                    <div class="flex items-center space-x-4">
+                        <h1 class="text-2xl font-bold text-gray-900">
+                            <i class="fas fa-chart-bar text-blue-600 mr-2"></i>
+                            답변 요약 관리
+                        </h1>
+                    </div>
+                    <nav class="flex space-x-4">
+                        <a href="/admin/logs" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+                            <i class="fas fa-list mr-1"></i>활동 로그
+                        </a>
+                        <a href="/admin/answers" class="bg-blue-100 text-blue-700 px-3 py-2 rounded-md text-sm font-medium">
+                            <i class="fas fa-chart-bar mr-1"></i>답변 요약
+                        </a>
+                        <a href="/" class="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+                            <i class="fas fa-home mr-1"></i>홈
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- 메인 콘텐츠 -->
+        <main class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+            <!-- 통계 카드 -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div class="bg-white overflow-hidden shadow rounded-lg">
+                    <div class="p-5">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-images text-3xl text-blue-600"></i>
+                            </div>
+                            <div class="ml-5 w-0 flex-1">
+                                <dl>
+                                    <dt class="text-sm font-medium text-gray-500 truncate">총 이미지</dt>
+                                    <dd class="text-lg font-medium text-gray-900">{{ total_images }}</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white overflow-hidden shadow rounded-lg">
+                    <div class="p-5">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-comments text-3xl text-green-600"></i>
+                            </div>
+                            <div class="ml-5 w-0 flex-1">
+                                <dl>
+                                    <dt class="text-sm font-medium text-gray-500 truncate">총 답변</dt>
+                                    <dd class="text-lg font-medium text-gray-900">{{ total_answers }}</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white overflow-hidden shadow rounded-lg">
+                    <div class="p-5">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-filter text-3xl text-purple-600"></i>
+                            </div>
+                            <div class="ml-5 w-0 flex-1">
+                                <dl>
+                                    <dt class="text-sm font-medium text-gray-500 truncate">현재 필터</dt>
+                                    <dd class="text-lg font-medium text-gray-900">
+                                        {% if diagnosis_filter %}{{ diagnosis_filter }}{% else %}전체{% endif %}
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 답변 요약 테이블 -->
+            <div class="bg-white shadow overflow-hidden sm:rounded-md">
+                <div class="px-4 py-5 sm:px-6">
+                    <h3 class="text-lg leading-6 font-medium text-gray-900">
+                        이미지별 답변 요약
+                    </h3>
+                    <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                        각 이미지의 특징별 최종 답변을 확인할 수 있습니다.
+                    </p>
+                </div>
+                
+                {% if summaries %}
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    이미지 정보
+                                </th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    진단 라벨
+                                </th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    답변 개수
+                                </th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    최종 업데이트
+                                </th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    상세 보기
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            {% for summary in summaries %}
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <div class="flex-shrink-0 h-10 w-10">
+                                            <div class="h-10 w-10 rounded-full bg-gray-300 flex items-center justify-center">
+                                                <i class="fas fa-image text-gray-600"></i>
+                                            </div>
+                                        </div>
+                                        <div class="ml-4">
+                                            <div class="text-sm font-medium text-gray-900">
+                                                {{ summary.image_name }}
+                                            </div>
+                                            <div class="text-sm text-gray-500">
+                                                ID: {{ summary.diagnosis_id }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                                        {{ summary.diagnosis_label }}
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    {{ summary.total_answers }}개
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    {{ summary.last_updated[:19] if summary.last_updated else 'N/A' }}
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                    <div class="flex space-x-2">
+                                                                                 <button onclick="showAnswerDetailsSimple('{{ summary.image_name | e }}', '{{ summary.diagnosis_label | e }}')" 
+                                                 class="text-blue-600 hover:text-blue-900 bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-md text-xs">
+                                             <i class="fas fa-eye mr-1"></i>상세보기
+                                         </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 페이지네이션 -->
+                {% if total_pages > 1 %}
+                <div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
+                    <div class="flex-1 flex justify-between sm:hidden">
+                        {% if page > 1 %}
+                        <a href="?page={{ page - 1 }}{% if diagnosis_filter %}&diagnosis={{ diagnosis_filter }}{% endif %}" 
+                           class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                            이전
+                        </a>
+                        {% endif %}
+                        {% if page < total_pages %}
+                        <a href="?page={{ page + 1 }}{% if diagnosis_filter %}&diagnosis={{ diagnosis_filter }}{% endif %}" 
+                           class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                            다음
+                        </a>
+                        {% endif %}
+                    </div>
+                    <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+                        <div>
+                            <p class="text-sm text-gray-700">
+                                <span class="font-medium">{{ (page - 1) * per_page + 1 }}</span>
+                                에서
+                                <span class="font-medium">{{ min(page * per_page, total_images) }}</span>
+                                까지 (총 <span class="font-medium">{{ total_images }}</span>개)
+                            </p>
+                        </div>
+                        <div>
+                            <nav class="relative z-0 inline-flex rounded-md shadow-sm -space-x-px">
+                                {% if page > 1 %}
+                                <a href="?page={{ page - 1 }}{% if diagnosis_filter %}&diagnosis={{ diagnosis_filter }}{% endif %}" 
+                                   class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                {% endif %}
+                                
+                                {% for p in range(max(1, page - 2), min(total_pages + 1, page + 3)) %}
+                                <a href="?page={{ p }}{% if diagnosis_filter %}&diagnosis={{ diagnosis_filter }}{% endif %}" 
+                                   class="relative inline-flex items-center px-4 py-2 border text-sm font-medium {% if p == page %}bg-blue-50 border-blue-500 text-blue-600{% else %}bg-white border-gray-300 text-gray-500 hover:bg-gray-50{% endif %}">
+                                    {{ p }}
+                                </a>
+                                {% endfor %}
+                                
+                                {% if page < total_pages %}
+                                <a href="?page={{ page + 1 }}{% if diagnosis_filter %}&diagnosis={{ diagnosis_filter }}{% endif %}" 
+                                   class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                                {% endif %}
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+
+                {% else %}
+                <div class="text-center py-12">
+                    <i class="fas fa-inbox text-4xl text-gray-400 mb-4"></i>
+                    <h3 class="text-lg font-medium text-gray-900 mb-2">답변 데이터가 없습니다</h3>
+                    <p class="text-gray-500">아직 답변된 이미지가 없거나 필터 조건에 맞는 데이터가 없습니다.</p>
+                </div>
+                {% endif %}
+            </div>
+        </main>
+    </div>
+
+    <!-- 답변 상세 모달 -->
+    <div id="answerModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full hidden z-50">
+        <div class="relative top-20 mx-auto p-5 border w-11/12 md:w-3/4 lg:w-1/2 shadow-lg rounded-md bg-white">
+            <div class="mt-3">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="text-xl font-semibold text-gray-900" id="modalTitle">답변 상세</h3>
+                    <button onclick="closeAnswerModal()" class="text-gray-400 hover:text-gray-600 p-2 rounded-full hover:bg-gray-100">
+                        <i class="fas fa-times text-xl"></i>
+                    </button>
+                </div>
+                <div id="modalContent" class="max-h-[70vh] overflow-y-auto pr-2">
+                    <!-- 모달 내용이 여기에 동적으로 로드됩니다 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 페이지 로드 시 초기화
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Admin answers page loaded');
+            
+            // 모달 요소들 확인
+            const modal = document.getElementById('answerModal');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalContent = document.getElementById('modalContent');
+            
+            if (!modal || !modalTitle || !modalContent) {
+                console.error('Modal elements not found:', { modal, modalTitle, modalContent });
+            } else {
+                console.log('Modal elements found successfully');
+            }
+        });
+        
+        function showAnswerDetails(imageName, diagnosisLabel, answers) {
+            console.log('=== showAnswerDetails START ===');
+            console.log('imageName:', imageName);
+            console.log('diagnosisLabel:', diagnosisLabel);
+            console.log('answers:', answers);
+            console.log('answers type:', typeof answers);
+            
+            try {
+                const modal = document.getElementById('answerModal');
+                const modalTitle = document.getElementById('modalTitle');
+                const modalContent = document.getElementById('modalContent');
+                
+                console.log('Modal elements:', { modal, modalTitle, modalContent });
+                
+                if (!modal || !modalTitle || !modalContent) {
+                    console.error('Modal elements not found');
+                    alert('모달 요소를 찾을 수 없습니다. 페이지를 새로고침해주세요.');
+                    return;
+                }
+                
+                // 모달 제목 설정
+                modalTitle.textContent = `${imageName} - 답변 상세`;
+                
+                let content = '<div class="space-y-4">';
+                
+                // 이미지 정보 헤더
+                content += `
+                    <div class="bg-blue-50 p-4 rounded-md border-l-4 border-blue-400">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <div class="font-semibold text-blue-900">이미지명</div>
+                                <div class="text-blue-700">${imageName || 'N/A'}</div>
+                            </div>
+                            <div class="text-right">
+                                <div class="font-semibold text-blue-900">진단 라벨</div>
+                                <div class="text-blue-700">${diagnosisLabel || 'N/A'}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                // 답변 데이터가 있는지 확인
+                if (!answers || typeof answers !== 'object' || Object.keys(answers).length === 0) {
+                    content += `
+                        <div class="text-center py-8">
+                            <i class="fas fa-inbox text-4xl text-gray-400 mb-4"></i>
+                            <div class="text-gray-500">답변 데이터가 없습니다.</div>
+                            <div class="text-sm text-gray-400 mt-2">아직 이 이미지에 대한 답변이 기록되지 않았습니다.</div>
+                        </div>
+                    `;
+                } else {
+                    // 답변 요약
+                    const totalAnswers = Object.keys(answers).length;
+                    content += `
+                        <div class="bg-green-50 p-3 rounded-md border-l-4 border-green-400">
+                            <div class="flex items-center">
+                                <i class="fas fa-chart-bar text-green-600 mr-2"></i>
+                                <span class="font-medium text-green-800">총 ${totalAnswers}개의 특징에 대한 답변이 있습니다</span>
+                            </div>
+                        </div>
+                    `;
+                    
+                    // 각 특징별 답변 상세
+                    content += '<div class="space-y-3">';
+                    for (const [featureId, answerData] of Object.entries(answers)) {
+                        console.log('Processing feature:', featureId, answerData);
+                        
+                        const isChecked = answerData && answerData.is_checked;
+                        const checkIcon = isChecked ? 'fas fa-check text-green-600' : 'fas fa-times text-red-600';
+                        const checkColor = isChecked ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800';
+                        const checkText = isChecked ? 'Checked' : 'Unchecked';
+                        
+                        content += `
+                            <div class="border rounded-lg p-4 hover:shadow-md transition-shadow duration-200">
+                                <div class="flex items-center justify-between mb-3">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-tag text-blue-500 mr-2"></i>
+                                        <span class="font-semibold text-gray-900 text-lg">${featureId || 'Unknown'}</span>
+                                    </div>
+                                    <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${checkColor}">
+                                        <i class="${checkIcon} mr-1"></i>${checkText}
+                                    </span>
+                                </div>
+                                
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div class="bg-gray-50 p-3 rounded-md">
+                                        <div class="font-medium text-gray-700 mb-1">답변 내용</div>
+                                        <div class="text-gray-900">${answerData && answerData.answer ? answerData.answer : 'N/A'}</div>
+                                    </div>
+                                    
+                                    <div class="bg-gray-50 p-3 rounded-md">
+                                        <div class="font-medium text-gray-700 mb-1">답변 시간</div>
+                                        <div class="text-gray-900">${answerData && answerData.timestamp ? answerData.timestamp.substring(0, 19).replace('T', ' ') : 'N/A'}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }
+                    content += '</div>';
+                }
+                
+                content += '</div>';
+                
+                // 모달 내용 설정
+                modalContent.innerHTML = content;
+                
+                // 모달 표시
+                modal.classList.remove('hidden');
+                
+                console.log('Modal content updated successfully');
+                console.log('Modal should now be visible');
+                
+            } catch (error) {
+                console.error('Error in showAnswerDetails:', error);
+                alert('상세보기를 불러오는 중 오류가 발생했습니다: ' + error.message);
+            }
+            
+            console.log('=== showAnswerDetails END ===');
+        }
+        
+        function closeAnswerModal() {
+            console.log('Closing modal');
+            const modal = document.getElementById('answerModal');
+            if (modal) {
+                modal.classList.add('hidden');
+                console.log('Modal closed');
+            }
+        }
+        
+        // 모달 외부 클릭 시 닫기
+        document.addEventListener('click', function(e) {
+            const modal = document.getElementById('answerModal');
+            if (modal && e.target === modal) {
+                closeAnswerModal();
+            }
+        });
+        
+        // ESC 키로 모달 닫기
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeAnswerModal();
+            }
+        });
+        
+        // 테스트용 함수
+        function testModal() {
+            console.log('Testing modal...');
+            showAnswerDetails('테스트 이미지', '테스트 진단', {
+                'feature1': { answer: '테스트 답변', timestamp: '2024-01-01T12:00:00', is_checked: true },
+                'feature2': { answer: '테스트 답변2', timestamp: '2024-01-01T13:00:00', is_checked: false }
+            });
+        }
+        
+        // 간단한 상세보기 함수 (모달 테스트 버튼과 비슷하게)
+        function showAnswerDetailsSimple(imageName, diagnosisLabel) {
+            console.log('=== showAnswerDetailsSimple START ===');
+            console.log('imageName:', imageName);
+            console.log('diagnosisLabel:', diagnosisLabel);
+            
+            try {
+                const modal = document.getElementById('answerModal');
+                const modalTitle = document.getElementById('modalTitle');
+                const modalContent = document.getElementById('modalContent');
+                
+                if (!modal || !modalTitle || !modalContent) {
+                    console.error('Modal elements not found');
+                    alert('모달 요소를 찾을 수 없습니다. 페이지를 새로고침해주세요.');
+                    return;
+                }
+                
+                // 모달 제목 설정
+                modalTitle.textContent = `${imageName} - 답변 상세`;
+                
+                // 실제 데이터를 가져오기 위해 AJAX 요청
+                fetch(`/api/feature-answers/${encodeURIComponent(imageName)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log('Fetched data:', data);
+                        
+                        let content = `
+                            <div class="space-y-4">
+                                <div class="bg-blue-50 p-4 rounded-md border-l-4 border-blue-400">
+                                    <div class="flex items-center justify-between">
+                                        <div>
+                                            <div class="font-semibold text-blue-900">이미지명</div>
+                                            <div class="text-blue-700">${imageName || 'N/A'}</div>
+                                        </div>
+                                        <div class="text-right">
+                                            <div class="font-semibold text-blue-900">진단 라벨</div>
+                                            <div class="text-blue-700">${diagnosisLabel || 'N/A'}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        `;
+                        
+                        if (data && data.answers && Object.keys(data.answers).length > 0) {
+                            // 답변 데이터가 있는 경우
+                            const totalAnswers = Object.keys(data.answers).length;
+                            content += `
+                                <div class="bg-green-50 p-3 rounded-md border-l-4 border-green-400">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-chart-bar text-green-600 mr-2"></i>
+                                        <span class="font-medium text-green-800">총 ${totalAnswers}개의 특징에 대한 답변이 있습니다</span>
+                                    </div>
+                                </div>
+                            `;
+                            
+                            // 각 특징별 답변 상세
+                            content += '<div class="space-y-3">';
+                            for (const [featureId, answerData] of Object.entries(data.answers)) {
+                                console.log('Processing feature:', featureId, answerData);
+                                
+                                content += `
+                                    <div class="border rounded-lg p-4 hover:shadow-md transition-shadow duration-200">
+                                        <div class="flex items-center justify-between mb-3">
+                                            <div class="flex items-center">
+                                                <i class="fas fa-tag text-blue-500 mr-2"></i>
+                                                <span class="font-semibold text-gray-900 text-lg">${featureId || 'Unknown'}</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            <div class="bg-gray-50 p-3 rounded-md">
+                                                <div class="font-medium text-gray-700 mb-1">답변 내용</div>
+                                                <div class="text-gray-900">${answerData && answerData.answer ? answerData.answer : 'N/A'}</div>
+                                            </div>
+                                            
+                                            <div class="bg-gray-50 p-3 rounded-md">
+                                                <div class="font-medium text-gray-700 mb-1">답변 시간</div>
+                                                <div class="text-gray-900">${answerData && answerData.timestamp ? answerData.timestamp.substring(0, 19).replace('T', ' ') : 'N/A'}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                `;
+                            }
+                            content += '</div>';
+                        } else {
+                            // 답변 데이터가 없는 경우
+                            content += `
+                                <div class="text-center py-8">
+                                    <i class="fas fa-inbox text-4xl text-gray-400 mb-4"></i>
+                                    <div class="text-gray-500">답변 데이터가 없습니다.</div>
+                                    <div class="text-sm text-gray-400 mt-2">아직 이 이미지에 대한 답변이 기록되지 않았습니다.</div>
+                                </div>
+                            `;
+                        }
+                        
+                        content += `
+                            <div class="text-center py-4">
+                                <button onclick="closeAnswerModal()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md">
+                                    닫기
+                                </button>
+                            </div>
+                        </div>
+                        `;
+                        
+                        modalContent.innerHTML = content;
+                        console.log('Modal content updated with real data');
+                        
+                    })
+                    .catch(error => {
+                        console.error('Error fetching data:', error);
+                        // 에러 발생 시 기본 내용 표시
+                        let errorContent = `
+                            <div class="space-y-4">
+                                <div class="bg-blue-50 p-4 rounded-md border-l-4 border-blue-400">
+                                    <div class="flex items-center justify-between">
+                                        <div>
+                                            <div class="font-semibold text-blue-900">이미지명</div>
+                                            <div class="text-blue-700">${imageName || 'N/A'}</div>
+                                        </div>
+                                        <div class="text-right">
+                                            <div class="font-semibold text-blue-900">진단 라벨</div>
+                                            <div class="text-blue-700">${diagnosisLabel || 'N/A'}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-red-50 p-4 rounded-md border-l-4 border-red-400">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>
+                                        <span class="font-medium text-red-800">데이터 로딩 오류</span>
+                                    </div>
+                                    <div class="text-sm text-red-700 mt-2">
+                                        답변 데이터를 불러오는 중 오류가 발생했습니다: ${error.message}
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center py-4">
+                                    <button onclick="closeAnswerModal()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md">
+                                        닫기
+                                    </button>
+                                </div>
+                            </div>
+                        `;
+                        modalContent.innerHTML = errorContent;
+                    });
+                
+                modal.classList.remove('hidden');
+                console.log('Modal should now be visible');
+                
+            } catch (error) {
+                console.error('Error in showAnswerDetailsSimple:', error);
+                alert('상세보기를 불러오는 중 오류가 발생했습니다: ' + error.message);
+            }
+            
+            console.log('=== showAnswerDetailsSimple END ===');
+        }
+    </script>
+</body>
+</html>

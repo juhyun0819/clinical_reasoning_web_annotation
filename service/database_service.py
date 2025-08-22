@@ -221,3 +221,90 @@ class DatabaseService:
         except Exception as e:
             print(f"답변 활동 로그 개수 조회 오류: {e}")
             return 0
+    
+    def get_image_answer_summary(self) -> List[Dict]:
+        """이미지별 최종 답변 요약을 가져옵니다 (관리자용)."""
+        try:
+            with sqlite3.connect(self.db_path) as conn:
+                cursor = conn.cursor()
+                
+                # 이미지별로 최종 답변을 그룹화하여 가져오기
+                cursor.execute('''
+                    SELECT 
+                        fa.image_name,
+                        fa.feature_id,
+                        fa.answer,
+                        fa.timestamp,
+                        COALESCE(aal.is_checked, 0) as is_checked
+                    FROM feature_answers fa
+                    LEFT JOIN (
+                        SELECT 
+                            image_name, 
+                            feature_id, 
+                            is_checked
+                        FROM answer_activity_logs 
+                        WHERE action = 'answer_check'
+                    ) aal ON fa.image_name = aal.image_name AND fa.feature_id = aal.feature_id
+                    ORDER BY fa.image_name, fa.timestamp DESC
+                ''')
+                
+                # 결과를 이미지별로 그룹화
+                image_summaries = {}
+                for row in cursor.fetchall():
+                    image_name, feature_id, answer, timestamp, is_checked = row
+                    
+                    if image_name not in image_summaries:
+                        image_summaries[image_name] = {
+                            'image_name': image_name,
+                            'answers': {},
+                            'total_answers': 0,
+                            'last_updated': timestamp
+                        }
+                    
+                    # 각 특징별 최종 답변 저장
+                    if feature_id not in image_summaries[image_name]['answers']:
+                        image_summaries[image_name]['answers'][feature_id] = {
+                            'answer': answer,
+                            'timestamp': timestamp,
+                            'is_checked': is_checked
+                        }
+                        image_summaries[image_name]['total_answers'] += 1
+                    
+                    # 더 최신 답변으로 업데이트
+                    if timestamp > image_summaries[image_name]['answers'][feature_id]['timestamp']:
+                        image_summaries[image_name]['answers'][feature_id] = {
+                            'answer': answer,
+                            'timestamp': timestamp,
+                            'is_checked': is_checked
+                        }
+                
+                # 딕셔너리를 리스트로 변환하고 정렬
+                result = list(image_summaries.values())
+                result.sort(key=lambda x: x['last_updated'], reverse=True)
+                
+                return result
+                
+        except Exception as e:
+            print(f"이미지별 답변 요약 로드 오류: {e}")
+            return []
+    
+    def get_image_answer_summary_by_diagnosis(self, diagnosis_name: str = None) -> List[Dict]:
+        """특정 진단명에 해당하는 이미지들의 답변 요약을 가져옵니다."""
+        try:
+            # 먼저 모든 이미지의 답변 요약을 가져옴
+            all_summaries = self.get_image_answer_summary()
+            
+            if not diagnosis_name:
+                return all_summaries
+            
+            # 진단명으로 필터링 (이미지명에 진단명이 포함된 경우)
+            filtered_summaries = []
+            for summary in all_summaries:
+                if diagnosis_name.lower() in summary['image_name'].lower():
+                    filtered_summaries.append(summary)
+            
+            return filtered_summaries
+                
+        except Exception as e:
+            print(f"진단별 답변 요약 로드 오류: {e}")
+            return []

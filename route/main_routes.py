@@ -314,3 +314,69 @@ def admin_logs():
     except Exception as e:
         print(f"답변 활동 로그 페이지 로드 오류: {e}")
         return "로그를 불러올 수 없습니다.", 500
+
+@main_bp.route('/admin/answers')
+def admin_answers():
+    """관리자용 이미지별 답변 요약 페이지"""
+    try:
+        # 페이지네이션 파라미터
+        page = request.args.get('page', 1, type=int)
+        per_page = 20
+        
+        # 진단명 필터
+        diagnosis_filter = request.args.get('diagnosis', '')
+        
+        # 답변 요약 데이터 가져오기
+        if diagnosis_filter:
+            all_summaries = database_service.get_image_answer_summary_by_diagnosis(diagnosis_filter)
+        else:
+            all_summaries = database_service.get_image_answer_summary()
+        
+        # 페이지네이션 적용
+        total_summaries = len(all_summaries)
+        offset = (page - 1) * per_page
+        summaries = all_summaries[offset:offset + per_page]
+        
+        # 각 이미지에 진단 정보 추가
+        for summary in summaries:
+            # 이미지명으로 진단 정보 찾기
+            image_diagnosis = diagnosis_service.get_diagnosis_by_filename(summary['image_name'])
+            if image_diagnosis:
+                summary['diagnosis_label'] = image_diagnosis.get('revised_answer_final', 'Unknown')
+                summary['diagnosis_id'] = image_diagnosis.get('id', 'N/A')
+            else:
+                summary['diagnosis_label'] = 'Unknown'
+                summary['diagnosis_id'] = 'N/A'
+        
+        # 통계 계산
+        total_images = total_summaries
+        total_answers = sum(summary['total_answers'] for summary in all_summaries)
+        
+        # 페이지네이션 계산
+        total_pages = (total_summaries + per_page - 1) // per_page
+        
+        # 사용 가능한 진단명 목록
+        available_diagnoses = diagnosis_service.get_all_diagnoses()
+        
+        return render_template('admin_answers.html',
+                             summaries=summaries,
+                             total_images=total_images,
+                             total_answers=total_answers,
+                             diagnosis_filter=diagnosis_filter,
+                             available_diagnoses=available_diagnoses,
+                             page=page,
+                             per_page=per_page,
+                             total_pages=total_pages)
+                             
+    except Exception as e:
+        print(f"답변 요약 페이지 로드 오류: {e}")
+        return "답변 요약을 불러올 수 없습니다.", 500
+
+@main_bp.route('/api/feature-answers/<image_name>')
+def get_feature_answers(image_name):
+    """특정 이미지의 특징 답변을 가져오는 API"""
+    try:
+        answers = database_service.get_feature_answers(image_name)
+        return jsonify({'answers': answers})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
