@@ -68,6 +68,11 @@ class DatabaseService:
             with sqlite3.connect(self.db_path) as conn:
                 cursor = conn.cursor()
                 
+                # 답변이나 해설 중 하나라도 있으면 저장
+                if not answer and not reason and not explanation:
+                    print(f"저장 실패: {feature_id} - 모든 필드가 비어있음")
+                    return False
+                
                 # UPSERT 방식으로 저장 (이미 있으면 업데이트, 없으면 삽입)
                 cursor.execute('''
                     INSERT OR REPLACE INTO feature_answers 

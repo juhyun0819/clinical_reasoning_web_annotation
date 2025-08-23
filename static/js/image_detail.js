@@ -137,14 +137,6 @@ function saveFeatureAnswer(featureId) {
     if (!question) return;
     
     const selectedValue = question.querySelector(`input[name="feature_${featureId}"]:checked`);
-    if (!selectedValue) return; // 답변이 선택되지 않았으면 저장하지 않음
-    
-    // 이유 텍스트 안전하게 가져오기
-    let reasonText = '';
-    const reasonElement = question.querySelector(`[data-feature-reason="${featureId}"]`);
-    if (reasonElement) {
-        reasonText = reasonElement.value || '';
-    }
     
     // 해설 텍스트 안전하게 가져오기
     let explanationText = '';
@@ -153,10 +145,26 @@ function saveFeatureAnswer(featureId) {
         explanationText = explanationElement.value || '';
     }
     
+    // 이유 텍스트 안전하게 가져오기 (이미지 라벨 일치 여부 질문용)
+    let reasonText = '';
+    const reasonElement = question.querySelector(`[data-feature-reason="${featureId}"]`);
+    if (reasonElement) {
+        reasonText = reasonElement.value || '';
+    }
+    
+    // 답변이나 해설 중 하나라도 있으면 저장
+    const hasAnswer = selectedValue && selectedValue.value;
+    const hasExplanation = explanationText.trim() !== '';
+    const hasReason = reasonText.trim() !== '';
+    
+    if (!hasAnswer && !hasExplanation && !hasReason) {
+        return; // 아무것도 입력되지 않았으면 저장하지 않음
+    }
+    
     const answerData = {
-        answer: selectedValue.value,
+        answer: hasAnswer ? selectedValue.value : '',
         reason: reasonText,
-        explanation: explanationText, // 해설 추가
+        explanation: explanationText,
         timestamp: new Date().toISOString()
     };
     
