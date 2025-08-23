@@ -226,7 +226,8 @@ def save_feature_answers(image_name):
             image_name, 
             feature_id, 
             answer_data.get('answer', ''),
-            answer_data.get('reason', '')
+            answer_data.get('reason', ''),
+            answer_data.get('explanation', '')
         ):
             success_count += 1
             print(f"특징 {feature_id} 저장 성공")

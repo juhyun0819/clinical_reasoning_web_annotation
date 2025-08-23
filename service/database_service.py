@@ -26,10 +26,18 @@ class DatabaseService:
                         feature_id TEXT NOT NULL,
                         answer TEXT NOT NULL,
                         reason TEXT,
+                        explanation TEXT,
                         timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
                         UNIQUE(image_name, feature_id)
                     )
                 ''')
+                
+                # 기존 테이블에 explanation 컬럼이 없으면 추가
+                cursor.execute("PRAGMA table_info(feature_answers)")
+                columns = [column[1] for column in cursor.fetchall()]
+                if 'explanation' not in columns:
+                    cursor.execute('ALTER TABLE feature_answers ADD COLUMN explanation TEXT')
+                    print("explanation 컬럼이 추가되었습니다.")
                 
                 # 사용자 행동 로그 테이블 생성
                 cursor.execute('''
@@ -54,7 +62,7 @@ class DatabaseService:
         except Exception as e:
             print(f"데이터베이스 초기화 오류: {e}")
     
-    def save_feature_answer(self, image_name: str, feature_id: str, answer: str, reason: str = "") -> bool:
+    def save_feature_answer(self, image_name: str, feature_id: str, answer: str, reason: str = "", explanation: str = "") -> bool:
         """특징 질문 답변을 저장합니다."""
         try:
             with sqlite3.connect(self.db_path) as conn:
@@ -63,9 +71,9 @@ class DatabaseService:
                 # UPSERT 방식으로 저장 (이미 있으면 업데이트, 없으면 삽입)
                 cursor.execute('''
                     INSERT OR REPLACE INTO feature_answers 
-                    (image_name, feature_id, answer, reason, timestamp) 
-                    VALUES (?, ?, ?, ?, ?)
-                ''', (image_name, feature_id, answer, reason, datetime.now().isoformat()))
+                    (image_name, feature_id, answer, reason, explanation, timestamp) 
+                    VALUES (?, ?, ?, ?, ?, ?)
+                ''', (image_name, feature_id, answer, reason, explanation, datetime.now().isoformat()))
                 
                 conn.commit()
                 return True
@@ -81,17 +89,18 @@ class DatabaseService:
                 cursor = conn.cursor()
                 
                 cursor.execute('''
-                    SELECT feature_id, answer, reason, timestamp 
+                    SELECT feature_id, answer, reason, explanation, timestamp 
                     FROM feature_answers 
                     WHERE image_name = ?
                 ''', (image_name,))
                 
                 answers = {}
                 for row in cursor.fetchall():
-                    feature_id, answer, reason, timestamp = row
+                    feature_id, answer, reason, explanation, timestamp = row
                     answers[feature_id] = {
                         'answer': answer,
                         'reason': reason or '',
+                        'explanation': explanation or '',
                         'timestamp': timestamp
                     }
                 
@@ -123,19 +132,20 @@ class DatabaseService:
                 cursor = conn.cursor()
                 
                 cursor.execute('''
-                    SELECT image_name, feature_id, answer, reason, timestamp 
+                    SELECT image_name, feature_id, answer, reason, explanation, timestamp 
                     FROM feature_answers 
                     ORDER BY timestamp DESC
                 ''')
                 
                 results = []
                 for row in cursor.fetchall():
-                    image_name, feature_id, answer, reason, timestamp = row
+                    image_name, feature_id, answer, reason, explanation, timestamp = row
                     results.append({
                         'image_name': image_name,
                         'feature_id': feature_id,
                         'answer': answer,
                         'reason': reason or '',
+                        'explanation': explanation or '',
                         'timestamp': timestamp
                     })
                 

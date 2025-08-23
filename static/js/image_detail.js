@@ -69,33 +69,18 @@ function setupAutoSave() {
         const radioButtons = question.querySelectorAll(`input[name="feature_${featureId}"]`);
         radioButtons.forEach(radio => {
             radio.addEventListener('change', function() {
-                // 기타 선택 시 입력란 표시/숨김 처리
-                const otherReasonDiv = document.getElementById(`other-reason-${featureId}`);
-                if (otherReasonDiv) {
-                    if (this.value === '기타') {
-                        otherReasonDiv.style.display = 'block';
-                    } else {
-                        otherReasonDiv.style.display = 'none';
-                        // 기타가 아닌 경우 입력란 내용 초기화
-                        const textarea = otherReasonDiv.querySelector('textarea');
-                        if (textarea) {
-                            textarea.value = '';
-                        }
-                    }
-                }
-                
                 // 약간의 지연 후 저장 (사용자 경험 개선)
                 setTimeout(() => saveFeatureAnswer(featureId), 300);
             });
         });
         
-        // 이유 입력란 변경 이벤트
-        const reasonTextarea = question.querySelector(`[data-feature-reason="${featureId}"]`);
-        if (reasonTextarea) {
-            reasonTextarea.addEventListener('input', function() {
+        // 해설 입력란 변경 이벤트
+        const explanationTextarea = question.querySelector(`[data-feature-explanation="${featureId}"]`);
+        if (explanationTextarea) {
+            explanationTextarea.addEventListener('input', function() {
                 // 타이핑 중에는 저장하지 않고, 타이핑이 끝난 후 저장
-                clearTimeout(reasonTextarea.saveTimeout);
-                reasonTextarea.saveTimeout = setTimeout(() => {
+                clearTimeout(explanationTextarea.saveTimeout);
+                explanationTextarea.saveTimeout = setTimeout(() => {
                     saveFeatureAnswer(featureId);
                 }, 1000);
             });
@@ -161,9 +146,17 @@ function saveFeatureAnswer(featureId) {
         reasonText = reasonElement.value || '';
     }
     
+    // 해설 텍스트 안전하게 가져오기
+    let explanationText = '';
+    const explanationElement = question.querySelector(`[data-feature-explanation="${featureId}"]`);
+    if (explanationElement) {
+        explanationText = explanationElement.value || '';
+    }
+    
     const answerData = {
         answer: selectedValue.value,
         reason: reasonText,
+        explanation: explanationText, // 해설 추가
         timestamp: new Date().toISOString()
     };
     
@@ -205,10 +198,12 @@ function saveFeatureAnswers() {
         const featureId = question.dataset.featureId;
         const selectedValue = question.querySelector(`input[name="feature_${featureId}"]:checked`);
         const reasonText = question.querySelector(`[data-feature-reason="${featureId}"]`).value;
+        const explanationText = question.querySelector(`[data-feature-explanation="${featureId}"]`).value;
         
         answers[featureId] = {
             answer: selectedValue ? selectedValue.value : '',
             reason: reasonText,
+            explanation: explanationText,
             timestamp: new Date().toISOString()
         };
     });
@@ -258,6 +253,12 @@ function loadFeatureAnswers(imageName) {
                         if (reasonTextarea) {
                             reasonTextarea.value = answer.reason || '';
                         }
+
+                        // 해설 텍스트
+                        const explanationTextarea = question.querySelector(`[data-feature-explanation="${featureId}"]`);
+                        if (explanationTextarea) {
+                            explanationTextarea.value = answer.explanation || '';
+                        }
                         
                         // 이미지 라벨 일치 여부 질문의 경우, No일 때 다른 병명 입력란 표시
                         if (featureId === 'image_label_match' && answer.answer === 'no') {
@@ -268,10 +269,11 @@ function loadFeatureAnswers(imageName) {
                         }
                         
                         // feature 질문의 경우, 기타일 때 입력란 표시
-                        if (featureId !== 'image_label_match' && answer.answer === '기타') {
-                            const otherReasonDiv = document.getElementById(`other-reason-${featureId}`);
-                            if (otherReasonDiv) {
-                                otherReasonDiv.style.display = 'block';
+                        // 기타 입력란 표시/숨김 로직은 제거되었으므로, 해설 입력란만 표시
+                        if (featureId !== 'image_label_match') {
+                            const explanationTextarea = question.querySelector(`[data-feature-explanation="${featureId}"]`);
+                            if (explanationTextarea) {
+                                explanationTextarea.style.display = 'block';
                             }
                         }
                     }
@@ -318,12 +320,18 @@ function clearFeatureAnswers() {
                 if (reasonTextarea) {
                     reasonTextarea.value = '';
                 }
+
+                // 해설 텍스트 초기화
+                const explanationTextarea = question.querySelector(`[data-feature-explanation="${featureId}"]`);
+                if (explanationTextarea) {
+                    explanationTextarea.value = '';
+                }
                 
                 // 기타 입력란 숨김 및 초기화
                 if (featureId !== 'image_label_match') {
-                    const otherReasonDiv = document.getElementById(`other-reason-${featureId}`);
-                    if (otherReasonDiv) {
-                        otherReasonDiv.style.display = 'none';
+                    const explanationTextarea = question.querySelector(`[data-feature-explanation="${featureId}"]`);
+                    if (explanationTextarea) {
+                        explanationTextarea.style.display = 'none';
                     }
                 }
                 
