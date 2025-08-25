@@ -7,21 +7,21 @@
         {
           "id": "f1",
           "label": "subretinal fluid",
-          "description": "presence of fluid beneath the retinal layer indicating a pathological process"
+          "description": "presence of fluid beneath the retinal layer"
         },
         {
           "id": "f2",
           "label": "RPE alterations",
-          "description": "areas of hyperpigmentation and atrophy suggesting damage to the retinal pigment epithelium"
+          "description": "areas of hyperpigmentation and atrophy indicating damage to the RPE"
         },
         {
           "id": "f3",
           "label": "exudative changes",
-          "description": "presence of retinal hemorrhages or exudates accompanying conditions leading to new blood vessel formation"
+          "description": "presence of retinal hemorrhages or exudates accompanying neovascularization"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:12:47.573683"
+    "processing_timestamp": "2025-08-25 14:00:14.491950"
   },
   {
     "id": 164913,
@@ -35,22 +35,17 @@
         },
         {
           "id": "f2",
-          "label": "exudative changes",
-          "description": "potential pathological changes around the macula"
+          "label": "irregular vascular patterns",
+          "description": "abnormal blood vessel formations that may indicate neovascularization"
         },
         {
           "id": "f3",
-          "label": "irregular vascular patterns",
-          "description": "abnormal blood vessel formations suggesting neovascularization"
-        },
-        {
-          "id": "f4",
           "label": "pigmentation changes",
-          "description": "alterations in pigmentation around areas of fluid accumulation indicating retinal damage"
+          "description": "alterations in retinal pigmentation around fluid accumulation areas"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:12:51.831428"
+    "processing_timestamp": "2025-08-25 14:00:17.625860"
   },
   {
     "id": 152034,
@@ -79,12 +74,12 @@
         },
         {
           "id": "f5",
-          "label": "changes in retinal vasculature",
-          "description": "potential neovascularization observed in the retinal vasculature"
+          "label": "neovascularization",
+          "description": "changes in the retinal vasculature including potential neovascularization"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:12:56.500861"
+    "processing_timestamp": "2025-08-25 14:00:22.112918"
   },
   {
     "id": 165545,
@@ -113,7 +108,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:00.309666"
+    "processing_timestamp": "2025-08-25 14:00:26.055835"
   },
   {
     "id": 158169,
@@ -142,7 +137,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:05.358188"
+    "processing_timestamp": "2025-08-25 14:00:32.182783"
   },
   {
     "id": 143070,
@@ -171,7 +166,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:09.709986"
+    "processing_timestamp": "2025-08-25 14:00:36.959843"
   },
   {
     "id": 147884,
@@ -200,7 +195,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:15.525492"
+    "processing_timestamp": "2025-08-25 14:00:41.012093"
   },
   {
     "id": 160080,
@@ -224,7 +219,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:19.223707"
+    "processing_timestamp": "2025-08-25 14:00:43.841648"
   },
   {
     "id": 145533,
@@ -263,7 +258,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:23.272764"
+    "processing_timestamp": "2025-08-25 14:00:49.456403"
   },
   {
     "id": 146036,
@@ -283,7 +278,7 @@
         {
           "id": "f3",
           "label": "hyperreflective lesion",
-          "description": "bright lesion observed in the macular region"
+          "description": "lesion in the macular region that appears hyperreflective"
         },
         {
           "id": "f4",
@@ -293,7 +288,7 @@
         {
           "id": "f5",
           "label": "retinal vascular changes",
-          "description": "alterations in the retinal blood vessels"
+          "description": "changes in the retinal blood vessels"
         },
         {
           "id": "f6",
@@ -302,7 +297,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:27.663344"
+    "processing_timestamp": "2025-08-25 14:00:54.491801"
   },
   {
     "id": 141477,
@@ -326,7 +321,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:30.770885"
+    "processing_timestamp": "2025-08-25 14:00:57.266177"
   },
   {
     "id": 159503,
@@ -355,7 +350,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:34.306500"
+    "processing_timestamp": "2025-08-25 14:01:05.280238"
   },
   {
     "id": 145941,
@@ -384,7 +379,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:38.691520"
+    "processing_timestamp": "2025-08-25 14:01:09.833650"
   },
   {
     "id": 162835,
@@ -418,7 +413,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:42.960449"
+    "processing_timestamp": "2025-08-25 14:01:14.151208"
   },
   {
     "id": 155085,
@@ -438,12 +433,12 @@
         {
           "id": "f3",
           "label": "exudates",
-          "description": "accumulation of fluid and proteins in the retina"
+          "description": "deposits of fluid or protein in the retina"
         },
         {
           "id": "f4",
           "label": "retinal edema",
-          "description": "swelling of the retina due to fluid accumulation"
+          "description": "swelling of the retinal tissue"
         },
         {
           "id": "f5",
@@ -452,7 +447,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:47.028891"
+    "processing_timestamp": "2025-08-25 14:01:17.670429"
   },
   {
     "id": 162144,
@@ -481,7 +476,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:50.380237"
+    "processing_timestamp": "2025-08-25 14:01:21.862975"
   },
   {
     "id": 140008,
@@ -491,7 +486,7 @@
         {
           "id": "f1",
           "label": "RPE irregularities",
-          "description": "notable irregularities in the retinal pigment epithelium at the macular region"
+          "description": "irregularities in the retinal pigment epithelium at the macular region"
         },
         {
           "id": "f2",
@@ -501,21 +496,21 @@
         {
           "id": "f3",
           "label": "hyperpigmentation",
-          "description": "visible areas of increased pigmentation in the retina"
+          "description": "visible areas of increased pigmentation"
         },
         {
           "id": "f4",
           "label": "hypopigmentation",
-          "description": "visible areas of decreased pigmentation in the retina"
+          "description": "visible areas of decreased pigmentation"
         },
         {
           "id": "f5",
           "label": "exudative changes",
-          "description": "potential changes indicating the presence of abnormal vascular structures"
+          "description": "potential changes indicating abnormal vascular structures"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:54.968056"
+    "processing_timestamp": "2025-08-25 14:01:25.968337"
   },
   {
     "id": 140759,
@@ -544,7 +539,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:13:59.778621"
+    "processing_timestamp": "2025-08-25 14:01:30.138231"
   },
   {
     "id": 145471,
@@ -564,11 +559,11 @@
         {
           "id": "f3",
           "label": "retinal edema",
-          "description": "localized swelling observed around the macular region"
+          "description": "localized swelling observed in the retinal image, particularly around the macular region"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:02.472660"
+    "processing_timestamp": "2025-08-25 14:01:33.449637"
   },
   {
     "id": 148281,
@@ -578,7 +573,7 @@
         {
           "id": "f1",
           "label": "RPE disruption",
-          "description": "irregularities and hyperpigmentation of the RPE"
+          "description": "irregularities and hyperpigmentation of the retinal pigment epithelium"
         },
         {
           "id": "f2",
@@ -588,11 +583,11 @@
         {
           "id": "f3",
           "label": "neovascularization",
-          "description": "abnormal vascular changes with a 'leaky' appearance due to exudates and possible hemorrhages"
+          "description": "abnormal blood vessel growth with a 'leaky' appearance due to exudates and possible hemorrhages"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:05.656896"
+    "processing_timestamp": "2025-08-25 14:01:38.458740"
   },
   {
     "id": 126713,
@@ -631,7 +626,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:09.753663"
+    "processing_timestamp": "2025-08-25 14:01:42.591683"
   },
   {
     "id": 126681,
@@ -655,7 +650,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:13.572600"
+    "processing_timestamp": "2025-08-25 14:01:45.781986"
   },
   {
     "id": 126694,
@@ -684,7 +679,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:17.627456"
+    "processing_timestamp": "2025-08-25 14:01:49.583868"
   },
   {
     "id": 126721,
@@ -704,26 +699,26 @@
         {
           "id": "f3",
           "label": "alterations in outer retina",
-          "description": "disruptions to the integrity of the outer retinal layers"
+          "description": "changes observed in the outer retinal layers"
         },
         {
           "id": "f4",
-          "label": "neural retina integrity disruption",
-          "description": "potential disruptions to the integrity of the neural retina"
+          "label": "disruptions to neural retina integrity",
+          "description": "potential damage to the neural retina associated with AMD"
         },
         {
           "id": "f5",
           "label": "geographic atrophy",
-          "description": "advanced degeneration of the retinal pigment epithelium leading to vision loss"
+          "description": "a feature that may develop as AMD progresses, leading to vision loss"
         },
         {
           "id": "f6",
           "label": "neovascularization",
-          "description": "abnormal growth of new blood vessels in the retina associated with AMD"
+          "description": "abnormal blood vessel growth that can occur in advanced AMD"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:21.618027"
+    "processing_timestamp": "2025-08-25 14:01:54.037225"
   },
   {
     "id": 126708,
@@ -762,7 +757,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:26.527083"
+    "processing_timestamp": "2025-08-25 14:01:59.391892"
   },
   {
     "id": 126686,
@@ -791,7 +786,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:30.076978"
+    "processing_timestamp": "2025-08-25 14:02:02.797707"
   },
   {
     "id": 126683,
@@ -825,7 +820,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:33.828076"
+    "processing_timestamp": "2025-08-25 14:02:06.460260"
   },
   {
     "id": 126720,
@@ -854,12 +849,12 @@
         },
         {
           "id": "f5",
-          "label": "altered foveal structure",
-          "description": "changes in contour or reflectivity of the fovea suggesting macular pathology"
+          "label": "altered foveal contour",
+          "description": "changes in the shape or reflectivity of the fovea suggesting macular pathology"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:38.556234"
+    "processing_timestamp": "2025-08-25 14:02:09.040347"
   },
   {
     "id": 126711,
@@ -889,7 +884,7 @@
         {
           "id": "f5",
           "label": "geographic atrophy",
-          "description": "localized areas of RPE loss and retinal degeneration"
+          "description": "localized areas of RPE atrophy"
         },
         {
           "id": "f6",
@@ -898,7 +893,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:43.434620"
+    "processing_timestamp": "2025-08-25 14:02:13.013504"
   },
   {
     "id": 126729,
@@ -913,12 +908,12 @@
         {
           "id": "f2",
           "label": "retinal pigmentary changes",
-          "description": "indications of atrophy of the RPE"
+          "description": "indicate atrophy of the RPE"
         },
         {
           "id": "f3",
           "label": "hyperreflective foci",
-          "description": "suggests potential for exudative changes"
+          "description": "suggest potential for exudative changes"
         },
         {
           "id": "f4",
@@ -927,7 +922,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:47.598208"
+    "processing_timestamp": "2025-08-25 14:02:16.345151"
   },
   {
     "id": 126728,
@@ -956,7 +951,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:51.160869"
+    "processing_timestamp": "2025-08-25 14:02:20.012033"
   },
   {
     "id": 126705,
@@ -985,7 +980,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:14:55.623458"
+    "processing_timestamp": "2025-08-25 14:02:23.625622"
   },
   {
     "id": 126730,
@@ -1005,7 +1000,7 @@
         {
           "id": "f3",
           "label": "fluid accumulation",
-          "description": "presence of fluid beneath the retina"
+          "description": "associated fluid accumulation in the retina"
         },
         {
           "id": "f4",
@@ -1014,7 +1009,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:00.094696"
+    "processing_timestamp": "2025-08-25 14:02:26.755633"
   },
   {
     "id": 126684,
@@ -1038,7 +1033,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:03.496513"
+    "processing_timestamp": "2025-08-25 14:02:29.610070"
   },
   {
     "id": 126696,
@@ -1057,17 +1052,17 @@
         },
         {
           "id": "f3",
-          "label": "disrupted outer retinal layers",
-          "description": "changes in the outer retinal layers indicating potential atrophy"
+          "label": "retinal layer disruption",
+          "description": "disruption or signs of atrophy in the outer retinal layers"
         },
         {
           "id": "f4",
-          "label": "swelling in inner retinal layers",
-          "description": "signs of fluid accumulation indicative of exudative changes"
+          "label": "swelling",
+          "description": "signs of swelling or fluid accumulation in the inner layers of the retina"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:06.791813"
+    "processing_timestamp": "2025-08-25 14:02:31.785845"
   },
   {
     "id": 126722,
@@ -1082,16 +1077,16 @@
         {
           "id": "f2",
           "label": "subretinal fluid",
-          "description": "accumulation of fluid beneath the retina"
+          "description": "accumulation of fluid beneath the retina, indicative of retinal conditions"
         },
         {
           "id": "f3",
           "label": "hyperreflective foci",
-          "description": "presence of hyperreflective spots within the retinal layers, possibly indicating drusen or other changes"
+          "description": "presence of hyperreflective spots within the retinal layers, possibly corresponding to drusen or other changes"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:10.382684"
+    "processing_timestamp": "2025-08-25 14:02:34.670633"
   },
   {
     "id": 126712,
@@ -1111,16 +1106,16 @@
         {
           "id": "f3",
           "label": "geographic atrophy",
-          "description": "localized areas of retinal degeneration"
+          "description": "localized areas of retinal thinning and degeneration"
         },
         {
           "id": "f4",
           "label": "exudative changes",
-          "description": "signs of fluid leakage or bleeding in the retina"
+          "description": "fluid accumulation or bleeding in the retina associated with advanced AMD"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:13.665427"
+    "processing_timestamp": "2025-08-25 14:02:38.622316"
   },
   {
     "id": 126701,
@@ -1154,7 +1149,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:18.646379"
+    "processing_timestamp": "2025-08-25 14:02:43.713014"
   },
   {
     "id": 126687,
@@ -1168,27 +1163,27 @@
         },
         {
           "id": "f2",
-          "label": "retinal pigmentary changes",
-          "description": "hyperpigmentation or hypopigmentation in the macular region"
-        },
-        {
-          "id": "f3",
           "label": "geographic atrophy",
           "description": "areas of retinal thinning and loss of the RPE"
         },
         {
-          "id": "f4",
+          "id": "f3",
           "label": "subretinal fluid",
           "description": "fluid accumulation beneath the retina"
         },
         {
-          "id": "f5",
+          "id": "f4",
           "label": "neovascularization",
-          "description": "formation of new blood vessels associated with the wet form of ARMD"
+          "description": "abnormal blood vessel growth associated with wet ARMD"
+        },
+        {
+          "id": "f5",
+          "label": "retinal pigmentary changes",
+          "description": "hyperpigmentation or hypopigmentation in the macular region"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:23.068582"
+    "processing_timestamp": "2025-08-25 14:02:49.112798"
   },
   {
     "id": 126727,
@@ -1207,7 +1202,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:25.986497"
+    "processing_timestamp": "2025-08-25 14:02:51.148310"
   },
   {
     "id": 2921,
@@ -1231,7 +1226,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:29.795856"
+    "processing_timestamp": "2025-08-25 14:02:54.202418"
   },
   {
     "id": 162,
@@ -1255,7 +1250,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:33.647821"
+    "processing_timestamp": "2025-08-25 14:02:57.483686"
   },
   {
     "id": 299,
@@ -1270,12 +1265,12 @@
         {
           "id": "f2",
           "label": "hemorrhages",
-          "description": "bleeding in the retina associated with neovascularization"
+          "description": "bleeding within the retinal layers"
         },
         {
           "id": "f3",
           "label": "exudates",
-          "description": "deposits on the retina resulting from leakage of fluid"
+          "description": "deposits on the retina due to leakage from blood vessels"
         },
         {
           "id": "f4",
@@ -1290,11 +1285,11 @@
         {
           "id": "f6",
           "label": "atrophy",
-          "description": "degeneration of retinal tissue reflecting chronic disease"
+          "description": "degeneration or wasting away of retinal tissue"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:38.493090"
+    "processing_timestamp": "2025-08-25 14:03:02.260122"
   },
   {
     "id": 225363,
@@ -1323,7 +1318,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:42.006642"
+    "processing_timestamp": "2025-08-25 14:03:04.500464"
   },
   {
     "id": 984,
@@ -1352,7 +1347,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:46.536555"
+    "processing_timestamp": "2025-08-25 14:03:07.922232"
   },
   {
     "id": 2461,
@@ -1381,7 +1376,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:50.061145"
+    "processing_timestamp": "2025-08-25 14:03:11.155815"
   },
   {
     "id": 798,
@@ -1410,7 +1405,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:53.703474"
+    "processing_timestamp": "2025-08-25 14:03:14.936987"
   },
   {
     "id": 408,
@@ -1440,7 +1435,7 @@
         {
           "id": "f5",
           "label": "cotton wool spots",
-          "description": "soft, fluffy white patches on the retina indicating localized ischemia"
+          "description": "fluffy white patches on the retina indicative of localized retinal ischemia"
         },
         {
           "id": "f6",
@@ -1449,7 +1444,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:15:58.157742"
+    "processing_timestamp": "2025-08-25 14:03:19.423518"
   },
   {
     "id": 586,
@@ -1473,7 +1468,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:01.438017"
+    "processing_timestamp": "2025-08-25 14:03:23.222610"
   },
   {
     "id": 1387,
@@ -1488,7 +1483,7 @@
         {
           "id": "f2",
           "label": "vitreous hemorrhage",
-          "description": "dark areas in the image where the normal retinal details are obscured"
+          "description": "dark areas in the image where normal retinal details are obscured"
         },
         {
           "id": "f3",
@@ -1507,7 +1502,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:06.555721"
+    "processing_timestamp": "2025-08-25 14:03:27.746313"
   },
   {
     "id": 477,
@@ -1536,7 +1531,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:10.343031"
+    "processing_timestamp": "2025-08-25 14:03:30.685577"
   },
   {
     "id": 2026,
@@ -1580,7 +1575,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:15.510899"
+    "processing_timestamp": "2025-08-25 14:03:36.111294"
   },
   {
     "id": 3414,
@@ -1604,7 +1599,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:18.628030"
+    "processing_timestamp": "2025-08-25 14:03:39.152740"
   },
   {
     "id": 2665,
@@ -1619,7 +1614,7 @@
         {
           "id": "f2",
           "label": "retinal hemorrhages",
-          "description": "red spots or streaks on the retina"
+          "description": "red spots or streaks appearing on the retina"
         },
         {
           "id": "f3",
@@ -1633,7 +1628,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:22.571559"
+    "processing_timestamp": "2025-08-25 14:03:43.122026"
   },
   {
     "id": 2935,
@@ -1648,21 +1643,21 @@
         {
           "id": "f2",
           "label": "retinal hemorrhages",
-          "description": "areas of both flame-shaped and dot-and-blot types indicative of advanced vascular changes"
+          "description": "areas of flame-shaped and dot-and-blot types indicative of advanced vascular changes"
         },
         {
           "id": "f3",
           "label": "cotton wool spots",
-          "description": "localized retinal ischemia represented by fluffy white patches"
+          "description": "localized retinal ischemia"
         },
         {
           "id": "f4",
           "label": "neovascularization",
-          "description": "growth of new blood vessels at the disc or in the peripheral retina, associated with proliferative diabetic retinopathy"
+          "description": "growth of new blood vessels at the disc or in the peripheral retina, critical sign of proliferative diabetic retinopathy"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:25.937460"
+    "processing_timestamp": "2025-08-25 14:03:46.738600"
   },
   {
     "id": 3552,
@@ -1697,11 +1692,11 @@
         {
           "id": "f6",
           "label": "hard exudates",
-          "description": "yellow-white lesions due to lipid deposits"
+          "description": "yellow-white lesions on the retina due to lipid deposits"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:30.327377"
+    "processing_timestamp": "2025-08-25 14:03:51.257423"
   },
   {
     "id": 1055,
@@ -1735,7 +1730,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:34.025540"
+    "processing_timestamp": "2025-08-25 14:03:54.972737"
   },
   {
     "id": 3035,
@@ -1764,7 +1759,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:38.257412"
+    "processing_timestamp": "2025-08-25 14:03:58.938140"
   },
   {
     "id": 2692,
@@ -1773,32 +1768,32 @@
       "features": [
         {
           "id": "f1",
-          "label": "microaneurysms",
+          "label": "Microaneurysms",
           "description": "small outpouchings of the retinal capillaries, often the earliest sign of diabetic retinopathy"
         },
         {
           "id": "f2",
-          "label": "hemorrhages",
+          "label": "Hemorrhages",
           "description": "presence of retinal hemorrhages, including dot-and-blot and flame-shaped hemorrhages"
         },
         {
           "id": "f3",
-          "label": "hard exudates",
-          "description": "yellow-white lesions with well-defined edges, indicating areas of ischemia"
+          "label": "Exudates",
+          "description": "hard exudates (yellow-white lesions with well-defined edges) and soft exudates (cotton wool spots)"
         },
         {
           "id": "f4",
-          "label": "soft exudates",
-          "description": "cotton wool spots, indicating damage to the retinal nerve fiber layer"
+          "label": "Neovascularization",
+          "description": "presence of new, abnormal blood vessels growing on the surface of the retina or optic disc"
         },
         {
           "id": "f5",
-          "label": "neovascularization",
-          "description": "presence of new, abnormal blood vessels growing on the surface of the retina or optic disc"
+          "label": "Proliferative diabetic retinopathy",
+          "description": "advanced stage characterized by significant neovascularization and risk of severe vision loss"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:43.573339"
+    "processing_timestamp": "2025-08-25 14:04:02.983870"
   },
   {
     "id": 144,
@@ -1818,12 +1813,12 @@
         {
           "id": "f3",
           "label": "exudates",
-          "description": "presence of cotton wool spots and other types of exudative lesions"
+          "description": "presence of cotton wool spots and other lipid deposits"
         },
         {
           "id": "f4",
           "label": "vascular leakage",
-          "description": "abnormal fluid accumulation due to compromised vascular integrity"
+          "description": "abnormal fluid accumulation due to compromised blood-retinal barrier"
         },
         {
           "id": "f5",
@@ -1832,7 +1827,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:48.233048"
+    "processing_timestamp": "2025-08-25 14:04:06.808093"
   },
   {
     "id": 2005,
@@ -1861,7 +1856,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:51.530417"
+    "processing_timestamp": "2025-08-25 14:04:10.306055"
   },
   {
     "id": 397,
@@ -1881,11 +1876,11 @@
         {
           "id": "f3",
           "label": "retinal hemorrhages",
-          "description": "dark red or brown spots indicating ongoing retinal damage"
+          "description": "dark red or brown spots indicating potential ongoing retinal damage"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:54.639242"
+    "processing_timestamp": "2025-08-25 14:04:13.949260"
   },
   {
     "id": 64393,
@@ -1914,7 +1909,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:16:58.183882"
+    "processing_timestamp": "2025-08-25 14:04:17.173345"
   },
   {
     "id": 1714,
@@ -1943,7 +1938,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:02.250247"
+    "processing_timestamp": "2025-08-25 14:04:20.970177"
   },
   {
     "id": 2807,
@@ -1972,7 +1967,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:05.414899"
+    "processing_timestamp": "2025-08-25 14:04:24.169515"
   },
   {
     "id": 2010,
@@ -2001,7 +1996,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:08.966843"
+    "processing_timestamp": "2025-08-25 14:04:27.330661"
   },
   {
     "id": 2303,
@@ -2030,7 +2025,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:12.462312"
+    "processing_timestamp": "2025-08-25 14:04:30.765108"
   },
   {
     "id": 1594,
@@ -2049,8 +2044,8 @@
         },
         {
           "id": "f3",
-          "label": "retinal edema",
-          "description": "mild swelling of the retina"
+          "label": "mild retinal edema",
+          "description": "swelling of the retina"
         },
         {
           "id": "f4",
@@ -2059,7 +2054,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:16.345987"
+    "processing_timestamp": "2025-08-25 14:04:34.278084"
   },
   {
     "id": 944,
@@ -2083,7 +2078,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:19.530514"
+    "processing_timestamp": "2025-08-25 14:04:37.479067"
   },
   {
     "id": 1068,
@@ -2107,7 +2102,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:22.350008"
+    "processing_timestamp": "2025-08-25 14:04:40.860133"
   },
   {
     "id": 64297,
@@ -2137,11 +2132,11 @@
         {
           "id": "f5",
           "label": "absence of cotton wool spots",
-          "description": "no cotton wool spots observed"
+          "description": "no cotton wool spots indicative of advanced diabetic retinopathy"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:25.780959"
+    "processing_timestamp": "2025-08-25 14:04:44.944508"
   },
   {
     "id": 62,
@@ -2170,7 +2165,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:29.028376"
+    "processing_timestamp": "2025-08-25 14:04:48.335829"
   },
   {
     "id": 2744,
@@ -2199,7 +2194,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:32.439855"
+    "processing_timestamp": "2025-08-25 14:04:50.913520"
   },
   {
     "id": 3335,
@@ -2209,7 +2204,7 @@
         {
           "id": "f1",
           "label": "microaneurysms",
-          "description": "small to medium-sized dilations of retinal capillaries"
+          "description": "small to medium-sized dilations of retinal capillaries, often the first sign of diabetic retinopathy"
         },
         {
           "id": "f2",
@@ -2219,16 +2214,16 @@
         {
           "id": "f3",
           "label": "exudates",
-          "description": "presence of cotton wool spots and hard exudates indicating nerve fiber layer damage"
+          "description": "presence of cotton wool spots and hard exudates indicating nerve fiber layer damage and retinal vascular leakage"
         },
         {
           "id": "f4",
           "label": "retinal ischemia",
-          "description": "signs such as venous beading or neovascularization indicative of reduced blood flow"
+          "description": "signs such as venous beading or neovascularization indicative of reduced blood flow to the retina"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:36.562050"
+    "processing_timestamp": "2025-08-25 14:04:55.373539"
   },
   {
     "id": 3158,
@@ -2247,22 +2242,17 @@
         },
         {
           "id": "f3",
-          "label": "hard exudates",
-          "description": "yellow-white lesions with well-defined edges"
+          "label": "exudates",
+          "description": "deposits of lipids and proteins in the retina"
         },
         {
           "id": "f4",
-          "label": "soft exudates",
-          "description": "cotton wool spots indicative of retinal ischemia"
-        },
-        {
-          "id": "f5",
           "label": "intraretinal edema",
           "description": "swelling within the retinal layers due to fluid accumulation"
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:40.086878"
+    "processing_timestamp": "2025-08-25 14:04:58.183695"
   },
   {
     "id": 2111,
@@ -2291,7 +2281,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:43.562986"
+    "processing_timestamp": "2025-08-25 14:05:01.697067"
   },
   {
     "id": 3173,
@@ -2330,7 +2320,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:48.195020"
+    "processing_timestamp": "2025-08-25 14:05:06.814672"
   },
   {
     "id": 2540,
@@ -2350,7 +2340,7 @@
         {
           "id": "f3",
           "label": "mild retinal edema",
-          "description": "slightly thickened areas of the retina"
+          "description": "slight thickening of certain areas of the retina"
         },
         {
           "id": "f4",
@@ -2359,7 +2349,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:51.814903"
+    "processing_timestamp": "2025-08-25 14:05:10.279289"
   },
   {
     "id": 2022,
@@ -2378,7 +2368,7 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:54.170000"
+    "processing_timestamp": "2025-08-25 14:05:12.779440"
   },
   {
     "id": 318,
@@ -2397,6 +2387,2256 @@
         }
       ]
     },
-    "processing_timestamp": "2025-08-25 10:17:56.924840"
+    "processing_timestamp": "2025-08-25 14:05:15.689586"
+  },
+  {
+    "id": 174435,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nIn the retinal image provided, several key features indicative of diabetic macular edema (DME) are observed. These include the presence of retinal thickening and exudates, specifically hard exudates and soft exudates (cotton wool spots). The fovea appears to have an increased reflectivity, suggesting edema. There are also signs of microaneurysms scattered throughout the retinal field, which are typical in patients with diabetic retinopathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal thickening",
+          "description": "thickening of the retinal layers indicative of edema"
+        },
+        {
+          "id": "f2",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges"
+        },
+        {
+          "id": "f3",
+          "label": "soft exudates",
+          "description": "fluffy white patches, also known as cotton wool spots"
+        },
+        {
+          "id": "f4",
+          "label": "increased foveal reflectivity",
+          "description": "suggestive of edema in the foveal region"
+        },
+        {
+          "id": "f5",
+          "label": "microaneurysms",
+          "description": "small, localized dilations of retinal capillaries"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:19.886347"
+  },
+  {
+    "id": 177209,
+    "original_text": "**[Rationale]**\n\n1. **Diagnostic Features Observed in the Image:**\n   The retinal image likely displays features characteristic of diabetic macular edema (DME). Common findings include retinal thickening, intraretinal fluid accumulation, and possibly the presence of hard exudates. The macula may appear swollen, and there might be subtle changes in the retinal pigment epithelium. There could also be evidence of microaneurysms and dot-and-blot hemorrhages, which are indicative of underlying diabetic retinopathy.\n\n2. **Diagnostic Reasoning Based on Findings:**\n   The presence of retinal thickening and fluid accumulation indicates an inflammatory response often associated with diabetes. In DME, the breakdown of the blood-retinal barrier leads to leakage of serum into the retina, resulting in edema. The fluid accumulation typically occurs in the foveal region, causing vision impairment. This is compounded by the presence of hard exudates, which form due to lipid deposits from serum leakage. The combination of these findings strongly suggests that the patient is experiencing DME as a complication of diabetes.\n\n3. **Conclusion:**\n   Therefore, the correct diagnosis is diabetic macular edema (DME).",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal thickening",
+          "description": "thickening of the retinal layers indicative of edema"
+        },
+        {
+          "id": "f2",
+          "label": "intraretinal fluid accumulation",
+          "description": "accumulation of fluid within the retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "lipid deposits resulting from serum leakage"
+        },
+        {
+          "id": "f4",
+          "label": "macular swelling",
+          "description": "swelling of the macula region"
+        },
+        {
+          "id": "f5",
+          "label": "microaneurysms",
+          "description": "small bulges in retinal blood vessels indicative of diabetic retinopathy"
+        },
+        {
+          "id": "f6",
+          "label": "dot-and-blot hemorrhages",
+          "description": "small, deep retinal hemorrhages associated with diabetes"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:23.816082"
+  },
+  {
+    "id": 182296,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image presents several key features indicative of a pathological condition. Notably, there is the presence of retinal edema, characterized by swelling and possibly exudates. These exudates may appear as soft or hard drusen, which are indicative of underlying vascular leakage or ischemia. Additionally, there may be signs of intraretinal fluid accumulation, leading to a loss of the normal architecture of the retina and distortion of retinal layers. The foveal region may demonstrate a characteristic 'wet' appearance, which is often indicative of fluid accumulation due to compromised retinal vasculature.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal edema",
+          "description": "swelling of the retina possibly accompanied by exudates"
+        },
+        {
+          "id": "f2",
+          "label": "exudates",
+          "description": "soft or hard drusen indicative of underlying vascular leakage or ischemia"
+        },
+        {
+          "id": "f3",
+          "label": "intraretinal fluid accumulation",
+          "description": "accumulation of fluid within the retina leading to distortion of retinal layers"
+        },
+        {
+          "id": "f4",
+          "label": "wet appearance of foveal region",
+          "description": "characteristic appearance due to fluid accumulation from compromised retinal vasculature"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:26.956204"
+  },
+  {
+    "id": 218121,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image shows several key features typically associated with diabetic macular edema (DME). These features include the presence of retinal thickening, particularly in the macular region, which is often indicated by a diffuse swelling of the retina. There are also signs of microaneurysms, which appear as small red dots scattered throughout the retina, indicative of localized areas of vascular leakage. Additionally, hard exudates are seen, which present as yellowish-white lesions with well-defined edges, usually located near the macula. These exudates are a result of lipid accumulation due to retinal vascular leakage. Furthermore, there may be the presence of cystoid spaces within the retina, particularly in the foveal region, which can be identified as darker areas on the image, corresponding to areas of fluid accumulation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal thickening",
+          "description": "diffuse swelling of the retina, particularly in the macular region"
+        },
+        {
+          "id": "f2",
+          "label": "microaneurysms",
+          "description": "small red dots scattered throughout the retina, indicative of localized areas of vascular leakage"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "yellowish-white lesions with well-defined edges, usually located near the macula, resulting from lipid accumulation"
+        },
+        {
+          "id": "f4",
+          "label": "cystoid spaces",
+          "description": "darker areas within the retina, particularly in the foveal region, corresponding to areas of fluid accumulation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:31.579790"
+  },
+  {
+    "id": 175585,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nIn the retinal image, there are notable features that suggest the presence of diabetic macular edema (DME). The image likely shows retinal thickening, which may be observed as swelling in the macular region. Additionally, there may be the presence of microaneurysms, hard exudates, and possibly cystoid spaces that indicate fluid accumulation. The retinal appearance could also depict a \"fuzzy\" or \"blurry\" contour around the macula due to edema. These findings are typically associated with DME, as the condition is characterized by fluid leakage from retinal blood vessels into the macular area.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal thickening",
+          "description": "swelling in the macular region"
+        },
+        {
+          "id": "f2",
+          "label": "microaneurysms",
+          "description": "small bulges in retinal blood vessels"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges"
+        },
+        {
+          "id": "f4",
+          "label": "cystoid spaces",
+          "description": "fluid-filled spaces in the retina"
+        },
+        {
+          "id": "f5",
+          "label": "fuzzy contour",
+          "description": "blurry appearance around the macula due to edema"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:35.199848"
+  },
+  {
+    "id": 179920,
+    "original_text": "**Diagnostic Features Observed in the Image**: The retinal image displays several critical features suggestive of diabetic retinopathy. Key findings include the presence of microaneurysms, retinal edema, and exudates, particularly hard exudates and cotton wool spots. The microaneurysms appear as small, red dots on the retinal surface, indicating localized areas of leakage from retinal capillaries. The presence of retinal edema is evidenced by areas of increased reflectance and swelling in the retina, suggesting fluid accumulation. Hard exudates, characterized by their yellowish-white appearance, are indicative of lipid deposits due to chronic retinal ischemia and vascular leakage. Additionally, cotton wool spots, which appear as fluffy white patches, suggest localized ischemia and retinal nerve fiber layer damage.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "microaneurysms",
+          "description": "small, red dots on the retinal surface indicating localized areas of leakage from retinal capillaries"
+        },
+        {
+          "id": "f2",
+          "label": "retinal edema",
+          "description": "areas of increased reflectance and swelling in the retina, suggesting fluid accumulation"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "yellowish-white appearance indicative of lipid deposits due to chronic retinal ischemia and vascular leakage"
+        },
+        {
+          "id": "f4",
+          "label": "cotton wool spots",
+          "description": "fluffy white patches suggesting localized ischemia and retinal nerve fiber layer damage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:38.885083"
+  },
+  {
+    "id": 177244,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image exhibits several key features characteristic of diabetic macular edema (DME). There is notable retinal thickening localized around the macula, which is typically indicative of fluid accumulation. Additionally, there are microaneurysms scattered throughout the image, which appear as small red dots, and exudates including hard exudates that present as yellow-white lesions with well-defined edges. The presence of intraretinal fluid is suggested by the blurred appearance of the retinal layers, particularly in the macular region, indicating that the retina is distended due to this fluid accumulation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal thickening",
+          "description": "localized thickening around the macula indicative of fluid accumulation"
+        },
+        {
+          "id": "f2",
+          "label": "microaneurysms",
+          "description": "small red dots scattered throughout the retinal image"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges"
+        },
+        {
+          "id": "f4",
+          "label": "intraretinal fluid",
+          "description": "blurred appearance of retinal layers suggesting fluid accumulation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:41.950214"
+  },
+  {
+    "id": 172601,
+    "original_text": "**Diagnostic Features Observed:**\nIn the retinal image provided, there are significant findings indicative of macular edema. The most notable features include the presence of hard exudates, which appear as yellow-white lesions with well-defined edges, often clustered in the macular region. Additionally, there are signs of retinal thickening and possible cystoid spaces, which can be seen as subtle changes in the retinal contour, indicating fluid accumulation. The foveal area may show a characteristic \"cystic\" appearance due to localized edema. Furthermore, there may be signs of retinal vascular changes, such as microaneurysms and dot-and-blot hemorrhages, which typically accompany diabetic retinopathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges, often clustered in the macular region"
+        },
+        {
+          "id": "f2",
+          "label": "retinal thickening",
+          "description": "subtle changes in the retinal contour indicating fluid accumulation"
+        },
+        {
+          "id": "f3",
+          "label": "cystoid spaces",
+          "description": "localized edema causing a characteristic 'cystic' appearance in the foveal area"
+        },
+        {
+          "id": "f4",
+          "label": "microaneurysms",
+          "description": "small outpouchings of retinal blood vessels typically associated with diabetic retinopathy"
+        },
+        {
+          "id": "f5",
+          "label": "dot-and-blot hemorrhages",
+          "description": "small, deep retinal hemorrhages that accompany diabetic retinopathy"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:46.833798"
+  },
+  {
+    "id": 171346,
+    "original_text": "**Diagnostic Features Observed:**\nThe retinal image shows significant signs of edema and structural changes consistent with fluid accumulation in the macular region. Key features include the presence of hard exudates, which appear as yellow-white lesions with well-defined edges, indicative of lipid deposits associated with retinal vascular leakage. Additionally, there are areas of retinal thickening and potential cystoid spaces that suggest the presence of intraretinal fluid. The surrounding retinal tissue may show signs of ischemia or hypoxia, contributing to the overall clinical picture.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges, indicative of lipid deposits associated with retinal vascular leakage"
+        },
+        {
+          "id": "f2",
+          "label": "retinal thickening",
+          "description": "areas of thickening in the retina suggesting fluid accumulation"
+        },
+        {
+          "id": "f3",
+          "label": "cystoid spaces",
+          "description": "potential spaces within the retina indicating the presence of intraretinal fluid"
+        },
+        {
+          "id": "f4",
+          "label": "ischemia",
+          "description": "signs of reduced blood flow in the surrounding retinal tissue"
+        },
+        {
+          "id": "f5",
+          "label": "hypoxia",
+          "description": "signs of oxygen deficiency in the surrounding retinal tissue"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:50.914212"
+  },
+  {
+    "id": 180018,
+    "original_text": "**Diagnostic Features Observed in the Image**: The retinal image shows distinct features that may suggest the presence of diabetic macular edema (DME). Key observations include the presence of exudates, which may appear as soft and hard exudates, and localized retinal thickening. Areas of retinal edema can be noted, particularly in the macular region, where the fovea might show signs of swelling. The presence of microaneurysms and retinal hemorrhages may also be observed, indicating vascular leakage and damage.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "exudates",
+          "description": "soft and hard exudates observed in the retinal image"
+        },
+        {
+          "id": "f2",
+          "label": "localized retinal thickening",
+          "description": "thickening noted particularly in the macular region"
+        },
+        {
+          "id": "f3",
+          "label": "retinal edema",
+          "description": "areas of swelling in the macular region"
+        },
+        {
+          "id": "f4",
+          "label": "microaneurysms",
+          "description": "presence of small bulges in the retinal vessels"
+        },
+        {
+          "id": "f5",
+          "label": "retinal hemorrhages",
+          "description": "indications of vascular leakage and damage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:55.364434"
+  },
+  {
+    "id": 65130,
+    "original_text": "The relevant diagnostic features observed in the retinal image suggest signs characteristic of Central Serous Chorioretinopathy. One prominent feature is the presence of a localized area of retinal detachment, typically found under the macula, often presenting as a dome-shaped elevation. This is likely due to serous fluid accumulation beneath the retina, which can lead to visual distortion. Additionally, there may be evidence of pigmentary alterations or changes in the retinal pigment epithelium (RPE) adjacent to the detachment, which are also consistent with Central Serous Chorioretinopathy. The overall appearance suggests a well-defined area of exudative retinal detachment, with no signs of proliferative changes or significant vascular pathology that would be indicative of other retinal diseases.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "localized retinal detachment",
+          "description": "dome-shaped elevation under the macula due to serous fluid accumulation"
+        },
+        {
+          "id": "f2",
+          "label": "pigmentary alterations",
+          "description": "changes in the retinal pigment epithelium adjacent to the detachment"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:05:57.715468"
+  },
+  {
+    "id": 126768,
+    "original_text": "In the provided OCT (Optical Coherence Tomography) image, several key diagnostic features can be observed that are indicative of Central Serous Retinopathy. The most prominent feature is the presence of a localized area of subretinal fluid accumulation, typically found in the macular region. In Central Serous Retinopathy, this fluid appears as a hyperreflective area beneath the neurosensory retina, often causing a detachment of the retinal pigment epithelium (RPE). The OCT may also show a characteristic dome-shaped elevation of the retina due to this fluid accumulation. Additionally, there might be changes in the RPE, such as hyper- or hypopigmentation, and the presence of a serous detachment can lead to disruption of the normal retinal architecture, particularly in the macular region.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "subretinal fluid",
+          "description": "localized area of fluid accumulation in the macular region"
+        },
+        {
+          "id": "f2",
+          "label": "RPE elevation",
+          "description": "dome-shaped elevation of the RPE due to fluid accumulation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:00.129195"
+  },
+  {
+    "id": 126784,
+    "original_text": "In analyzing the retinal OCT image, we would typically look for specific diagnostic features that are characteristic of various retinal conditions. For Central Serous Retinopathy, we would expect to see a serous detachment of the neurosensory retina, which appears as a localized area of elevation in the retinal layers. This may often be accompanied by a hyper-reflective area at the level of the retinal pigment epithelium (RPE) and subretinal fluid accumulation. The presence of these features is distinctive to CSR, especially if there are also signs of RPE changes, such as irregularities or alterations in the RPE layer.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "serous detachment of the neurosensory retina",
+          "description": "localized area of elevation in the retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "hyper-reflective area at the level of the RPE",
+          "description": "indicates changes in the retinal pigment epithelium"
+        },
+        {
+          "id": "f3",
+          "label": "subretinal fluid accumulation",
+          "description": "fluid accumulation beneath the retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:03.004413"
+  },
+  {
+    "id": 126743,
+    "original_text": "In the analysis of the retinal OCT image, several diagnostic features indicative of Central Serous Retinopathy can be observed. These include the presence of neurosensory retinal detachment, which appears as a localized elevation of the retina, typically in the macular region. The OCT image may also reveal hyperreflective changes at the level of the retinal pigment epithelium (RPE), which can indicate areas of serous fluid accumulation. Additionally, the image might show a characteristic \"dome-shaped\" elevation of the retina, along with potential disruptions or alterations in the normal layering of retinal structures.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "neurosensory retinal detachment",
+          "description": "localized elevation of the retina, typically in the macular region"
+        },
+        {
+          "id": "f2",
+          "label": "hyperreflective changes at the RPE",
+          "description": "indicate areas of serous fluid accumulation"
+        },
+        {
+          "id": "f3",
+          "label": "dome-shaped elevation of the retina",
+          "description": "characteristic elevation observed in OCT images"
+        },
+        {
+          "id": "f4",
+          "label": "disruptions in retinal layering",
+          "description": "alterations in the normal layering of retinal structures"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:06.609970"
+  },
+  {
+    "id": 126754,
+    "original_text": "In analyzing the retinal OCT image, several diagnostic features can be observed. The image may show specific signs indicative of retinal pathology. For instance, in cases of Central Serous Retinopathy, one might notice the presence of a characteristic dome-shaped elevation of the retina, often with an associated serous detachment of the retinal pigment epithelium (RPE). The OCT could reveal hyperreflective areas beneath the neurosensory retina, suggesting fluid accumulation. The retinal layers may appear distended, particularly in the region of the macula, which can be identified as a localized area of retinal thickening.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "RPE elevation",
+          "description": "dome-shaped elevation of the RPE associated with serous detachment"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "fluid accumulation beneath the neurosensory retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:09.994039"
+  },
+  {
+    "id": 126760,
+    "original_text": "In the analyzed retinal OCT image, several key diagnostic features suggest the presence of a specific retinal condition. Notably, there is evidence of a localized area of hyperreflectivity at the level of the retinal pigment epithelium (RPE), accompanied by subretinal fluid accumulation. The presence of this fluid is often indicative of a pathological process affecting the retina, particularly involving the RPE and the underlying choroid. Additionally, there may be irregularity in the contour of the retinal layers, which can suggest disruption of normal retinal architecture.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "localized hyperreflectivity at RPE",
+          "description": "evidence of a localized area of hyperreflectivity at the level of the retinal pigment epithelium"
+        },
+        {
+          "id": "f2",
+          "label": "subretinal fluid",
+          "description": "accumulation of fluid beneath the retina, indicative of a pathological process"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:12.537732"
+  },
+  {
+    "id": 126797,
+    "original_text": "In analyzing the retinal OCT image, several key diagnostic features suggest the presence of Central Serous Retinopathy. The image likely demonstrates a presence of neurosensory retinal detachment, which is characterized by a localized area of subretinal fluid accumulation. Additionally, there may be a characteristic elevation of the retinal pigment epithelium (RPE) in the affected area. The presence of hyperreflective foci and a possible serous retinal detachment can also be seen, which are indicative of fluid accumulation beneath the retina. These findings are often accompanied by distortion of the retinal layers, particularly in the foveal region, and an overall thickening of the neurosensory retina, which are hallmarks of Central Serous Retinopathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "neurosensory retinal detachment",
+          "description": "localized area of subretinal fluid accumulation"
+        },
+        {
+          "id": "f2",
+          "label": "RPE elevation",
+          "description": "characteristic elevation of the retinal pigment epithelium in the affected area"
+        },
+        {
+          "id": "f3",
+          "label": "hyperreflective foci",
+          "description": "presence of hyperreflective foci indicative of fluid accumulation"
+        },
+        {
+          "id": "f4",
+          "label": "serous retinal detachment",
+          "description": "possible serous retinal detachment seen beneath the retina"
+        },
+        {
+          "id": "f5",
+          "label": "distortion of retinal layers",
+          "description": "distortion of the retinal layers, particularly in the foveal region"
+        },
+        {
+          "id": "f6",
+          "label": "thickening of neurosensory retina",
+          "description": "overall thickening of the neurosensory retina, hallmark of Central Serous Retinopathy"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:17.991060"
+  },
+  {
+    "id": 126822,
+    "original_text": "Upon analyzing the retinal OCT image, key diagnostic features characteristic of retinal pathology can be observed. The image may depict abnormalities such as localized retinal thickening, hyperreflective areas, or alterations in the retinal layers, particularly in the macular region. Common signs associated with conditions like Central Serous Retinopathy include the presence of subretinal fluid, which may appear as a hyperreflective line or a dome-shaped elevation in the retinal layers.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "localized retinal thickening",
+          "description": "thickening of the retinal layers in a specific area"
+        },
+        {
+          "id": "f2",
+          "label": "hyperreflective areas",
+          "description": "regions in the retina that appear brighter on OCT imaging"
+        },
+        {
+          "id": "f3",
+          "label": "subretinal fluid",
+          "description": "presence of fluid beneath the retina, potentially appearing as a hyperreflective line or dome-shaped elevation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:20.956078"
+  },
+  {
+    "id": 126807,
+    "original_text": "In the retinal OCT image provided, several diagnostic features can be observed that are characteristic of Central Serous Retinopathy. The image likely shows a distinct area of fluid accumulation under the retina, which is often referred to as subretinal fluid (SRF). This fluid can appear as a hyperreflective layer on the OCT scan. Additionally, the retinal layers may show signs of retinal detachment, particularly in the macular region. There may also be alterations in the retinal pigment epithelium (RPE) appearance, such as irregularities or elevation, indicating dysfunction. Other potential signs include the presence of a localized area of thinning or distortion in the retinal architecture, which further supports the diagnosis of Central Serous Retinopathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "subretinal fluid",
+          "description": "fluid accumulation under the retina, appearing as a hyperreflective layer on the OCT scan"
+        },
+        {
+          "id": "f2",
+          "label": "RPE elevation",
+          "description": "irregularities or elevation in the retinal pigment epithelium indicating dysfunction"
+        },
+        {
+          "id": "f3",
+          "label": "retinal detachment",
+          "description": "signs of retinal detachment, particularly in the macular region"
+        },
+        {
+          "id": "f4",
+          "label": "retinal architecture distortion",
+          "description": "localized area of thinning or distortion in the retinal architecture"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:24.529619"
+  },
+  {
+    "id": 126825,
+    "original_text": "In analyzing the retinal OCT image, several diagnostic features can be observed that are characteristic of Central Serous Retinopathy. Notably, there may be the presence of a localized area of subretinal fluid, which appears as a hyperreflective space beneath the retinal pigment epithelium (RPE). The RPE may show some irregularities or detachment. Additionally, there may be signs of retinal thickening in the affected area, and the characteristic \"serous detachment\" of the neurosensory retina can also be noted.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "subretinal fluid",
+          "description": "localized area of subretinal fluid appearing as a hyperreflective space beneath the RPE"
+        },
+        {
+          "id": "f2",
+          "label": "RPE irregularities",
+          "description": "irregularities or detachment of the RPE"
+        },
+        {
+          "id": "f3",
+          "label": "retinal thickening",
+          "description": "thickening of the retina in the affected area"
+        },
+        {
+          "id": "f4",
+          "label": "serous detachment",
+          "description": "characteristic detachment of the neurosensory retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:28.432663"
+  },
+  {
+    "id": 65286,
+    "original_text": "**[Rationale]**\n\n1. **Diagnostic Features Observed in the Image**: Upon analyzing the retinal image, key features to be noted include the presence of a prominent macular region that appears to have some abnormalities. There may be indications of changes in the retinal architecture, which could signify alterations in the macula. This could manifest as areas of distortion or elevation that suggest a disruption in the retinal layers, which is often associated with conditions affecting the macula specifically. Additionally, the overall appearance of the surrounding retinal vasculature and any associated changes in pigmentation or edema should be evaluated, as these can provide further context for the diagnosis.\n\n2. **Diagnostic Reasoning**: The findings suggest that there may be a macular pathology at play, particularly focusing on potential conditions such as a macular hole or epiretinal membrane. A macular hole is characterized by a break in the inner retinal layers located in the fovea, leading to a specific clinical presentation that may be evident in the image. The presence of any surrounding edema or changes in the foveal contour would support this diagnosis. Conversely, if there is evidence of a wrinkling or rippling of the macula without a definitive hole, an epiretinal membrane could be considered. However, the specific mention of a hole in the macula, along with the visual cues that indicate disruption, points more toward a macular hole specifically.\n\n3. **Conclusion**: Given the observed features and the reasoning based on the retinal architecture and clinical presentation, the most likely diagnosis in this case is indicative of a macular hole. Therefore, the correct diagnosis is o.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "macular abnormalities",
+          "description": "changes in the retinal architecture indicating potential macular pathology"
+        },
+        {
+          "id": "f2",
+          "label": "macular hole",
+          "description": "break in the inner retinal layers located in the fovea"
+        },
+        {
+          "id": "f3",
+          "label": "surrounding edema",
+          "description": "presence of fluid accumulation around the macula"
+        },
+        {
+          "id": "f4",
+          "label": "epiretinal membrane",
+          "description": "wrinkling or rippling of the macula without a definitive hole"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:31.496139"
+  },
+  {
+    "id": 65307,
+    "original_text": "In analyzing the retinal image, several key diagnostic features are observed that warrant attention. The image may display signs such as the presence of a macular hole, which is characterized by a distinct separation of the neurosensory retina from the retinal pigment epithelium (RPE) at the fovea. This results in a round or oval defect that may appear as a central dark area in the macular region. Additionally, there may be surrounding edema or changes in the retinal architecture, including alterations in the foveal contour or the presence of associated retinal wrinkles. These features are crucial for identifying a macular hole.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "macular hole",
+          "description": "distinct separation of the neurosensory retina from the retinal pigment epithelium at the fovea, resulting in a round or oval defect"
+        },
+        {
+          "id": "f2",
+          "label": "surrounding edema",
+          "description": "swelling around the macular hole that may alter retinal architecture"
+        },
+        {
+          "id": "f3",
+          "label": "alterations in foveal contour",
+          "description": "changes in the shape of the fovea associated with the macular hole"
+        },
+        {
+          "id": "f4",
+          "label": "retinal wrinkles",
+          "description": "folds or creases in the retina associated with the presence of a macular hole"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:35.337350"
+  },
+  {
+    "id": 127012,
+    "original_text": "In analyzing the retinal OCT image, several diagnostic features are typically observed in cases of macular holes. Key signs include the presence of a full-thickness defect in the fovea, which can appear as an absence of the retinal layers at the center of the macula. The surrounding retinal tissue may show signs of elevation or distortion, often accompanied by a cystic space or fluid accumulation in the inner retinal layers. Additionally, there may be changes in the outer retinal layers, including the photoreceptor layer, which can be indicative of damage or alteration in the retinal architecture due to the hole.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "full-thickness defect in the fovea",
+          "description": "absence of the retinal layers at the center of the macula"
+        },
+        {
+          "id": "f2",
+          "label": "elevation or distortion of surrounding retinal tissue",
+          "description": "changes in the retinal structure around the macula"
+        },
+        {
+          "id": "f3",
+          "label": "cystic space or fluid accumulation",
+          "description": "presence of fluid in the inner retinal layers"
+        },
+        {
+          "id": "f4",
+          "label": "changes in the outer retinal layers",
+          "description": "alteration in the photoreceptor layer indicative of damage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:38.834428"
+  },
+  {
+    "id": 127034,
+    "original_text": "In the analyzed retinal OCT image, several key diagnostic features are observed that are characteristic of a macular hole. The central fovea appears distorted, and there is a clear separation between the outer retinal layers, indicating a potential full-thickness defect. Additionally, there may be signs of intraretinal fluid accumulation surrounding the hole, which suggests the presence of a cystoid macular edema. The edges of the hole may also show irregularities, further supporting the diagnosis.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "distorted central fovea",
+          "description": "deformation of the central fovea indicative of a macular hole"
+        },
+        {
+          "id": "f2",
+          "label": "separation of outer retinal layers",
+          "description": "indication of a potential full-thickness defect"
+        },
+        {
+          "id": "f3",
+          "label": "intraretinal fluid accumulation",
+          "description": "fluid buildup surrounding the macular hole suggesting cystoid macular edema"
+        },
+        {
+          "id": "f4",
+          "label": "irregular edges of the hole",
+          "description": "irregularities at the edges of the macular hole supporting the diagnosis"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:43.968006"
+  },
+  {
+    "id": 126997,
+    "original_text": "The relevant diagnostic features observed in the retinal OCT image include the presence of a focal disruption in the foveal region, which suggests a loss of the normal architecture of the inner retinal layers. There is a noticeable separation between the inner and outer retinal layers, which is indicative of a potential macular hole. Additionally, the image may show a hyper-reflective line at the level of the retinal pigment epithelium (RPE), indicating a potential stage of the macular hole formation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "focal disruption in the foveal region",
+          "description": "loss of the normal architecture of the inner retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "separation between inner and outer retinal layers",
+          "description": "indicative of a potential macular hole"
+        },
+        {
+          "id": "f3",
+          "label": "hyper-reflective line at the level of RPE",
+          "description": "indicating a potential stage of macular hole formation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:51.463677"
+  },
+  {
+    "id": 126947,
+    "original_text": "In the analysis of the retinal OCT image, several key diagnostic features can be observed. Typically, in cases of macular holes, the OCT image will display a disruption in the retinal layers, particularly in the foveal region. There may be a clearly defined opening in the retina, with surrounding edema or a cystic area. The inner retinal layer often presents as thinned or disrupted, indicating the presence of a hole. The presence of a reflective signal from the vitreous or the formation of a pseudo-cyst beneath the retinal surface can also be indicative.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "disruption in retinal layers",
+          "description": "disruption observed particularly in the foveal region"
+        },
+        {
+          "id": "f2",
+          "label": "clearly defined opening in the retina",
+          "description": "indicates the presence of a macular hole"
+        },
+        {
+          "id": "f3",
+          "label": "surrounding edema",
+          "description": "edema present around the macular hole"
+        },
+        {
+          "id": "f4",
+          "label": "thinned inner retinal layer",
+          "description": "indicates the presence of a hole"
+        },
+        {
+          "id": "f5",
+          "label": "reflective signal from vitreous",
+          "description": "indicative of vitreous involvement"
+        },
+        {
+          "id": "f6",
+          "label": "pseudo-cyst formation",
+          "description": "formation beneath the retinal surface"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:06:55.885990"
+  },
+  {
+    "id": 126949,
+    "original_text": "In the analyzed retinal OCT image, there are several diagnostic features that stand out. The presence of a full-thickness defect in the retina, specifically at the foveal region, is a critical observation. This defect typically appears as a loss of continuity in the retinal layers, particularly affecting the inner and outer segments of the photoreceptors. Additionally, there may be associated changes in the surrounding retinal architecture, including potential intraretinal fluid accumulation and alterations in the retinal contour. The presence of a typical \"cup\" shape at the fovea and the possible elevation of the retinal pigment epithelium (RPE) may also be noted, indicating the impact of the macular pathology.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "full-thickness defect",
+          "description": "loss of continuity in the retinal layers at the foveal region"
+        },
+        {
+          "id": "f2",
+          "label": "intraretinal fluid accumulation",
+          "description": "fluid accumulation within the retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "alterations in retinal contour",
+          "description": "changes in the shape and structure of the retina"
+        },
+        {
+          "id": "f4",
+          "label": "RPE elevation",
+          "description": "elevation of the retinal pigment epithelium at the fovea"
+        },
+        {
+          "id": "f5",
+          "label": "cup shape at fovea",
+          "description": "typical 'cup' shape observed at the foveal region"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:00.275252"
+  },
+  {
+    "id": 127046,
+    "original_text": "In analyzing the retinal OCT image, I would look for specific diagnostic features typical of various retinal conditions. The presence of a macular hole is often indicated by a discontinuity in the foveal contour, which appears as a break in the inner retinal layers. There may also be associated changes such as cystoid macular edema, a separation of the inner retinal layers, or the presence of a shadowing effect beneath the fovea. If the image demonstrates a clear, circular or oval defect in the fovea, with surrounding retinal changes such as increased reflectivity or fluid accumulation, this would be highly suggestive of a macular hole.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "macular hole",
+          "description": "discontinuity in the foveal contour, appearing as a break in the inner retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "cystoid macular edema",
+          "description": "separation of the inner retinal layers with associated changes"
+        },
+        {
+          "id": "f3",
+          "label": "shadowing effect",
+          "description": "shadowing effect beneath the fovea"
+        },
+        {
+          "id": "f4",
+          "label": "fluid accumulation",
+          "description": "surrounding retinal changes such as increased reflectivity or fluid accumulation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:04.653281"
+  },
+  {
+    "id": 126956,
+    "original_text": "In analyzing the retinal OCT image, several key diagnostic features can be observed. A macular hole typically presents as a well-defined, round defect in the foveal region, characterized by the absence of retinal tissue. This results in a disruption of the inner retinal layers, particularly affecting the foveal contour. In the case of a macular hole, one might also observe the presence of a hyper-reflective line at the bottom of the hole, indicating the presence of a retinal pigment epithelium (RPE) or a defect in the inner retinal layers. Additionally, there may be associated changes in the surrounding retinal structure, including thinning of the retina and potential cystic changes in the inner retina. Fluid accumulation may also be present, particularly if the hole is larger or if there are associated complications.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "macular hole",
+          "description": "well-defined, round defect in the foveal region, characterized by the absence of retinal tissue"
+        },
+        {
+          "id": "f2",
+          "label": "hyper-reflective line",
+          "description": "indicates the presence of retinal pigment epithelium (RPE) or a defect in the inner retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "thinning of the retina",
+          "description": "associated change in the surrounding retinal structure"
+        },
+        {
+          "id": "f4",
+          "label": "cystic changes in the inner retina",
+          "description": "potential changes associated with the macular hole"
+        },
+        {
+          "id": "f5",
+          "label": "fluid accumulation",
+          "description": "may be present if the hole is larger or if there are associated complications"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:09.667415"
+  },
+  {
+    "id": 127006,
+    "original_text": "In the provided retinal OCT image, several key diagnostic features indicative of a macular hole can be observed. The image likely shows a significant disruption in the foveal architecture, characterized by a well-defined circular or oval area of hyporeflectivity in the inner retinal layers. There may be associated changes such as altered contour of the retinal surface, possible presence of cystic spaces in the outer retina, and attenuation or thinning of the surrounding retinal tissue. Additionally, the absence of a normal foveal depression suggests a loss of structural integrity at the fovea.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "macular hole",
+          "description": "well-defined circular or oval area of hyporeflectivity in the inner retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "altered retinal surface contour",
+          "description": "changes in the contour of the retinal surface"
+        },
+        {
+          "id": "f3",
+          "label": "cystic spaces",
+          "description": "possible presence of cystic spaces in the outer retina"
+        },
+        {
+          "id": "f4",
+          "label": "retinal tissue thinning",
+          "description": "attenuation or thinning of the surrounding retinal tissue"
+        },
+        {
+          "id": "f5",
+          "label": "loss of foveal depression",
+          "description": "absence of a normal foveal depression indicating loss of structural integrity at the fovea"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:13.319205"
+  },
+  {
+    "id": 65280,
+    "original_text": "The relevant diagnostic features observed in the fundus image include the presence of a prominent epiretinal membrane, which is characterized by a thin, translucent layer that appears to be adhered to the surface of the retina. This membrane can cause distortion of the underlying retinal architecture, leading to the wrinkling or folding of the retina, which may be visually apparent. Additionally, there may be signs of retinal edema or changes in the retinal vasculature, indicative of the retinal stress caused by the presence of the membrane.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "epiretinal membrane",
+          "description": "thin, translucent layer adhered to the surface of the retina"
+        },
+        {
+          "id": "f2",
+          "label": "retinal distortion",
+          "description": "wrinkling or folding of the retina due to the membrane"
+        },
+        {
+          "id": "f3",
+          "label": "retinal edema",
+          "description": "swelling of the retina indicative of stress"
+        },
+        {
+          "id": "f4",
+          "label": "changes in retinal vasculature",
+          "description": "alterations in the blood vessels of the retina due to stress"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:17.408504"
+  },
+  {
+    "id": 65268,
+    "original_text": "In the retinal image, several notable features may be observed that are indicative of epiretinal membrane. The image may show a wrinkling or distortion of the retinal surface, which can be characterized by the presence of a thin, fibrous layer that appears to be adherent to the retina. Additionally, the presence of retinal folds or a slight elevation of the retina may be noted, suggesting the traction exerted by the membrane. The overall retinal architecture may appear altered, with some areas showing a loss of the normal contour.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "wrinkling of retinal surface",
+          "description": "distortion of the retinal surface due to epiretinal membrane"
+        },
+        {
+          "id": "f2",
+          "label": "retinal folds",
+          "description": "presence of folds in the retina suggesting traction from the membrane"
+        },
+        {
+          "id": "f3",
+          "label": "slight elevation of the retina",
+          "description": "elevation indicating traction exerted by the epiretinal membrane"
+        },
+        {
+          "id": "f4",
+          "label": "altered retinal architecture",
+          "description": "loss of normal contour in some areas of the retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:21.589753"
+  },
+  {
+    "id": 65251,
+    "original_text": "Upon examining the provided retinal image, several prominent diagnostic features are observable. The image displays the presence of a distinct pattern of retinal changes characterized by a proliferation of small, whitish, and opacified areas scattered throughout the retina. These changes might suggest the presence of epiretinal membranes, which typically appear as thin, fibrous membranes that may cause distortion of the retinal surface. Additionally, there could be indications of retinal wrinkling or traction, which are common signs associated with epiretinal membranes. The optic nerve head appears normal in terms of color and contour, which rules out significant optic nerve pathology.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "epiretinal membranes",
+          "description": "thin, fibrous membranes causing distortion of the retinal surface"
+        },
+        {
+          "id": "f2",
+          "label": "retinal wrinkling",
+          "description": "common sign associated with epiretinal membranes"
+        },
+        {
+          "id": "f3",
+          "label": "normal optic nerve head",
+          "description": "normal color and contour, ruling out significant optic nerve pathology"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:24.307998"
+  },
+  {
+    "id": 65265,
+    "original_text": "Upon analyzing the retinal image, several diagnostic features can be observed. The image may reveal the presence of a distinct membrane on the surface of the retina, which could appear as a thin, transparent layer. Additionally, there may be visible distortion of the retinal layers, with some areas exhibiting wrinkling or folding. The retinal surface may also show signs of elevation or changes in contour, suggesting the presence of an epiretinal membrane. Furthermore, there could be a lack of significant vascular abnormalities or exudates that are often seen in diabetic retinopathy, making it less likely that diabetic retinopathy is the primary issue.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "epiretinal membrane",
+          "description": "distinct membrane on the surface of the retina, appearing as a thin, transparent layer"
+        },
+        {
+          "id": "f2",
+          "label": "retinal distortion",
+          "description": "visible distortion of the retinal layers with areas exhibiting wrinkling or folding"
+        },
+        {
+          "id": "f3",
+          "label": "retinal elevation",
+          "description": "elevation or changes in contour of the retinal surface"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:28.228493"
+  },
+  {
+    "id": 65250,
+    "original_text": "In analyzing the provided retinal image, several diagnostic features may be observed that are indicative of Epiretinal Membrane. The image may display a subtle wrinkling or distortion of the retinal surface, particularly in the macular region. This could be characterized by a thickened appearance of the retinal surface, with possible changes in the foveal contour. Additionally, the presence of a translucent membrane may be noted, which can create a \"cellophane\" effect over the retina. Other signs could include small areas of retinal edema or subtle alterations in the retinal blood vessels, possibly indicating the impact of the membrane on the underlying retinal architecture.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal surface distortion",
+          "description": "subtle wrinkling or distortion of the retinal surface, particularly in the macular region"
+        },
+        {
+          "id": "f2",
+          "label": "thickened retinal surface",
+          "description": "thickened appearance of the retinal surface with possible changes in the foveal contour"
+        },
+        {
+          "id": "f3",
+          "label": "translucent membrane",
+          "description": "presence of a translucent membrane creating a 'cellophane' effect over the retina"
+        },
+        {
+          "id": "f4",
+          "label": "retinal edema",
+          "description": "small areas of retinal edema"
+        },
+        {
+          "id": "f5",
+          "label": "altered retinal blood vessels",
+          "description": "subtle alterations in the retinal blood vessels indicating the impact of the membrane on the underlying retinal architecture"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:32.544639"
+  },
+  {
+    "id": 65262,
+    "original_text": "In analyzing the provided retinal image, several diagnostic features can be observed. The image displays a relatively clear view of the fundus, but notable observations include a presence of fine, white lines that appear to be located within the retinal layers, which could indicate the presence of an epiretinal membrane. Additionally, there may be some distortion or wrinkling of the retinal surface, which is often associated with epiretinal membrane. The optic disc appears normal in size and color, without significant cupping or pallor, which further directs attention to the potential presence of an epiretinal membrane.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "epiretinal membrane",
+          "description": "presence of fine, white lines within the retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "retinal distortion",
+          "description": "distortion or wrinkling of the retinal surface"
+        },
+        {
+          "id": "f3",
+          "label": "normal optic disc",
+          "description": "optic disc appears normal in size and color, without significant cupping or pallor"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:36.620050"
+  },
+  {
+    "id": 65275,
+    "original_text": "The image reveals significant diagnostic features that are characteristic of an epiretinal membrane. Notable observations include a translucent, wrinkled appearance of the inner retinal surface, particularly around the macula. There might also be signs of distortion or traction on the retinal layers, which can lead to a decrease in visual acuity. Furthermore, there may be the presence of a subtle sheen or reflecting surface over the retina, often indicative of the membrane's presence.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "translucent wrinkled appearance",
+          "description": "appearance of the inner retinal surface, particularly around the macula"
+        },
+        {
+          "id": "f2",
+          "label": "distortion or traction on retinal layers",
+          "description": "can lead to a decrease in visual acuity"
+        },
+        {
+          "id": "f3",
+          "label": "subtle sheen over retina",
+          "description": "indicative of the epiretinal membrane's presence"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:39.863913"
+  },
+  {
+    "id": 65270,
+    "original_text": "In the provided image, key diagnostic features may include signs such as retinal wrinkling, distortion of the retinal surface, and the presence of striae or folds. These features could indicate the presence of an epiretinal membrane, which is a thin layer of fibrous tissue that forms on the surface of the retina, leading to changes in retinal topography. The image may also show changes in the retinal architecture, possibly affecting the fovea or macular region, which is typical in cases of epiretinal membrane.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal wrinkling",
+          "description": "wrinkling of the retinal surface"
+        },
+        {
+          "id": "f2",
+          "label": "distortion of retinal surface",
+          "description": "alteration in the normal contour of the retina"
+        },
+        {
+          "id": "f3",
+          "label": "striae or folds",
+          "description": "presence of lines or folds on the retinal surface"
+        },
+        {
+          "id": "f4",
+          "label": "changes in retinal architecture",
+          "description": "alterations in the structural arrangement of the retina"
+        },
+        {
+          "id": "f5",
+          "label": "affecting fovea or macular region",
+          "description": "involvement of the central area of the retina responsible for sharp vision"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:44.543099"
+  },
+  {
+    "id": 65273,
+    "original_text": "In the retinal image, several diagnostic features are observable that suggest the presence of an epiretinal membrane. The most prominent feature is the presence of a visible, semi-transparent membrane that appears to be distorting the underlying retinal structures, particularly in the macular area. There are also indications of retinal wrinkling or folding, which are characteristic of ERM. The retinal surface may appear irregular, and there may be a slight elevation of the retina adjacent to the membrane.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "epiretinal membrane",
+          "description": "visible, semi-transparent membrane distorting underlying retinal structures"
+        },
+        {
+          "id": "f2",
+          "label": "retinal wrinkling",
+          "description": "characteristic folding of the retina associated with epiretinal membrane"
+        },
+        {
+          "id": "f3",
+          "label": "irregular retinal surface",
+          "description": "irregular appearance of the retinal surface due to the presence of the membrane"
+        },
+        {
+          "id": "f4",
+          "label": "retinal elevation",
+          "description": "slight elevation of the retina adjacent to the epiretinal membrane"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:47.746932"
+  },
+  {
+    "id": 65255,
+    "original_text": "In the provided retinal image, there are several notable diagnostic features. The image likely displays a distorted macular area, which may appear as a wrinkling or folding of the inner retinal layers. This distortion can lead to changes in the normal architecture of the retina, particularly around the fovea. Additionally, there could be signs of increased reflectivity or a presence of epiretinal membranes, which can be visualized as a thin, fibrous layer on the surface of the retina. Other features to consider might include any associated retinal vessel changes, such as dilated or tortuous vessels, and alterations in the surrounding retinal pigment epithelium (RPE).",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "macular distortion",
+          "description": "wrinkling or folding of the inner retinal layers in the macular area"
+        },
+        {
+          "id": "f2",
+          "label": "epiretinal membranes",
+          "description": "thin, fibrous layer on the surface of the retina"
+        },
+        {
+          "id": "f3",
+          "label": "retinal vessel changes",
+          "description": "dilated or tortuous retinal vessels"
+        },
+        {
+          "id": "f4",
+          "label": "alterations in RPE",
+          "description": "changes in the surrounding retinal pigment epithelium"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:50.751103"
+  },
+  {
+    "id": 63401,
+    "original_text": "**Diagnostic Features Observed in the Image**: The retinal image reveals several diagnostic features that are indicative of glaucoma. Notably, there is evidence of optic nerve head changes, including increased cup-to-disc ratio, which is a classic sign of glaucoma. The optic disc appears pale and excavated, suggesting potential damage to the nerve fibers. Additionally, there may be signs of retinal nerve fiber layer thinning, which can be assessed using optical coherence tomography (OCT) in clinical settings, although this is not directly observable in a static image. Furthermore, the presence of visual field defects, if documented, would reinforce the diagnosis of glaucoma.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head changes",
+          "description": "evidence of increased cup-to-disc ratio, indicating glaucoma"
+        },
+        {
+          "id": "f2",
+          "label": "pale and excavated optic disc",
+          "description": "suggests potential damage to the nerve fibers"
+        },
+        {
+          "id": "f3",
+          "label": "retinal nerve fiber layer thinning",
+          "description": "can be assessed using optical coherence tomography (OCT)"
+        },
+        {
+          "id": "f4",
+          "label": "visual field defects",
+          "description": "would reinforce the diagnosis of glaucoma if documented"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:55.197445"
+  },
+  {
+    "id": 3779,
+    "original_text": "In the provided retinal image, several key diagnostic features suggest a diagnosis of glaucoma. One prominent observation is the presence of optic nerve head changes, specifically cupping of the optic disc, which is characterized by an increased cup-to-disc ratio. The optic disc may appear pale or have a distinct contour, indicating the loss of nerve fiber layer. Additionally, there may be evidence of peripapillary atrophy, which can also be associated with glaucoma. Retinal nerve fiber layer defects, visible as localized thinning or loss, are also critical indicators that can be seen in such images. Furthermore, if there is accompanying visual field loss—often tested through perimetry—it would further support the diagnosis of glaucoma.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head changes",
+          "description": "cupping of the optic disc with increased cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "pale optic disc",
+          "description": "indication of loss of nerve fiber layer"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "evidence associated with glaucoma"
+        },
+        {
+          "id": "f4",
+          "label": "retinal nerve fiber layer defects",
+          "description": "localized thinning or loss of nerve fibers"
+        },
+        {
+          "id": "f5",
+          "label": "visual field loss",
+          "description": "accompanying loss tested through perimetry"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:07:59.185188"
+  },
+  {
+    "id": 63375,
+    "original_text": "**Diagnostic Features Observed:**\nThe retinal image reveals several key features that are commonly associated with glaucoma. Notably, there is an observed cupping of the optic nerve head (ONH), which indicates an increase in intraocular pressure (IOP). The cup-to-disc ratio appears significantly enlarged, suggesting glaucomatous optic neuropathy. Furthermore, there may be thinning of the neuroretinal rim, particularly in the inferior and superior regions. The presence of retinal nerve fiber layer (RNFL) defects, especially in the temporal and nasal quadrants, could also be indicative of glaucomatous damage. Additionally, any signs of peripapillary atrophy or changes in the retinal vasculature can further support the diagnosis of glaucoma.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "observed cupping of the optic nerve head indicating increased intraocular pressure"
+        },
+        {
+          "id": "f2",
+          "label": "enlarged cup-to-disc ratio",
+          "description": "significantly enlarged cup-to-disc ratio suggesting glaucomatous optic neuropathy"
+        },
+        {
+          "id": "f3",
+          "label": "neuroretinal rim thinning",
+          "description": "thinning of the neuroretinal rim, particularly in the inferior and superior regions"
+        },
+        {
+          "id": "f4",
+          "label": "retinal nerve fiber layer defects",
+          "description": "defects in the retinal nerve fiber layer, especially in the temporal and nasal quadrants"
+        },
+        {
+          "id": "f5",
+          "label": "peripapillary atrophy",
+          "description": "presence of peripapillary atrophy supporting the diagnosis of glaucoma"
+        },
+        {
+          "id": "f6",
+          "label": "changes in retinal vasculature",
+          "description": "changes in the retinal vasculature that can further support the diagnosis of glaucoma"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:03.868980"
+  },
+  {
+    "id": 3851,
+    "original_text": "**Diagnostic Features Observed**: The retinal image displays several significant features that are commonly associated with glaucoma. One of the most notable signs is the appearance of the optic nerve head, which shows cupping, indicating the potential presence of increased intraocular pressure. The neuroretinal rim appears thinner than normal, a critical indicator of glaucomatous damage. Additionally, there may be changes in the retinal nerve fiber layer, such as localized defects or a loss of nerve fibers that could be indicative of glaucomatous optic neuropathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "appearance of the optic nerve head showing cupping, indicating potential increased intraocular pressure"
+        },
+        {
+          "id": "f2",
+          "label": "thinned neuroretinal rim",
+          "description": "neuroretinal rim appears thinner than normal, indicating glaucomatous damage"
+        },
+        {
+          "id": "f3",
+          "label": "retinal nerve fiber layer changes",
+          "description": "localized defects or loss of nerve fibers indicative of glaucomatous optic neuropathy"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:07.428691"
+  },
+  {
+    "id": 3858,
+    "original_text": "In the provided retinal image, several diagnostic features may be visible that could indicate various ocular conditions. Potential findings to look for include optic nerve head cupping, retinal nerve fiber layer (RNFL) thinning, and abnormalities in the retinal vasculature. Specifically, in cases of glaucoma, one would expect to observe increased cupping of the optic nerve head, where the physiological cup-to-disc ratio becomes enlarged. Additionally, there may be signs of RNFL defects, which could manifest as localized areas of thinning or loss. Other signs to assess include the appearance of retinal nerve fibers which may show a wedge-shaped pattern, suggesting glaucomatous damage.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "enlarged physiological cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "RNFL thinning",
+          "description": "localized areas of thinning or loss in the retinal nerve fiber layer"
+        },
+        {
+          "id": "f3",
+          "label": "wedge-shaped pattern of retinal nerve fibers",
+          "description": "suggests glaucomatous damage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:10.327467"
+  },
+  {
+    "id": 3860,
+    "original_text": "In analyzing the provided retinal image, several key diagnostic features that may indicate glaucoma are typically observed. Common signs of glaucoma include optic nerve head changes, such as increased cupping, and the presence of retinal nerve fiber layer (RNFL) thinning. In the image, if the optic disc appears enlarged with a noticeable cup-to-disc ratio greater than 0.6, this may suggest glaucoma. Additionally, the presence of visual field defects, particularly in the peripheral vision, can be indicative of glaucomatous damage.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head changes",
+          "description": "increased cupping of the optic nerve head"
+        },
+        {
+          "id": "f2",
+          "label": "RNFL thinning",
+          "description": "thinning of the retinal nerve fiber layer"
+        },
+        {
+          "id": "f3",
+          "label": "enlarged optic disc",
+          "description": "optic disc appears enlarged with a cup-to-disc ratio greater than 0.6"
+        },
+        {
+          "id": "f4",
+          "label": "visual field defects",
+          "description": "defects in peripheral vision indicative of glaucomatous damage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:14.353970"
+  },
+  {
+    "id": 3811,
+    "original_text": "In the provided retinal image, the diagnostic features suggest the presence of elevated cupping of the optic disc, which is indicative of potential optic nerve damage. There may also be signs of narrowing of the retinal vessels and changes in the peripapillary region, such as a loss of the neuroretinal rim. These features can be consistent with glaucomatous changes, as glaucoma is associated with increased intraocular pressure leading to progressive optic nerve damage.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "elevated cupping of the optic disc",
+          "description": "indicative of potential optic nerve damage"
+        },
+        {
+          "id": "f2",
+          "label": "narrowing of the retinal vessels",
+          "description": "suggestive of glaucomatous changes"
+        },
+        {
+          "id": "f3",
+          "label": "loss of the neuroretinal rim",
+          "description": "changes in the peripapillary region consistent with glaucoma"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:16.918305"
+  },
+  {
+    "id": 3819,
+    "original_text": "In the provided retinal image, several diagnostic features are notable. The retinal nerve fiber layer appears to be thinning, which may suggest a loss of nerve fibers that is commonly associated with glaucomatous damage. Additionally, the optic disc shows signs of cupping, characterized by an increased cup-to-disc ratio. This cup enlargement indicates potential optic nerve damage, which is a hallmark of glaucoma. There may also be changes in the peripapillary nerve fiber layer, such as notching or pallor, which further support this observation. Furthermore, the presence of visual field defects may not be visible in the image but is often correlated with the observed retinal findings.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "thinning of retinal nerve fiber layer",
+          "description": "suggests a loss of nerve fibers commonly associated with glaucomatous damage"
+        },
+        {
+          "id": "f2",
+          "label": "optic disc cupping",
+          "description": "characterized by an increased cup-to-disc ratio indicating potential optic nerve damage"
+        },
+        {
+          "id": "f3",
+          "label": "changes in peripapillary nerve fiber layer",
+          "description": "may include notching or pallor supporting the observation of optic nerve damage"
+        },
+        {
+          "id": "f4",
+          "label": "visual field defects",
+          "description": "often correlated with the observed retinal findings, though not visible in the image"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:20.079670"
+  },
+  {
+    "id": 63388,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image exhibits several key features that are characteristic of glaucoma. These features include the following:\n\n- **Optic Nerve Head Changes:** There is a noticeable cupping of the optic nerve head, which appears to be increased in size. The cup-to-disc ratio is significantly elevated, indicating potential damage to the optic nerve.\n- **Peripapillary Atrophy:** There may be signs of peripapillary atrophy around the optic disc, which is often associated with glaucomatous changes.\n- **Visual Field Defects:** Although not directly seen in the image, the presence of specific patterns of visual field loss can often be correlated with the observed structural changes in the retina.\n- **Retinal Nerve Fiber Layer Thinning:** There could be evidence of thinning of the retinal nerve fiber layer, which can be observed in optical coherence tomography (OCT) images, indicating loss of nerve fibers due to glaucoma.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "noticeable cupping of the optic nerve head with an increased cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "peripapillary atrophy",
+          "description": "signs of peripapillary atrophy around the optic disc"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "specific patterns of visual field loss correlated with structural changes"
+        },
+        {
+          "id": "f4",
+          "label": "retinal nerve fiber layer thinning",
+          "description": "evidence of thinning of the retinal nerve fiber layer observed in OCT images"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:24.712684"
+  },
+  {
+    "id": 3849,
+    "original_text": "In the provided retinal image, several diagnostic features pertinent to the evaluation of glaucoma can be observed. Notable findings include a significant cupping of the optic nerve head, characterized by a pronounced excavation or depression. The neuroretinal rim appears thin, indicating potential damage to the optic nerve fibers. Additionally, there may be signs of retinal nerve fiber layer (RNFL) thinning observed in the periphery, which is often associated with glaucoma. There could also be changes in the retinal vasculature, such as narrowing of the blood vessels or alterations in their distribution, which may correlate with glaucomatous damage.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "pronounced excavation or depression of the optic nerve head"
+        },
+        {
+          "id": "f2",
+          "label": "thin neuroretinal rim",
+          "description": "indication of potential damage to the optic nerve fibers"
+        },
+        {
+          "id": "f3",
+          "label": "RNFL thinning",
+          "description": "thinning observed in the periphery, often associated with glaucoma"
+        },
+        {
+          "id": "f4",
+          "label": "retinal vasculature changes",
+          "description": "narrowing of blood vessels or alterations in their distribution"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:27.638458"
+  },
+  {
+    "id": 64857,
+    "original_text": "In the provided retinal image, several diagnostic features may be observed that are crucial for recognizing potential pathologies. The image may exhibit characteristics such as the clarity of the retinal surface, the appearance of the optic disc, the presence of retinal vasculature, and any notable changes in the retinal architecture. If there are significant findings such as exudates, hemorrhages, or abnormalities in the optic disc, these need to be noted carefully, as they can indicate various retinal conditions.",
+    "extracted_features": {
+      "features": []
+    },
+    "processing_timestamp": "2025-08-25 14:08:28.985408"
+  },
+  {
+    "id": 64993,
+    "original_text": "In the provided retinal image, several significant diagnostic features are observable. The presence of multiple small, yellowish-white spots indicates the potential for exudates, which are often associated with diabetic retinopathy. Additionally, there may be evidence of microaneurysms, which are small, localized dilations of the retinal capillaries that can occur in the early stages of diabetic retinopathy. The overall appearance of the fundus may also exhibit a blurred quality, which could suggest changes in the retinal structure or the presence of edema.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "exudates",
+          "description": "multiple small, yellowish-white spots indicative of potential exudates associated with diabetic retinopathy"
+        },
+        {
+          "id": "f2",
+          "label": "microaneurysms",
+          "description": "small, localized dilations of the retinal capillaries that can occur in the early stages of diabetic retinopathy"
+        },
+        {
+          "id": "f3",
+          "label": "blurred fundus appearance",
+          "description": "overall appearance of the fundus exhibiting a blurred quality, suggesting changes in retinal structure or presence of edema"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:32.252764"
+  },
+  {
+    "id": 64890,
+    "original_text": "In examining the provided retinal image, certain diagnostic features can be observed. The image likely displays a fundus with noticeable characteristics that may include a blurred appearance of the retinal layers and possibly the absence of significant pathological findings such as hemorrhages, exudates, or neovascularization. There might also be indications of retinal pigment epithelium changes or slight atrophy, but these would be subtle. The optic disc appears to be of normal shape and size, and no signs of edema or significant cupping are visible. These findings suggest a relatively stable retinal condition without acute pathology.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "blurred retinal layers",
+          "description": "notable blurring of the retinal layers observed"
+        },
+        {
+          "id": "f2",
+          "label": "absence of significant pathological findings",
+          "description": "no hemorrhages, exudates, or neovascularization present"
+        },
+        {
+          "id": "f3",
+          "label": "subtle RPE changes",
+          "description": "possible slight atrophy or changes in the retinal pigment epithelium"
+        },
+        {
+          "id": "f4",
+          "label": "normal optic disc",
+          "description": "optic disc appears normal in shape and size with no edema or cupping"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:36.017191"
+  },
+  {
+    "id": 64972,
+    "original_text": "In the provided retinal image, several diagnostic features are typically associated with the assessment of diabetic retinopathy and other retinal conditions. Key signs to look for include the presence of microaneurysms, cotton wool spots, hard exudates, and any notable changes in the optic nerve head, such as cup-to-disc ratio alterations. The image may also show changes in vascular structure, including any signs of retinal edema or hemorrhages. However, without direct observation of the image, I will focus on the typical findings associated with the conditions listed in the provided diagnosis options.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "microaneurysms",
+          "description": "small localized dilations of retinal capillaries"
+        },
+        {
+          "id": "f2",
+          "label": "cotton wool spots",
+          "description": "soft, fluffy white patches on the retina"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges on the retina"
+        },
+        {
+          "id": "f4",
+          "label": "cup-to-disc ratio alterations",
+          "description": "changes in the ratio of the optic cup to the optic disc"
+        },
+        {
+          "id": "f5",
+          "label": "retinal edema",
+          "description": "swelling of the retina due to fluid accumulation"
+        },
+        {
+          "id": "f6",
+          "label": "hemorrhages",
+          "description": "bleeding within the retinal layers"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:39.878124"
+  },
+  {
+    "id": 64908,
+    "original_text": "In the provided image, I would expect to observe various diagnostic features characteristic of retinal conditions. Common features to look for could include the appearance and shape of the optic nerve head, the presence of any retinal hemorrhages, exudates, cotton wool spots, microaneurysms, and changes in the retinal vasculature such as neovascularization or any abnormalities in the retinal pigment epithelium. In the absence of specific details from the image, I can infer that a normal anatomy of the retina or mild changes might be present.",
+    "extracted_features": {
+      "features": []
+    },
+    "processing_timestamp": "2025-08-25 14:08:41.341946"
+  },
+  {
+    "id": 64977,
+    "original_text": "In the provided retinal image, several diagnostic features can be observed. Firstly, the overall appearance of the fundus is somewhat hazy or blurred, which may suggest a potential pathology affecting the retinal structure or clarity. Additionally, the optic disc appears to be of normal size and shape, without signs of swelling or significant cupping that would indicate conditions such as glaucoma. There are no visible signs of diabetic retinopathy, such as microaneurysms, hemorrhages, or exudates. The retinal vessels also appear to be within normal limits, showing no significant tortuosity or narrowing that would suggest vascular occlusion or other vascular diseases.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hazy fundus appearance",
+          "description": "overall appearance of the fundus is somewhat hazy or blurred"
+        },
+        {
+          "id": "f2",
+          "label": "normal optic disc",
+          "description": "optic disc appears to be of normal size and shape, without signs of swelling or significant cupping"
+        },
+        {
+          "id": "f3",
+          "label": "absence of diabetic retinopathy",
+          "description": "no visible signs of diabetic retinopathy such as microaneurysms, hemorrhages, or exudates"
+        },
+        {
+          "id": "f4",
+          "label": "normal retinal vessels",
+          "description": "retinal vessels appear to be within normal limits, showing no significant tortuosity or narrowing"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:45.436997"
+  },
+  {
+    "id": 64946,
+    "original_text": "Upon analyzing the provided retinal image, several diagnostic features can be observed that are relevant to retinal health. The image likely shows characteristics such as the presence of blurred vision or details that are not sharp, which is indicative of underlying conditions affecting the retina. There may be a lack of distinct features associated with proliferative diabetic retinopathy (PDR), such as neovascularization, significant hemorrhages, or the presence of hard exudates. The optic disc appears to be of normal appearance without signs of swelling or atrophy, which may further influence the diagnostic considerations.",
+    "extracted_features": {
+      "features": []
+    },
+    "processing_timestamp": "2025-08-25 14:08:46.828500"
+  },
+  {
+    "id": 64895,
+    "original_text": "Based on the retinal image analysis, several diagnostic features may be observed. These could include the presence of retinal changes such as exudates, hemorrhages, or abnormalities in the optic disc. The image may reflect alterations in retinal vasculature, including signs of ischemia or changes in the architecture of the retina that could indicate underlying pathology. For instance, the appearance of cotton-wool spots, hard exudates, or microaneurysms may be notable. The optic disc may show characteristics such as swelling or changes in the cup-to-disc ratio, which are critical in diagnosing specific retinal conditions.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "exudates",
+          "description": "presence of retinal exudates indicating potential retinal pathology"
+        },
+        {
+          "id": "f2",
+          "label": "hemorrhages",
+          "description": "presence of retinal hemorrhages suggesting vascular issues"
+        },
+        {
+          "id": "f3",
+          "label": "cotton-wool spots",
+          "description": "white fluffy patches on the retina indicating ischemia"
+        },
+        {
+          "id": "f4",
+          "label": "hard exudates",
+          "description": "yellow-white lesions on the retina associated with lipid deposits"
+        },
+        {
+          "id": "f5",
+          "label": "microaneurysms",
+          "description": "small localized dilations of retinal capillaries"
+        },
+        {
+          "id": "f6",
+          "label": "optic disc swelling",
+          "description": "swelling of the optic disc indicating possible increased intracranial pressure"
+        },
+        {
+          "id": "f7",
+          "label": "changes in cup-to-disc ratio",
+          "description": "alterations in the cup-to-disc ratio that may indicate glaucoma or other optic nerve conditions"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:52.893562"
+  },
+  {
+    "id": 64954,
+    "original_text": "In the given retinal image, several relevant diagnostic features can be observed. The optic disc appears to be of normal size, without significant cupping or pallor. The macula shows no signs of edema or exudation, and there are no hard exudates, cotton wool spots, or any signs of hemorrhages in the surrounding retina. The vascular system appears intact, with no evident signs of neovascularization or vascular occlusions. These findings suggest a relatively healthy retinal structure.",
+    "extracted_features": {
+      "features": []
+    },
+    "processing_timestamp": "2025-08-25 14:08:54.218465"
+  },
+  {
+    "id": 64907,
+    "original_text": "Upon analyzing the retinal image, several diagnostic features can be observed. The image appears to show a fundus with a noticeable blurring effect. There are no prominent signs of retinal hemorrhages, exudates, or microaneurysms, which are typically associated with diabetic retinopathy. The optic disc appears normal without any significant swelling or pallor, and there are no signs of neovascularization or abnormal vessel growth. Overall, the image does not exhibit the classic features of severe retinal pathologies.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "blurring effect",
+          "description": "noticeable blurring effect observed in the retinal image"
+        },
+        {
+          "id": "f2",
+          "label": "normal optic disc",
+          "description": "optic disc appears normal without significant swelling or pallor"
+        },
+        {
+          "id": "f3",
+          "label": "absence of retinal hemorrhages",
+          "description": "no prominent signs of retinal hemorrhages observed"
+        },
+        {
+          "id": "f4",
+          "label": "absence of exudates",
+          "description": "no prominent signs of exudates observed"
+        },
+        {
+          "id": "f5",
+          "label": "absence of microaneurysms",
+          "description": "no prominent signs of microaneurysms observed"
+        },
+        {
+          "id": "f6",
+          "label": "absence of neovascularization",
+          "description": "no signs of neovascularization or abnormal vessel growth observed"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:08:59.261683"
+  },
+  {
+    "id": 65176,
+    "original_text": "In the retinal image provided, several important diagnostic features can be observed. The image may show changes in the retinal architecture, including alterations in the appearance of the retinal vessels, presence of exudates, and potential changes in the optic disc. The presence of cotton wool spots or hard exudates may indicate areas of ischemia or retinal pathology. Additionally, any changes to the fovea or retinal pigment epithelium may also be noted, as these can be critical in diagnosing various forms of maculopathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "changes in retinal architecture",
+          "description": "alterations in the appearance of the retinal vessels"
+        },
+        {
+          "id": "f2",
+          "label": "presence of exudates",
+          "description": "cotton wool spots or hard exudates indicating areas of ischemia"
+        },
+        {
+          "id": "f3",
+          "label": "changes to the fovea",
+          "description": "notable alterations that can be critical in diagnosing maculopathy"
+        },
+        {
+          "id": "f4",
+          "label": "changes in the optic disc",
+          "description": "potential alterations that may indicate retinal pathology"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:02.710315"
+  },
+  {
+    "id": 65191,
+    "original_text": "The relevant diagnostic features observed in the retinal image could include signs such as changes in the macula, including alterations in pigmentation, the presence of exudates, or edema. The image may also show retinal hemorrhages, microaneurysms, or cotton wool spots, depending on the stage of the disease. If the image demonstrates any significant changes specifically localized to the macula, such as a change in the color or contour of the fovea, or the presence of exudates or edema, these would be critical features to note.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "macular pigmentation changes",
+          "description": "alterations in pigmentation observed in the macula"
+        },
+        {
+          "id": "f2",
+          "label": "exudates",
+          "description": "presence of exudates in the retinal image"
+        },
+        {
+          "id": "f3",
+          "label": "edema",
+          "description": "swelling in the macula area"
+        },
+        {
+          "id": "f4",
+          "label": "retinal hemorrhages",
+          "description": "presence of bleeding within the retina"
+        },
+        {
+          "id": "f5",
+          "label": "microaneurysms",
+          "description": "small bulges in retinal blood vessels"
+        },
+        {
+          "id": "f6",
+          "label": "cotton wool spots",
+          "description": "fluffy white patches on the retina"
+        },
+        {
+          "id": "f7",
+          "label": "foveal contour changes",
+          "description": "changes in the color or contour of the fovea"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:07.101017"
+  },
+  {
+    "id": 65192,
+    "original_text": "In the retinal image provided, several diagnostic features are notable. The presence of microaneurysms is observed as small red dots, indicative of localized areas of vascular leakage. Additionally, there are soft exudates, which appear as fluffy white patches on the retina, suggesting underlying ischemia. The retinal vasculature may also demonstrate changes such as increased tortuosity and possibly some areas of retinal hemorrhage, which could indicate vascular compromise. Overall, these findings suggest the presence of diabetic retinal changes.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "microaneurysms",
+          "description": "small red dots indicative of localized areas of vascular leakage"
+        },
+        {
+          "id": "f2",
+          "label": "soft exudates",
+          "description": "fluffy white patches on the retina suggesting underlying ischemia"
+        },
+        {
+          "id": "f3",
+          "label": "increased tortuosity",
+          "description": "changes in the retinal vasculature indicating vascular compromise"
+        },
+        {
+          "id": "f4",
+          "label": "retinal hemorrhage",
+          "description": "areas of bleeding in the retina suggesting vascular compromise"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:09.088107"
+  },
+  {
+    "id": 65240,
+    "original_text": "In examining the retinal image, certain key diagnostic features are typically observed in cases involving various retinal conditions. Observations that might be pertinent include the presence of exudates, hemorrhages, changes in the optic disc, and alterations in the retinal vasculature. For instance, if the image shows cotton wool spots, hard exudates, or microaneurysms, these could indicate underlying pathology such as diabetic retinopathy. Additionally, if there are significant changes in the macula, such as swelling or the presence of drusen, those features could suggest maculopathy. The vascular health, including tortuosity or narrowing of blood vessels, can also provide clues to the diagnosis.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "cotton wool spots",
+          "description": "soft, fluffy white patches on the retina indicating retinal ischemia"
+        },
+        {
+          "id": "f2",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges, indicating lipid deposits"
+        },
+        {
+          "id": "f3",
+          "label": "microaneurysms",
+          "description": "small, localized dilations of retinal capillaries, often seen in diabetic retinopathy"
+        },
+        {
+          "id": "f4",
+          "label": "macular swelling",
+          "description": "thickening of the macula, indicating potential maculopathy"
+        },
+        {
+          "id": "f5",
+          "label": "drusen",
+          "description": "yellowish-white deposits under the retina, associated with age-related macular degeneration"
+        },
+        {
+          "id": "f6",
+          "label": "vascular tortuosity",
+          "description": "abnormal twisting or bending of retinal blood vessels"
+        },
+        {
+          "id": "f7",
+          "label": "vascular narrowing",
+          "description": "reduction in the diameter of retinal blood vessels, indicating potential vascular disease"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:14.105461"
+  },
+  {
+    "id": 65174,
+    "original_text": "In analyzing the retinal image, several diagnostic features can be observed that are critical for assessment. The image may present notable signs such as microaneurysms, dot-and-blot hemorrhages, and possibly hard exudates or cotton wool spots. Microaneurysms appear as small red dots on the retina, indicative of early vascular changes, while dot-and-blot hemorrhages, which are deeper retinal hemorrhages, may present as small round spots. Hard exudates, which are yellow-white lesions with well-defined edges, and cotton wool spots, which appear as fluffy white patches, are also important features that could be observed in the image. These findings are characteristic of diabetic retinopathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "microaneurysms",
+          "description": "small red dots on the retina indicative of early vascular changes"
+        },
+        {
+          "id": "f2",
+          "label": "dot-and-blot hemorrhages",
+          "description": "deeper retinal hemorrhages that present as small round spots"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges"
+        },
+        {
+          "id": "f4",
+          "label": "cotton wool spots",
+          "description": "fluffy white patches on the retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:17.486753"
+  },
+  {
+    "id": 65228,
+    "original_text": "**[Rationale]**\n\n1. **Diagnostic Features Observed:**\n   In the provided retinal image, several critical features can be identified. The most prominent feature is the presence of microaneurysms, which appear as small, round, red dots on the retinal surface. Additionally, there are scattered soft exudates, also known as cotton wool spots, which present as fluffy, white patches on the retina. Another notable feature is the presence of hard exudates, characterized by yellow-white lesions with well-defined edges. These findings are indicative of retinal changes commonly associated with diabetic retinopathy.\n\n2. **Diagnostic Reasoning:**\n   The presence of microaneurysms is often the earliest sign of diabetic retinopathy, reflecting localized areas of retinal vascular leakage. The soft and hard exudates observed in the image further support the diagnosis, as they indicate retinal ischemia and lipid deposition related to the breakdown of the blood-retinal barrier. These features suggest that the patient is in the early stages of diabetic retinopathy, consistent with the classification of Diabetic Retinopathy Stage 1, where changes are primarily non-proliferative.\n\n3. **Conclusion:**\n   Based on the observed findings of microaneurysms, soft exudates, and hard exudates, it is clear that the retinal changes are characteristic of diabetic retinopathy. Therefore, the correct diagnosis is Diabetic Retinopathy Stage 1.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "microaneurysms",
+          "description": "small, round, red dots on the retinal surface"
+        },
+        {
+          "id": "f2",
+          "label": "soft exudates",
+          "description": "fluffy, white patches on the retina"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:20.196392"
+  },
+  {
+    "id": 65232,
+    "original_text": "In analyzing the retinal image, several diagnostic features could be observed that are critical for determining the patient's condition. Common findings in retinal images include abnormalities in the retinal vasculature, presence of exudates, hemorrhages, and changes in the optic disc. In this case, the image may show features such as microaneurysms, cotton wool spots, hard exudates, or changes in the fovea that could suggest various stages of diabetic retinopathy or other retinal pathologies.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "microaneurysms",
+          "description": "small localized dilations of retinal capillaries"
+        },
+        {
+          "id": "f2",
+          "label": "cotton wool spots",
+          "description": "soft, fluffy white patches on the retina"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "yellow-white lesions with well-defined edges on the retina"
+        },
+        {
+          "id": "f4",
+          "label": "changes in the fovea",
+          "description": "alterations in the central part of the retina that may indicate pathology"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:23.374736"
+  },
+  {
+    "id": 64535,
+    "original_text": "**Diagnostic Features Observed in the Image**: In the retinal image, there are notable crystalline deposits that appear primarily in the mid-peripheral retina. These deposits are often yellowish-white and exhibit a characteristic \"snowflake\" appearance. There may be evidence of retinal pigmentary changes, with some areas showing atrophy or hyperpigmentation, suggesting a degenerative process. The overall integrity of the retinal architecture may appear compromised, and there could be associated findings such as retinal thinning or changes in the retinal vasculature.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "crystalline deposits",
+          "description": "yellowish-white deposits with a characteristic 'snowflake' appearance in the mid-peripheral retina"
+        },
+        {
+          "id": "f2",
+          "label": "retinal pigmentary changes",
+          "description": "areas of atrophy or hyperpigmentation indicating a degenerative process"
+        },
+        {
+          "id": "f3",
+          "label": "retinal thinning",
+          "description": "compromised integrity of the retinal architecture with evidence of thinning"
+        },
+        {
+          "id": "f4",
+          "label": "changes in retinal vasculature",
+          "description": "associated findings indicating alterations in the retinal blood vessels"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:27.980830"
+  },
+  {
+    "id": 65186,
+    "original_text": "In the provided retinal image, several diagnostic features can be observed. There are notable changes in the retinal architecture, including the presence of hard exudates, which appear as yellowish-white lesions with well-defined edges. These exudates indicate the accumulation of lipids and are often associated with retinal ischemia. Additionally, there may be signs of microaneurysms, which are small outpouchings of the retinal capillaries, commonly seen in diabetic retinopathy. The overall appearance of the retinal vasculature may show alterations, such as narrowing of the retinal arteries or changes in vessel caliber, which are indicative of vascular changes related to diabetes.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "hard exudates",
+          "description": "yellowish-white lesions with well-defined edges indicating lipid accumulation"
+        },
+        {
+          "id": "f2",
+          "label": "microaneurysms",
+          "description": "small outpouchings of the retinal capillaries commonly seen in diabetic retinopathy"
+        },
+        {
+          "id": "f3",
+          "label": "narrowing of retinal arteries",
+          "description": "alterations in the retinal vasculature indicative of vascular changes related to diabetes"
+        },
+        {
+          "id": "f4",
+          "label": "changes in vessel caliber",
+          "description": "variations in the width of retinal blood vessels associated with diabetes"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:33.084960"
+  },
+  {
+    "id": 65171,
+    "original_text": "### [Rationale]\n\n1. **Diagnostic Features Observed**:\n   - The image likely shows significant changes in the retinal architecture. Key features to note may include the presence of microaneurysms, small hemorrhages, and possibly hard exudates or cotton wool spots, which are indicative of retinal vascular changes.\n   - The overall appearance of the retina may exhibit a degree of edema or changes in the retinal layer thickness, which could imply underlying pathological processes.\n   - Specific vascular patterns may also be observed, such as increased tortuosity or other anomalies in the blood vessels.\n\n2. **Diagnostic Reasoning**:\n   - The presence of microaneurysms and small hemorrhages in the retinal image suggests that there may be ongoing damage to the retinal blood vessels. These findings are characteristic of early-stage diabetic retinopathy.\n   - If there are soft exudates or cotton wool spots, it further supports the diagnosis of diabetic retinopathy since these are associated with retinal ischemia and retinal nerve fiber layer damage, both of which are common in diabetic patients.\n   - The absence of proliferative changes (like neovascularization) suggests that the condition is likely in the non-proliferative state, which aligns with the definition of mild non-proliferative diabetic retinopathy.\n\n3. **Conclusion**:\n   - Given the observed features and the reasoning based on retinal pathology, the most likely diagnosis, based on the appearance of the retinal image, is indicative of mild non-proliferative diabetic retinopathy.\n   - Therefore, the correct diagnosis is Diabetic Retinopathy Stage 1 (DR1).",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "microaneurysms",
+          "description": "small outpouchings of the retinal blood vessels indicative of early-stage diabetic retinopathy"
+        },
+        {
+          "id": "f2",
+          "label": "small hemorrhages",
+          "description": "tiny blood leaks in the retina associated with retinal vascular damage"
+        },
+        {
+          "id": "f3",
+          "label": "hard exudates",
+          "description": "yellow-white lesions on the retina due to lipid deposits"
+        },
+        {
+          "id": "f4",
+          "label": "cotton wool spots",
+          "description": "fluffy white patches on the retina indicating retinal nerve fiber layer damage"
+        },
+        {
+          "id": "f5",
+          "label": "retinal edema",
+          "description": "swelling of the retina due to fluid accumulation"
+        },
+        {
+          "id": "f6",
+          "label": "increased retinal layer thickness",
+          "description": "thickening of the retinal layers suggesting underlying pathological processes"
+        },
+        {
+          "id": "f7",
+          "label": "vascular tortuosity",
+          "description": "increased twisting and turning of retinal blood vessels"
+        },
+        {
+          "id": "f8",
+          "label": "absence of proliferative changes",
+          "description": "no signs of neovascularization indicating non-proliferative diabetic retinopathy"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:36.302005"
+  },
+  {
+    "id": 3681,
+    "original_text": "The image likely exhibits characteristic features associated with cataracts, such as opacities in the lens of the eye. These opacities can present in various forms, including a cloudy appearance or areas of light scattering, which interfere with the passage of light. The lens may appear whitish or yellowish, and there may be associated signs such as glare or halos around lights, particularly in bright conditions.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "lens opacities",
+          "description": "cloudy appearance or areas of light scattering in the lens"
+        },
+        {
+          "id": "f2",
+          "label": "glare",
+          "description": "perception of bright lights causing discomfort or visual disturbance"
+        },
+        {
+          "id": "f3",
+          "label": "halos around lights",
+          "description": "rings of light surrounding bright light sources, particularly in bright conditions"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:41.140002"
+  },
+  {
+    "id": 3722,
+    "original_text": "In the provided retinal image, several diagnostic features may be observed that could indicate the presence of a cataract. These include potential opacities in the lens of the eye, which may appear as a white or cloudy area. The clarity of the surrounding retinal structures, such as the blood vessels and the retina itself, should be evaluated. If the lens appears hazy or has a frosted appearance, these findings would be consistent with cataract formation. Additionally, any changes in the pupil's response to light or alterations in the fundoscopic view could provide further evidence of lens opacity.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "lens opacities",
+          "description": "white or cloudy area in the lens of the eye"
+        },
+        {
+          "id": "f2",
+          "label": "hazy lens appearance",
+          "description": "frosted appearance of the lens indicating cataract formation"
+        },
+        {
+          "id": "f3",
+          "label": "pupil response changes",
+          "description": "alterations in the pupil's response to light"
+        },
+        {
+          "id": "f4",
+          "label": "fundoscopic view alterations",
+          "description": "changes observed in the fundoscopic examination related to lens opacity"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:44.445028"
+  },
+  {
+    "id": 3707,
+    "original_text": "In examining the provided retinal image, several diagnostic features can be observed. The most prominent finding is the presence of opacification and clouding in the lens of the eye, which appears as a diffuse white or yellow discoloration. This opacification can obscure the view of the retina, indicating potential lens opacity. Additionally, there may be signs of light scattering, which could suggest that the light entering the eye is being disrupted due to the lens changes. The clarity of the surrounding structures, such as the optic nerve head and retinal vasculature, may also appear diminished or altered in comparison to a normal image.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "lens opacification",
+          "description": "diffuse white or yellow discoloration of the lens"
+        },
+        {
+          "id": "f2",
+          "label": "light scattering",
+          "description": "disruption of light entering the eye due to lens changes"
+        },
+        {
+          "id": "f3",
+          "label": "diminished clarity of optic nerve head",
+          "description": "altered appearance of the optic nerve head compared to normal"
+        },
+        {
+          "id": "f4",
+          "label": "diminished clarity of retinal vasculature",
+          "description": "altered appearance of retinal blood vessels compared to normal"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:47.752354"
+  },
+  {
+    "id": 3692,
+    "original_text": "In the provided retinal image, several diagnostic features can be observed that are characteristic of cataract development. A prominent sign is the presence of opacities in the lens, which appear as white or yellowish areas in the retina. These opacities may vary in size and distribution and could significantly obscure the view of the underlying retinal structures. Additionally, the image may show signs of light scattering or glare, which is often described by patients experiencing visual disturbances due to cataracts.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "lens opacities",
+          "description": "white or yellowish areas in the lens obscuring retinal structures"
+        },
+        {
+          "id": "f2",
+          "label": "light scattering",
+          "description": "signs of glare affecting visual clarity"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:52.303164"
+  },
+  {
+    "id": 3712,
+    "original_text": "Observing the provided retinal image, key diagnostic features must be assessed. In the case of cataracts, one would expect to see opacities in the lens of the eye, which might appear as a clouded or milky area affecting the clarity of the retinal image. The presence of significant glare or halos around lights, as well as potential changes in the color perception, may also be noted. Additionally, if the image were to show signs of lens opacification, it would indicate a cataract's presence.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "lens opacities",
+          "description": "clouded or milky area affecting the clarity of the retinal image"
+        },
+        {
+          "id": "f2",
+          "label": "glare or halos",
+          "description": "significant glare or halos around lights"
+        },
+        {
+          "id": "f3",
+          "label": "changes in color perception",
+          "description": "potential alterations in the perception of colors"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:55.241334"
+  },
+  {
+    "id": 3700,
+    "original_text": "Upon examining the retinal image, several key diagnostic features may be observed. Typically, in cases of cataracts, one might expect to see opacities in the lens, which may appear as white or yellowish areas obscuring the normal clarity of the lens. Additionally, there may be signs of light scattering or a general haziness in the visual axis, indicating that the light is not passing through the lens properly. In the retina itself, one may also observe changes in the retinal blood vessels or potential alterations in the macula, which could indicate secondary effects from cataracts, such as macular edema or other retinal complications.",
+    "extracted_features": {
+      "features": []
+    },
+    "processing_timestamp": "2025-08-25 14:09:56.548230"
+  },
+  {
+    "id": 3671,
+    "original_text": "In the retinal image provided, there are several diagnostic features that may be indicative of cataract. The image may show opacities or cloudiness in the lens of the eye, which could appear as a whitish or yellowish coloration. This clouding can obscure the view of the underlying retina and may also lead to a reduction in the clarity of details. Additionally, the image may depict a change in the normal reflection of light that typically occurs when looking through a healthy lens.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "lens opacities",
+          "description": "cloudiness in the lens of the eye appearing as a whitish or yellowish coloration"
+        },
+        {
+          "id": "f2",
+          "label": "reduced clarity",
+          "description": "obscured view of the underlying retina leading to a reduction in clarity of details"
+        },
+        {
+          "id": "f3",
+          "label": "abnormal light reflection",
+          "description": "change in the normal reflection of light when looking through the lens"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:09:59.429036"
+  },
+  {
+    "id": 3710,
+    "original_text": "In the provided retinal image, several relevant diagnostic features can be observed. The lens appears hazy and cloudy, indicating opacification which is characteristic of cataracts. Additionally, the visual axis may show signs of scatter or a reduction in clarity, which is often associated with the presence of cataracts. There are no signs of retinal detachment, hemorrhage, or other pathological findings that would suggest alternative diagnoses such as glaucoma or diabetic retinopathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "lens opacification",
+          "description": "hazy and cloudy appearance of the lens characteristic of cataracts"
+        },
+        {
+          "id": "f2",
+          "label": "visual axis scatter",
+          "description": "reduction in clarity of the visual axis associated with cataracts"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:10:01.804284"
+  },
+  {
+    "id": 3689,
+    "original_text": "In analyzing the provided retinal image, key diagnostic features indicative of a cataract can be observed. The image may display opacities in the lens, which could appear as white or yellowish areas, obscuring the underlying structures of the eye. These opacities often disrupt the clarity of the lens and can be seen as a clouding effect over the pupil. Additionally, there might be signs of lens displacement or changes in the lens shape, which can further support the diagnosis of cataracts.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "lens opacities",
+          "description": "white or yellowish areas obscuring the underlying structures of the eye"
+        },
+        {
+          "id": "f2",
+          "label": "clouding effect",
+          "description": "disruption of clarity over the pupil"
+        },
+        {
+          "id": "f3",
+          "label": "lens displacement",
+          "description": "displacement or changes in the lens shape"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:10:06.201734"
+  },
+  {
+    "id": 3733,
+    "original_text": "In the provided image, there may be several observable features indicative of an ophthalmic condition. For instance, the presence of cataracts can manifest as clouding of the lens, which can appear white or opaque in the image. This opacity often obscures the clarity of the underlying retina and can be apparent through a direct examination of the lens. Additionally, there may be signs such as a change in the reflection of light off the lens, indicating that the normal transparency has been compromised. If present, these features could serve as key indicators of cataract formation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "cataracts",
+          "description": "clouding of the lens appearing white or opaque"
+        },
+        {
+          "id": "f2",
+          "label": "lens opacity",
+          "description": "opacity obscuring the clarity of the underlying retina"
+        },
+        {
+          "id": "f3",
+          "label": "change in light reflection",
+          "description": "indication that normal transparency of the lens has been compromised"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-08-25 14:10:09.522772"
   }
 ]
