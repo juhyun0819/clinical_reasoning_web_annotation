@@ -110,7 +110,7 @@ def extract_image_analysis_part(rationale_text: str) -> str:
     rationale_o4_hf 텍스트에서 Image Analysis 부분만 추출
     """
     # Image Analysis로 시작하는 부분 찾기
-    pattern = r'\s*Image\s*Analysis[:\s]*(.*?)(?=\n|$)'
+    pattern = r'\(1\)(.*?)(?=\(2\)|$)'
     match = re.search(pattern, rationale_text, re.IGNORECASE | re.DOTALL)
     
     if match:
@@ -174,7 +174,7 @@ def main():
             print(f"{'='*60}")
             
             # rationale_o4_hf 내용 추출
-            rationale = item.get('rationale_o4_hf', '')
+            rationale = item.get('rationale', '')
             if not rationale:
                 print("rationale_o4_hf가 없어 건너뜁니다.")
                 continue
