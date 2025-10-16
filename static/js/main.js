@@ -8,7 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const categoryId = this.dataset.categoryId;
             
             // 전체 보기인 경우
-            window.location.href = '/';
+            if (categoryId === 'all') {
+                window.location.href = '/';
+            } else {
+                // 특정 카테고리 선택 시
+                window.location.href = `/?category=${encodeURIComponent(categoryId)}`;
+            }
         });
     });
     
