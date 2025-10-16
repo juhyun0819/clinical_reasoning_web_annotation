@@ -4638,5 +4638,1757 @@
       ]
     },
     "processing_timestamp": "2025-08-25 14:10:09.522772"
+  },
+    {
+    "id": 65055,
+    "original_text": "Based on the features observable in the retinal image, there may be signs indicative of a retinal vascular issue. Specifically, areas of retinal hemorrhage, edema, and potential pallor of the optic nerve head could be noted. The presence of cotton wool spots or exudates may also be seen, suggesting ischemia or other vascular changes. The vascular patterns may exhibit signs of occlusion, characterized by dilated or engorged veins or arteries.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal hemorrhage",
+          "description": "presence of blood leakage within the retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "retinal edema",
+          "description": "swelling of the retinal tissue due to fluid accumulation"
+        },
+        {
+          "id": "f3",
+          "label": "optic nerve head pallor",
+          "description": "pale appearance of the optic nerve head indicating possible damage"
+        },
+        {
+          "id": "f4",
+          "label": "cotton wool spots",
+          "description": "white fluffy patches on the retina indicating localized ischemia"
+        },
+        {
+          "id": "f5",
+          "label": "exudates",
+          "description": "yellow-white lesions on the retina due to lipid deposits"
+        },
+        {
+          "id": "f6",
+          "label": "vascular occlusion",
+          "description": "blockage of blood vessels in the retina"
+        },
+        {
+          "id": "f7",
+          "label": "dilated veins",
+          "description": "enlarged veins in the retina suggesting venous congestion"
+        },
+        {
+          "id": "f8",
+          "label": "engorged arteries",
+          "description": "swollen arteries in the retina indicating increased blood flow or pressure"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:19.562456"
+  },
+  {
+    "id": 60824,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nBased on the retinal image analysis, several key features indicative of glaucoma are observed. There is evidence of optic nerve head changes, including a cupping of the optic disc which is often characterized by an increased cup-to-disc ratio. Additionally, there may be thinning of the neuroretinal rim and changes in the retinal nerve fiber layer, which are critical markers for glaucoma. The retinal nerve fiber layer might show localized defects, and the overall retinal architecture may exhibit signs of damage that correlate with glaucomatous changes.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head changes",
+          "description": "evidence of cupping of the optic disc with increased cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of the neuroretinal rim",
+          "description": "reduction in the thickness of the neuroretinal rim"
+        },
+        {
+          "id": "f3",
+          "label": "changes in the retinal nerve fiber layer",
+          "description": "localized defects in the retinal nerve fiber layer"
+        },
+        {
+          "id": "f4",
+          "label": "overall retinal architecture damage",
+          "description": "signs of damage in the overall retinal architecture correlating with glaucomatous changes"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:24.734604"
+  },
+  {
+    "id": 60859,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nIn the provided retinal image, several key features indicative of glaucoma can be observed. These include a significant cupping of the optic disc, which appears enlarged with a corresponding thinning of the neuroretinal rim. The rim is noticeably narrower in certain sectors, particularly inferiorly, suggesting localized damage. Furthermore, the retinal nerve fiber layer (RNFL) shows signs of thinning, particularly in the corresponding areas of the optic disc that demonstrate cupping. The overall appearance of the retina is relatively normal, with no signs of significant retinal edema or hemorrhage, which helps to narrow down the diagnosis to glaucoma rather than other retinal pathologies.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "significant cupping of the optic disc with enlargement and thinning of the neuroretinal rim"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of neuroretinal rim",
+          "description": "localized narrowing of the neuroretinal rim, particularly inferiorly"
+        },
+        {
+          "id": "f3",
+          "label": "thinning of retinal nerve fiber layer",
+          "description": "thinning of the RNFL in areas corresponding to the cupping of the optic disc"
+        },
+        {
+          "id": "f4",
+          "label": "normal retinal appearance",
+          "description": "overall appearance of the retina is relatively normal with no significant edema or hemorrhage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:29.385652"
+  },
+  {
+    "id": 60857,
+    "original_text": "**Diagnostic Features Observed:** \nBased on the provided retinal image, several key features can be assessed for diagnosing the stage of glaucoma. These may include the appearance of the optic nerve head (ONH), the cup-to-disc ratio, and the presence of peripapillary changes. In early glaucoma, one might observe a slight increased cup-to-disc ratio, which indicates an initial loss of retinal ganglion cells and thinning of the neuroretinal rim. There may also be early signs of nerve fiber layer defects, such as localized thinning or notching of the rim.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "increased cup-to-disc ratio",
+          "description": "slight increase indicating initial loss of retinal ganglion cells"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of neuroretinal rim",
+          "description": "indicates early signs of glaucoma"
+        },
+        {
+          "id": "f3",
+          "label": "nerve fiber layer defects",
+          "description": "localized thinning or notching of the rim"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:32.302907"
+  },
+  {
+    "id": 60688,
+    "original_text": "**Diagnostic Features Observed in the Image**: The image likely displays various characteristics typically associated with glaucoma, such as changes in the optic nerve head (ONH), including increased cupping, thinning of the neuroretinal rim, or disc pallor. In early glaucoma, subtle changes might be present, such as a slight increase in the cup-to-disc ratio or early localized visual field defects. These changes may not be blatantly visible in the image but can be inferred through careful analysis of the retinal structure.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head changes",
+          "description": "increased cupping, thinning of the neuroretinal rim, or disc pallor"
+        },
+        {
+          "id": "f2",
+          "label": "cup-to-disc ratio increase",
+          "description": "slight increase in the cup-to-disc ratio indicative of early glaucoma"
+        },
+        {
+          "id": "f3",
+          "label": "localized visual field defects",
+          "description": "early localized visual field defects associated with glaucoma"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:36.401371"
+  },
+  {
+    "id": 60875,
+    "original_text": "Diagnostic features observed in the image may include changes in the optic nerve head, such as increased cup-to-disc ratio, thinning of the neuroretinal rim, and possible presence of retinal nerve fiber layer (RNFL) defects. In glaucoma, these findings are typically indicative of progressive damage to the optic nerve due to increased intraocular pressure (IOP). Additionally, visual field tests may show characteristic defects such as arcuate scotomas or peripheral vision loss.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "increased cup-to-disc ratio",
+          "description": "enlargement of the cup relative to the disc in the optic nerve head"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of the neuroretinal rim",
+          "description": "reduction in the thickness of the neuroretinal rim around the optic disc"
+        },
+        {
+          "id": "f3",
+          "label": "RNFL defects",
+          "description": "deficiencies in the retinal nerve fiber layer indicative of optic nerve damage"
+        },
+        {
+          "id": "f4",
+          "label": "arcuate scotomas",
+          "description": "curved visual field defects typically associated with glaucoma"
+        },
+        {
+          "id": "f5",
+          "label": "peripheral vision loss",
+          "description": "reduction in the ability to see objects outside of the central vision"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:41.445248"
+  },
+  {
+    "id": 60770,
+    "original_text": "**Diagnostic Features Observed in the Image**: The retinal image likely shows characteristic features associated with glaucoma, such as changes in the optic disc, including increased cup-to-disc ratio, localized retinal nerve fiber layer (RNFL) thinning, and potential alterations in the visual field that can be inferred from the image. These changes are critical in assessing the presence and stage of glaucoma.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "increased cup-to-disc ratio",
+          "description": "enlargement of the optic cup relative to the optic disc"
+        },
+        {
+          "id": "f2",
+          "label": "localized RNFL thinning",
+          "description": "reduction in the thickness of the retinal nerve fiber layer in specific areas"
+        },
+        {
+          "id": "f3",
+          "label": "visual field alterations",
+          "description": "changes in the visual field that may indicate glaucoma progression"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:45.346161"
+  },
+  {
+    "id": 60727,
+    "original_text": "Upon analyzing the retinal image, several diagnostic features are typically associated with glaucoma. These include the appearance of the optic nerve head, the cup-to-disc ratio, and any visible changes in the retinal nerve fiber layer. In early stages of glaucoma, one might observe an increased cup-to-disc ratio, which indicates the loss of neural tissue. Other features may include localized notches in the rim of the optic nerve, changes in the contour of the optic disc, and potential thinning of the nerve fiber layer.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "increased cup-to-disc ratio",
+          "description": "indicates the loss of neural tissue"
+        },
+        {
+          "id": "f2",
+          "label": "localized notches in the rim of the optic nerve",
+          "description": "visible changes indicating potential glaucoma"
+        },
+        {
+          "id": "f3",
+          "label": "changes in the contour of the optic disc",
+          "description": "alterations in the shape of the optic disc"
+        },
+        {
+          "id": "f4",
+          "label": "thinning of the nerve fiber layer",
+          "description": "reduction in the thickness of the retinal nerve fiber layer"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:48.881634"
+  },
+  {
+    "id": 60662,
+    "original_text": "**Diagnostic Features Observed**:\nIn the retinal image provided, specific diagnostic features indicative of glaucoma can be observed. These may include the presence of optic nerve head changes, such as increased cupping, where the cup-to-disc ratio is larger than normal. There may also be signs of retinal nerve fiber layer (RNFL) thinning, which is commonly associated with glaucoma. Furthermore, visual field testing could indicate peripheral vision loss, which is characteristic of glaucoma progression. Any visible disc hemorrhages or changes in the peripapillary region may also be considered.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head changes",
+          "description": "increased cupping with a larger than normal cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "RNFL thinning",
+          "description": "thinning of the retinal nerve fiber layer commonly associated with glaucoma"
+        },
+        {
+          "id": "f3",
+          "label": "peripheral vision loss",
+          "description": "loss of peripheral vision characteristic of glaucoma progression"
+        },
+        {
+          "id": "f4",
+          "label": "disc hemorrhages",
+          "description": "visible hemorrhages on the optic disc"
+        },
+        {
+          "id": "f5",
+          "label": "peripapillary changes",
+          "description": "changes observed in the peripapillary region"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:53.723042"
+  },
+  {
+    "id": 64731,
+    "original_text": "In the provided retinal image, there are several prominent diagnostic features that warrant attention. Notably, cotton-wool spots are clearly visible. These appear as fluffy white patches on the retina, often indicating localized ischemia due to retinal nerve fiber layer infarction. The presence of these spots suggests underlying vascular issues that can be associated with various systemic conditions, particularly those affecting blood flow.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "cotton-wool spots",
+          "description": "fluffy white patches on the retina indicating localized ischemia due to retinal nerve fiber layer infarction"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:55.661714"
+  },
+  {
+    "id": 60441,
+    "original_text": "**Diagnostic Features Observed in the Image**: \nOn examination of the retinal image, several distinctive features may suggest the presence and advanced stage of glaucoma. Common characteristics associated with advanced glaucoma include a significant cupping of the optic disc, where the cup-to-disc ratio is markedly elevated. The presence of peripapillary atrophy may be noted, as well as retinal nerve fiber layer (RNFL) thinning, particularly in the arcuate regions. Additionally, visual field defects, such as nasal steps or arcuate scotomas, may be inferred from the imaging data, indicating loss of peripheral vision.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "significant cupping of the optic disc with a markedly elevated cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "peripapillary atrophy",
+          "description": "presence of atrophy around the optic disc"
+        },
+        {
+          "id": "f3",
+          "label": "RNFL thinning",
+          "description": "thinning of the retinal nerve fiber layer, particularly in the arcuate regions"
+        },
+        {
+          "id": "f4",
+          "label": "visual field defects",
+          "description": "loss of peripheral vision indicated by nasal steps or arcuate scotomas"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:45:59.431347"
+  },
+  {
+    "id": 60460,
+    "original_text": "Based on the given image and the question regarding the glaucoma stage based on the diagnosis, I will provide a detailed rationale for determining the likely stage of glaucoma.\n\n**[Rationale]**\n\n1. **Diagnostic Features Observed in the Image**: \n   - The retinal image likely displays specific characteristics associated with glaucoma, such as changes to the optic nerve head (ONH), including the cup-to-disc ratio (CDR) being significantly enlarged. In advanced glaucoma, the optic disc appears excavated, indicating substantial damage to the retinal nerve fibers.\n   - There may also be signs of retinal nerve fiber layer (RNFL) thinning, which can be assessed through the appearance of the surrounding retinal structures. Changes in the visual field may also correlate with the image findings, demonstrating loss of peripheral vision.\n\n2. **Diagnostic Reasoning Based on Findings**: \n   - In glaucoma, especially in its advanced stages, increased intraocular pressure contributes to the degeneration of the optic nerve. The observed optic disc cupping is a critical indicator of glaucomatous damage. An increased CDR above the normal range typically suggests progression towards advanced glaucoma.\n   - If the image shows significant changes such as pallor of the optic nerve head or narrowing of the neuroretinal rim (the area of the optic disc that surrounds the cup), it would further support the diagnosis of advanced glaucoma. Additionally, the presence of visual field defects, particularly in the peripheral regions, would corroborate the severity of the disease.\n\n3. **Conclusion**: \n   - Given these observations, and considering the diagnostic features typically associated with advanced glaucoma, including pronounced optic nerve damage and likely significant visual field loss, it can be concluded that the patient is experiencing advanced glaucoma. \n\nTherefore, the correct diagnosis is **advanced glaucoma**.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "enlarged cup-to-disc ratio indicating glaucomatous damage"
+        },
+        {
+          "id": "f2",
+          "label": "retinal nerve fiber layer thinning",
+          "description": "thinning of the RNFL observed in the retinal structures"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "loss of peripheral vision correlating with advanced glaucoma"
+        },
+        {
+          "id": "f4",
+          "label": "pallor of the optic nerve head",
+          "description": "pallor indicating significant optic nerve damage"
+        },
+        {
+          "id": "f5",
+          "label": "narrowing of the neuroretinal rim",
+          "description": "narrowing around the optic disc suggesting advanced glaucoma"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:02.633887"
+  },
+  {
+    "id": 60595,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nIn the provided retinal image, several key features indicative of advanced glaucoma are noted. There is pronounced cupping of the optic disc, characterized by an enlarged cup-to-disc ratio, which suggests significant loss of neuroretinal rim tissue. Additionally, the retinal nerve fiber layer appears attenuated, particularly in the temporal region, indicating damage due to increased intraocular pressure (IOP). The presence of peripapillary atrophy (PPA) may also be observed, which often accompanies optic nerve head changes associated with glaucoma. Furthermore, there are visual field defects likely corresponding to the areas of damage seen in the optic disc.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "enlarged cup-to-disc ratio indicating loss of neuroretinal rim tissue"
+        },
+        {
+          "id": "f2",
+          "label": "attenuated retinal nerve fiber layer",
+          "description": "thinning of the nerve fiber layer, particularly in the temporal region"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "atrophy around the optic nerve head often associated with glaucoma"
+        },
+        {
+          "id": "f4",
+          "label": "visual field defects",
+          "description": "deficits in visual field corresponding to areas of optic disc damage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:06.547077"
+  },
+  {
+    "id": 60468,
+    "original_text": "**Diagnostic Features Observed in the Image:** The retinal image may exhibit characteristics typical of glaucoma, such as cupping of the optic disc, where the physiological cup appears enlarged compared to the neuroretinal rim. There may also be signs of thinning of the nerve fiber layer, which can be assessed through the appearance of the retinal nerve fiber layer in the image. Additional features may include changes in the retinal vasculature, such as increased tortuosity or narrowing of retinal arterioles.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "enlarged physiological cup compared to the neuroretinal rim"
+        },
+        {
+          "id": "f2",
+          "label": "nerve fiber layer thinning",
+          "description": "reduced thickness of the retinal nerve fiber layer"
+        },
+        {
+          "id": "f3",
+          "label": "retinal vasculature changes",
+          "description": "increased tortuosity or narrowing of retinal arterioles"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:09.846324"
+  },
+  {
+    "id": 60213,
+    "original_text": "**Diagnostic Features Observed in the Image**:  \nWhile I do not have access to the actual retinal image, a typical examination for glaucoma would reveal several key features. These may include changes in the optic nerve head (ONH), such as an increased cup-to-disc ratio, where the cup appears deeper than normal. There may be neuroretinal rim thinning, which signifies damage to the retinal nerve fibers. Additionally, visual field tests may show characteristic patterns such as arcuate scotomas or peripheral vision loss, indicating increased intraocular pressure (IOP) and potential damage to the optic nerve.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "increased cup-to-disc ratio",
+          "description": "the cup appears deeper than normal"
+        },
+        {
+          "id": "f2",
+          "label": "neuroretinal rim thinning",
+          "description": "signifies damage to the retinal nerve fibers"
+        },
+        {
+          "id": "f3",
+          "label": "arcuate scotomas",
+          "description": "characteristic pattern observed in visual field tests"
+        },
+        {
+          "id": "f4",
+          "label": "peripheral vision loss",
+          "description": "indicates increased intraocular pressure and potential damage to the optic nerve"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:13.152419"
+  },
+  {
+    "id": 60574,
+    "original_text": "Diagnostic Features Observed in the Image:**\n\nThe retinal image likely depicts changes that are typical for advanced glaucoma. Key features that may be observed include:\n\n- **Optic Nerve Cupping:** The image may show a significant enlargement of the optic cup compared to the optic disc, indicating loss of nerve fibers. The cup-to-disc ratio may be markedly increased.\n- **Nerve Fiber Layer Defects:** There may be visible areas of nerve fiber layer thinning or defects, often characterized by a loss of the typical striated pattern seen in healthy eyes.\n- **Visual Field Defects:** Although not directly visible in the image, advanced glaucoma is often associated with specific visual field defects, such as arcuate scotomas or nasal steps, which might be inferred from the structural changes in the optic nerve.\n- **Peripapillary Changes:** There could be changes in the retinal nerve fiber layer around the optic disc, such as pallor or localized thinning.\n\n**",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve cupping",
+          "description": "significant enlargement of the optic cup compared to the optic disc, indicating loss of nerve fibers"
+        },
+        {
+          "id": "f2",
+          "label": "nerve fiber layer defects",
+          "description": "visible areas of nerve fiber layer thinning or defects, characterized by a loss of the typical striated pattern"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "specific visual field defects such as arcuate scotomas or nasal steps, inferred from structural changes in the optic nerve"
+        },
+        {
+          "id": "f4",
+          "label": "peripapillary changes",
+          "description": "changes in the retinal nerve fiber layer around the optic disc, such as pallor or localized thinning"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:16.863546"
+  },
+  {
+    "id": 60234,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe provided retinal image shows several notable characteristics that suggest the presence of advanced glaucoma. Key features may include:\n\n- **Optic Nerve Head (ONH) Changes:** There may be signs of increased cupping of the optic nerve head, characterized by a hollowed-out appearance. This is often assessed using the cup-to-disc ratio, which is typically increased in glaucoma.\n- **Retinal Nerve Fiber Layer (RNFL) Defects:** There could be visible thinning or defects in the RNFL, especially in the areas corresponding to the location of the optic nerve head changes. This thinning could manifest as localized or diffuse loss of the nerve fiber layer.\n- **Visual Field Defects:** There may be evidence of glaucomatous visual field defects, which could be noted in a comprehensive visual field test or indicated by specific patterns of damage in the retinal image.\n- **Overall Retinal Health:** Any additional signs of retinal damage or abnormalities could also contribute to the diagnosis, such as retinal hemorrhages or signs of ischemia.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head changes",
+          "description": "increased cupping of the optic nerve head, characterized by a hollowed-out appearance"
+        },
+        {
+          "id": "f2",
+          "label": "RNFL defects",
+          "description": "visible thinning or defects in the retinal nerve fiber layer, localized or diffuse loss"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "evidence of glaucomatous visual field defects noted in visual field tests"
+        },
+        {
+          "id": "f4",
+          "label": "retinal damage",
+          "description": "additional signs of retinal damage or abnormalities, such as retinal hemorrhages or signs of ischemia"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:20.244923"
+  },
+  {
+    "id": 60283,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe provided retinal image shows characteristic features suggestive of advanced glaucoma. Notably, there is significant cupping of the optic disc, with an increased cup-to-disc ratio, indicating loss of nerve fibers. The surrounding retinal nerve fiber layer (RNFL) appears thin or absent, and there may be corresponding visual field defects such as nasal steps or arcuate scotomas. Additionally, any presence of disc hemorrhages or changes in the peripapillary region can further confirm the severity of the disease. The overall appearance of the disc suggests a considerable loss of structural integrity, which is consistent with advanced disease stages.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "significant cupping of the optic disc with an increased cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "thin RNFL",
+          "description": "surrounding retinal nerve fiber layer appears thin or absent"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "corresponding visual field defects such as nasal steps or arcuate scotomas"
+        },
+        {
+          "id": "f4",
+          "label": "disc hemorrhages",
+          "description": "presence of disc hemorrhages in the optic disc"
+        },
+        {
+          "id": "f5",
+          "label": "peripapillary changes",
+          "description": "changes in the peripapillary region indicating disease severity"
+        },
+        {
+          "id": "f6",
+          "label": "loss of structural integrity",
+          "description": "overall appearance of the disc suggests considerable loss of structural integrity"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:25.351200"
+  },
+  {
+    "id": 60253,
+    "original_text": "**Diagnostic Features Observed in the Image:**  \nIn the provided retinal image, several key features indicative of advanced glaucoma are noticeable. These include significant optic nerve head cupping, characterized by a pronounced excavation of the optic disc. The neuroretinal rim appears thinned, particularly in the inferior and superior quadrants, which is a hallmark of glaucomatous damage. Additionally, there is evidence of peripapillary atrophy, which may present as a lightening of the retinal tissue surrounding the optic disc. The visual field testing may also show characteristic defects, such as a nasal step or arcuate scotomas, although this cannot be confirmed from the image alone.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "pronounced excavation of the optic disc"
+        },
+        {
+          "id": "f2",
+          "label": "thinned neuroretinal rim",
+          "description": "thinning observed particularly in the inferior and superior quadrants"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "lightening of the retinal tissue surrounding the optic disc"
+        },
+        {
+          "id": "f4",
+          "label": "visual field defects",
+          "description": "characteristic defects such as nasal step or arcuate scotomas"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:27.964834"
+  },
+  {
+    "id": 60242,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image presents several significant features characteristic of advanced glaucoma. Key findings include:\n- **Optic Nerve Head (ONH) Changes:** There is notable cupping of the optic nerve, which is indicative of optic nerve damage. The cup-to-disc ratio is significantly increased, suggesting loss of neural tissue.\n- **Visual Field Defects:** If visual fields were assessed, one would expect to see corresponding defects, particularly in the peripheral vision, which is common in advanced glaucoma.\n- **Peripapillary Atrophy:** There may be thinning of the retinal nerve fiber layer around the optic disc, which is typically associated with glaucoma progression.\n- **Disc Hemorrhages:** Presence of hemorrhages around the optic disc can also be indicative of glaucoma exacerbation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve cupping",
+          "description": "notable cupping of the optic nerve indicative of optic nerve damage"
+        },
+        {
+          "id": "f2",
+          "label": "increased cup-to-disc ratio",
+          "description": "significantly increased cup-to-disc ratio suggesting loss of neural tissue"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "corresponding defects in peripheral vision common in advanced glaucoma"
+        },
+        {
+          "id": "f4",
+          "label": "peripapillary atrophy",
+          "description": "thinning of the retinal nerve fiber layer around the optic disc associated with glaucoma progression"
+        },
+        {
+          "id": "f5",
+          "label": "disc hemorrhages",
+          "description": "presence of hemorrhages around the optic disc indicative of glaucoma exacerbation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:31.881180"
+  },
+  {
+    "id": 60499,
+    "original_text": "**Diagnostic Features Observed:**\nIn the provided retinal image, several key features indicative of glaucoma can be observed. The optic disc appears pale and cupped, suggesting a loss of nerve fibers, which is a hallmark of glaucoma. The cup-to-disc ratio is notably increased, which indicates the degree of optic nerve damage. Additionally, there may be signs of retinal nerve fiber layer (RNFL) thinning, particularly in the temporal quadrant, which is often associated with glaucomatous damage. The presence of visual field defects or changes would likely correlate with these findings, but would require further visual field testing to confirm.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "pale optic disc",
+          "description": "indicates loss of nerve fibers, a hallmark of glaucoma"
+        },
+        {
+          "id": "f2",
+          "label": "increased cup-to-disc ratio",
+          "description": "indicates the degree of optic nerve damage"
+        },
+        {
+          "id": "f3",
+          "label": "RNFL thinning",
+          "description": "particularly noted in the temporal quadrant, associated with glaucomatous damage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:34.398477"
+  },
+  {
+    "id": 60167,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe image likely shows characteristics consistent with advanced glaucoma, which can be inferred from any notable features such as optic nerve head changes (e.g., cupping, pallor), retinal nerve fiber layer thinning, or visual field defects. Advanced glaucoma typically presents with significant optic nerve damage, which can be seen as a pronounced excavation of the optic nerve head, indicating a loss of nerve fiber tissue. Additional features may include the presence of retinal hemorrhages or changes in the retinal vasculature.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head changes",
+          "description": "notable features such as cupping and pallor"
+        },
+        {
+          "id": "f2",
+          "label": "retinal nerve fiber layer thinning",
+          "description": "thinning of the retinal nerve fiber layer indicative of nerve damage"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "loss of visual field associated with advanced glaucoma"
+        },
+        {
+          "id": "f4",
+          "label": "retinal hemorrhages",
+          "description": "presence of bleeding within the retina"
+        },
+        {
+          "id": "f5",
+          "label": "changes in retinal vasculature",
+          "description": "alterations in the blood vessels of the retina"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:38.068207"
+  },
+  {
+    "id": 60301,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image presents several key features indicative of advanced glaucoma. There is notable cupping of the optic disc, characterized by an increased cup-to-disc ratio, which is typically greater than 0.6. This finding suggests substantial loss of the neural rim. The neuroretinal rim appears thin, particularly at the superior and inferior poles, indicating the presence of significant optic nerve damage. Additionally, there may be focal notches in the rim, further signifying localized damage. The presence of corresponding visual field defects, such as arcuate scotomas or peripheral visual field loss, might be inferred alongside these structural changes.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "increased cup-to-disc ratio greater than 0.6"
+        },
+        {
+          "id": "f2",
+          "label": "thin neuroretinal rim",
+          "description": "notable thinning at the superior and inferior poles"
+        },
+        {
+          "id": "f3",
+          "label": "focal notches",
+          "description": "localized damage in the neuroretinal rim"
+        },
+        {
+          "id": "f4",
+          "label": "visual field defects",
+          "description": "presence of arcuate scotomas or peripheral visual field loss"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:41.670932"
+  },
+  {
+    "id": 60339,
+    "original_text": "**Diagnostic Features Observed**: Based on the characteristics typically associated with advanced glaucoma, there are several key features that can be evaluated from the retinal image. These may include the presence of optic nerve head cupping, which is characterized by an increased cup-to-disc ratio. In advanced glaucoma, one would expect to see significant thinning of the neuroretinal rim, particularly in the inferior and superior regions. There may also be visual field defects noted through perimetry, such as arcuate scotomas or peripheral vision loss, correlating with the structural changes observed in the optic nerve. Additionally, the retinal nerve fiber layer (RNFL) may appear attenuated on optical coherence tomography (OCT) imaging.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "increased cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of the neuroretinal rim",
+          "description": "significant thinning, particularly in the inferior and superior regions"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "arcuate scotomas or peripheral vision loss"
+        },
+        {
+          "id": "f4",
+          "label": "attenuated retinal nerve fiber layer",
+          "description": "appearance of attenuation on optical coherence tomography (OCT) imaging"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:44.574936"
+  },
+  {
+    "id": 60260,
+    "original_text": "**Diagnostic Features Observed:** The image likely shows various characteristics that are typical for advanced glaucoma stages. Common features in retinal images associated with advanced glaucoma include significant optic nerve head cupping, thinning of the neuroretinal rim, and potential visual field loss evident through changes in the retinal nerve fiber layer (RNFL). Additionally, there may be visible changes in the retinal architecture, such as pallor or atrophy in the areas surrounding the optic disc.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "significant cupping of the optic nerve head"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of the neuroretinal rim",
+          "description": "reduction in thickness of the neuroretinal rim"
+        },
+        {
+          "id": "f3",
+          "label": "visual field loss",
+          "description": "evidence of changes in visual field due to retinal nerve fiber layer alterations"
+        },
+        {
+          "id": "f4",
+          "label": "retinal architecture changes",
+          "description": "pallor or atrophy in areas surrounding the optic disc"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:47.516559"
+  },
+  {
+    "id": 60528,
+    "original_text": "**Diagnostic Features Observed**: In the provided image, there are several key diagnostic features indicative of advanced glaucoma. These include significant cupping of the optic disc, which appears enlarged with a pronounced cup-to-disc ratio. The retinal nerve fiber layer (RNFL) may show thinning or loss, which could be evidenced by the presence of corresponding defects in the visual field. Additionally, there may be signs of peripapillary atrophy and changes in the retinal vasculature that are consistent with chronic glaucoma.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "enlarged optic disc with a pronounced cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "retinal nerve fiber layer thinning",
+          "description": "thinning or loss of the RNFL with corresponding visual field defects"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "atrophy around the optic disc"
+        },
+        {
+          "id": "f4",
+          "label": "changes in retinal vasculature",
+          "description": "alterations in the retinal blood vessels consistent with chronic glaucoma"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:51.153715"
+  },
+  {
+    "id": 60388,
+    "original_text": "Diagnostic features observed in the image:\nThe image likely displays a retinal scan indicative of advanced glaucoma. Key features might include a significant cupping of the optic disc, where the cup-to-disc ratio is markedly elevated (often greater than 0.6), and possible thinning of the neuroretinal rim. Additionally, there may be visual field defects observable in the scan, such as arcuate scotomas or nasal steps, which are common findings in glaucoma patients. The presence of peripapillary atrophy or changes in the retinal nerve fiber layer may also be noted.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "significant cupping of the optic disc with a cup-to-disc ratio greater than 0.6"
+        },
+        {
+          "id": "f2",
+          "label": "neuroretinal rim thinning",
+          "description": "possible thinning of the neuroretinal rim"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "observable defects such as arcuate scotomas or nasal steps"
+        },
+        {
+          "id": "f4",
+          "label": "peripapillary atrophy",
+          "description": "presence of peripapillary atrophy"
+        },
+        {
+          "id": "f5",
+          "label": "retinal nerve fiber layer changes",
+          "description": "changes in the retinal nerve fiber layer"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:46:55.096915"
+  },
+  {
+    "id": 60555,
+    "original_text": "Diagnostic features observed in the image include significant optic disc cupping, thinning of the neuroretinal rim, and potential loss of the retinal nerve fiber layer. There may also be visible changes in the peripapillary area indicative of glaucomatous damage. The presence of these features indicates a compromise in the structural integrity of the optic nerve head, which is characteristic of glaucoma.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic disc cupping",
+          "description": "significant cupping of the optic disc"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of the neuroretinal rim",
+          "description": "reduction in the thickness of the neuroretinal rim"
+        },
+        {
+          "id": "f3",
+          "label": "loss of retinal nerve fiber layer",
+          "description": "potential loss of the retinal nerve fiber layer"
+        },
+        {
+          "id": "f4",
+          "label": "peripapillary changes",
+          "description": "visible changes in the peripapillary area indicative of glaucomatous damage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:00.043260"
+  },
+  {
+    "id": 60582,
+    "original_text": "**Diagnostic Features Observed in the Image**:\nThe image reveals significant optic nerve changes indicative of glaucoma. Key features include a pronounced cup-to-disc ratio, significant thinning of the neuroretinal rim, and potential peripapillary atrophy. The appearance of the optic disc is characterized by a large, excavated cup that is more than half the diameter of the disc itself. There may also be visual field defects evident in the accompanying visual field test, suggesting loss of peripheral vision typically associated with glaucoma.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "cup-to-disc ratio",
+          "description": "pronounced cup-to-disc ratio indicative of glaucoma"
+        },
+        {
+          "id": "f2",
+          "label": "neuroretinal rim thinning",
+          "description": "significant thinning of the neuroretinal rim"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "potential peripapillary atrophy observed"
+        },
+        {
+          "id": "f4",
+          "label": "excavated optic cup",
+          "description": "large, excavated cup more than half the diameter of the disc"
+        },
+        {
+          "id": "f5",
+          "label": "visual field defects",
+          "description": "loss of peripheral vision typically associated with glaucoma"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:04.292228"
+  },
+  {
+    "id": 60498,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image displays several key features indicative of advanced glaucoma. Firstly, there is significant cupping of the optic nerve head, characterized by an increased cup-to-disc ratio which is a hallmark of glaucoma. Additionally, the peripapillary region shows signs of thinning of the retinal nerve fiber layer, which can be visualized as a loss of the usual striations. Furthermore, there are visible defects in the visual field that are consistent with glaucoma, such as arcuate scotomas and temporal visual field loss.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "optic nerve head cupping",
+          "description": "increased cup-to-disc ratio indicative of glaucoma"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of retinal nerve fiber layer",
+          "description": "loss of usual striations in the peripapillary region"
+        },
+        {
+          "id": "f3",
+          "label": "visual field defects",
+          "description": "arcuate scotomas and temporal visual field loss consistent with glaucoma"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:07.327356"
+  },
+  {
+    "id": 64800,
+    "original_text": "Upon analyzing the retinal image, several diagnostic features can be identified. The image may show signs such as the presence of fibrotic tissue, which can appear as white or yellowish lesions in the retinal layers. There may also be evidence of traction on the retina, which could manifest as distortion of the retinal surface or an elevation of the retinal layers. Additionally, if there are areas of retinal thinning or atrophy, these findings could further support the diagnosis of a condition related to fibrosis.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "fibrotic tissue",
+          "description": "white or yellowish lesions in the retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "traction on the retina",
+          "description": "distortion of the retinal surface or elevation of the retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "retinal thinning or atrophy",
+          "description": "areas indicating potential fibrosis-related conditions"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:10.629787"
+  },
+  {
+    "id": 65335,
+    "original_text": "Upon reviewing the retinal image, several notable features can be observed that suggest a particular condition. The image displays a tessellated appearance of the fundus, characterized by a pattern of alternating light and dark areas, resembling a checkerboard. This pattern is typically indicative of pathological myopia, where there is an abnormal elongation of the eyeball leading to structural changes in the retina. Additionally, one can observe the presence of a large optic nerve head and potential peripheral retinal changes such as atrophy or degenerative changes, which are often associated with high myopia.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "tessellated appearance of the fundus",
+          "description": "pattern of alternating light and dark areas resembling a checkerboard, indicative of pathological myopia"
+        },
+        {
+          "id": "f2",
+          "label": "large optic nerve head",
+          "description": "enlarged optic nerve head observed in the retinal image"
+        },
+        {
+          "id": "f3",
+          "label": "peripheral retinal changes",
+          "description": "potential atrophy or degenerative changes associated with high myopia"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:13.992938"
+  },
+  {
+    "id": 65366,
+    "original_text": "In analyzing the retinal image, several key features can be identified that are important for making a diagnosis. The image may show characteristics such as a tessellated appearance of the fundus, which is indicative of pathological myopia. This could be evidenced by a thinning of the retina, increased visibility of choroidal vessels, and possibly the presence of retinal pigmentary changes or abnormalities in the optic disc. Specific signs like a larger optic cup or any signs of retinal detachment or degeneration can also be noted.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "tessellated appearance of the fundus",
+          "description": "indicative of pathological myopia"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of the retina",
+          "description": "reduced thickness of the retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "increased visibility of choroidal vessels",
+          "description": "enhanced visibility of underlying choroidal structures"
+        },
+        {
+          "id": "f4",
+          "label": "retinal pigmentary changes",
+          "description": "abnormalities in retinal pigment distribution"
+        },
+        {
+          "id": "f5",
+          "label": "larger optic cup",
+          "description": "enlargement of the optic cup in the optic disc"
+        },
+        {
+          "id": "f6",
+          "label": "signs of retinal detachment",
+          "description": "evidence of separation of the retina from the underlying tissue"
+        },
+        {
+          "id": "f7",
+          "label": "signs of retinal degeneration",
+          "description": "indications of deterioration of retinal structure or function"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:18.671932"
+  },
+  {
+    "id": 65342,
+    "original_text": "In the provided retinal image, there are several critical diagnostic features that can be observed. First, there is evidence of significant myopic degeneration, characterized by a tessellated appearance of the fundus, which is often associated with pathological myopia. This is typically seen as a thinning of the retinal pigment epithelium (RPE) and choroidal structures, leading to changes in the pigmentation of the retina. Additionally, the optic nerve head may appear elongated or tilted, which can also be indicative of myopic changes. The presence of chorioretinal atrophy and potential lacquer cracks may also be visible, which are common in patients with high myopia.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "myopic degeneration",
+          "description": "tessellated appearance of the fundus associated with pathological myopia"
+        },
+        {
+          "id": "f2",
+          "label": "thinning of RPE",
+          "description": "reduction in the thickness of the retinal pigment epithelium"
+        },
+        {
+          "id": "f3",
+          "label": "elongated optic nerve head",
+          "description": "optic nerve head appears elongated or tilted"
+        },
+        {
+          "id": "f4",
+          "label": "chorioretinal atrophy",
+          "description": "atrophy of the choroid and retina"
+        },
+        {
+          "id": "f5",
+          "label": "lacker cracks",
+          "description": "potential presence of lacquer cracks common in high myopia"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:23.555375"
+  },
+  {
+    "id": 64258,
+    "original_text": "**Diagnostic Features Observed in the Image**: The retinal image likely shows an enlarged optic cup, which is characterized by an increased cup-to-disc ratio. This feature may present as a pale or hollow appearance in the center of the optic disc, indicating potential atrophy of the optic nerve fibers. Additionally, there may be signs of thinning of the neuroretinal rim, particularly in the inferior and superior quadrants. Other potential features could include peripapillary atrophy or changes in the retinal nerve fiber layer (RNFL) adjacent to the optic disc.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "enlarged optic cup",
+          "description": "increased cup-to-disc ratio with a pale or hollow appearance in the center of the optic disc"
+        },
+        {
+          "id": "f2",
+          "label": "optic nerve atrophy",
+          "description": "potential atrophy of the optic nerve fibers"
+        },
+        {
+          "id": "f3",
+          "label": "thinning of neuroretinal rim",
+          "description": "thinning observed particularly in the inferior and superior quadrants"
+        },
+        {
+          "id": "f4",
+          "label": "peripapillary atrophy",
+          "description": "changes observed around the optic disc"
+        },
+        {
+          "id": "f5",
+          "label": "changes in retinal nerve fiber layer",
+          "description": "alterations in the RNFL adjacent to the optic disc"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:26.927385"
+  },
+  {
+    "id": 64262,
+    "original_text": "In the analysis of the retinal image, several key diagnostic features can be observed. The optic nerve head appears enlarged, with a noticeable increase in the cup-to-disc ratio. The cup, which is the central depression of the optic disc, is significantly larger compared to the surrounding neural tissue. This may be accompanied by signs of pallor in the optic disc, which further indicates potential atrophy of the nerve fibers. Additionally, there may be presence of peripapillary atrophy or changes in the retinal nerve fiber layer that can be visualized in high-resolution images.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "enlarged optic nerve head",
+          "description": "noticeable increase in the cup-to-disc ratio"
+        },
+        {
+          "id": "f2",
+          "label": "optic disc pallor",
+          "description": "indicates potential atrophy of the nerve fibers"
+        },
+        {
+          "id": "f3",
+          "label": "peripapillary atrophy",
+          "description": "changes observed around the optic nerve head"
+        },
+        {
+          "id": "f4",
+          "label": "changes in retinal nerve fiber layer",
+          "description": "visualized in high-resolution images"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:29.668680"
+  },
+  {
+    "id": 64460,
+    "original_text": "In analyzing the retinal image, several key diagnostic features can be observed. There may be evidence of retinal hemorrhages, particularly in the form of flame-shaped and dot-and-blot hemorrhages. Additionally, the presence of cotton wool spots suggests localized ischemia due to retinal nerve fiber layer infarctions. Arteriolar narrowing and changes in the arteriovenous (AV) crossings, such as copper and silver wiring, indicate arterial wall changes associated with hypertension. There might also be signs of exudates, both hard and soft, that reflect chronic retinal damage.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal hemorrhages",
+          "description": "evidence of flame-shaped and dot-and-blot hemorrhages"
+        },
+        {
+          "id": "f2",
+          "label": "cotton wool spots",
+          "description": "localized ischemia due to retinal nerve fiber layer infarctions"
+        },
+        {
+          "id": "f3",
+          "label": "arteriolar narrowing",
+          "description": "changes in the arteriolar structure associated with hypertension"
+        },
+        {
+          "id": "f4",
+          "label": "exudates",
+          "description": "presence of hard and soft exudates indicating chronic retinal damage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:32.590883"
+  },
+  {
+    "id": 190169,
+    "original_text": "The observed features in the retinal image include the presence of multiple yellowish-white deposits in the retinal pigment epithelium (RPE) layer, which appear as small, round spots. These deposits are typically referred to as drusen. The size and distribution of these drusen are crucial diagnostic features. They are often located in the macular region and can vary in size from small to large. Drusen are commonly associated with aging and can be a sign of age-related macular degeneration (AMD).",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "multiple yellowish-white deposits in the retinal pigment epithelium (RPE) layer, appearing as small, round spots"
+        },
+        {
+          "id": "f2",
+          "label": "macular region involvement",
+          "description": "drusen typically located in the macular region, varying in size from small to large"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:34.337750"
+  },
+  {
+    "id": 183233,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nUpon analyzing the retinal image, several key diagnostic features can be identified. The presence of multiple yellowish-white lesions scattered throughout the retina suggests the formation of drusen, which are small yellow or white accumulations of fatty deposits that develop under the retina. These drusen can vary in size and are typically found in the macular region, indicating potential age-related changes or degenerative processes. Additionally, there may be accompanying pigmentary changes in the retinal pigment epithelium (RPE), which can appear as hyperpigmentation or atrophy surrounding the drusen.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "small yellow or white accumulations of fatty deposits under the retina"
+        },
+        {
+          "id": "f2",
+          "label": "pigmentary changes in RPE",
+          "description": "hyperpigmentation or atrophy surrounding the drusen"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:36.536842"
+  },
+  {
+    "id": 188533,
+    "original_text": "In the provided retinal image, certain diagnostic features can be observed that warrant attention. The image reveals the presence of multiple yellowish-white lesions that appear to be localized within the retinal layers. These lesions are consistent with the presence of drusen, which are small deposits that form between the retinal pigment epithelium (RPE) and Bruch's membrane. Drusen typically appear as well-defined, round, yellowish spots and can vary in size and number. The overall retinal architecture appears normal in terms of vascular supply and there are no signs of significant retinal edema or neovascularization which might suggest other retinal diseases.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "small deposits that form between the retinal pigment epithelium (RPE) and Bruch's membrane, appearing as well-defined, round, yellowish spots"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:38.129807"
+  },
+  {
+    "id": 188073,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image likely reveals small, yellowish-white lesions scattered throughout the retinal surface, which are indicative of drusen. These lesions can vary in size and may be located in the macular region as well as peripherally. Drusen are typically observed in the context of retinal examination and are often accompanied by changes in retinal pigmentation and possibly retinal pigment epithelium alterations.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "small, yellowish-white lesions scattered throughout the retinal surface"
+        },
+        {
+          "id": "f2",
+          "label": "retinal pigmentation changes",
+          "description": "alterations in retinal pigmentation accompanying drusen"
+        },
+        {
+          "id": "f3",
+          "label": "RPE alterations",
+          "description": "possible changes in the retinal pigment epithelium associated with drusen"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:42.049365"
+  },
+  {
+    "id": 189799,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image reveals the presence of multiple small, yellowish-white lesions scattered throughout the retinal layers, particularly in the macular region. These lesions are known as drusen, appearing as discrete spots that protrude from the retinal pigment epithelium. They are typically associated with areas of retinal atrophy or degeneration and can vary in size and number. The surrounding retinal tissue appears relatively normal, although there may be some signs of early retinal changes, such as mild pigmentary changes or alterations in the retinal architecture.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "multiple small, yellowish-white lesions scattered throughout the retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "retinal atrophy",
+          "description": "areas associated with drusen that indicate degeneration of the retinal tissue"
+        },
+        {
+          "id": "f3",
+          "label": "mild pigmentary changes",
+          "description": "early signs of alterations in the retinal architecture surrounding the lesions"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:44.543117"
+  },
+  {
+    "id": 186448,
+    "original_text": "Upon examining the retinal image, several relevant diagnostic features can be observed. The image likely shows the presence of yellowish-white lesions scattered throughout the retinal surface, indicative of drusen. These lesions are typically small and vary in size but are often described as soft or hard drusen based on their morphology. Drusen are deposits found beneath the retinal pigment epithelium and are commonly associated with aging and can be found in patients with early-stage age-related macular degeneration (AMD). The overall retinal architecture appears intact without signs of significant edema, exudates, or hemorrhages, which would suggest other conditions such as diabetic macular edema or choroidal neovascularization.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "yellowish-white lesions scattered throughout the retinal surface, indicative of deposits beneath the retinal pigment epithelium"
+        },
+        {
+          "id": "f2",
+          "label": "intact retinal architecture",
+          "description": "overall appearance of the retina without signs of significant edema, exudates, or hemorrhages"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:46.278153"
+  },
+  {
+    "id": 184991,
+    "original_text": "**Diagnostic features observed in the image:**\nThe retinal image likely displays yellowish-white lesions known as drusen, which are indicative of early age-related macular degeneration (AMD). Drusen vary in size and may appear as small, round spots or larger confluent areas, often localized to the macular region. The presence of drusen can also lead to alterations in the retinal pigment epithelium (RPE), which may be demonstrated by changes in color or texture surrounding the lesions. Other features that might be noted include retinal thinning, pigmentary changes, and associated changes in the overlying photoreceptors.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "yellowish-white lesions indicative of early age-related macular degeneration"
+        },
+        {
+          "id": "f2",
+          "label": "retinal thinning",
+          "description": "reduction in the thickness of the retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "pigmentary changes",
+          "description": "alterations in the color or texture of the retinal pigment epithelium"
+        },
+        {
+          "id": "f4",
+          "label": "changes in photoreceptors",
+          "description": "associated changes in the overlying photoreceptors due to drusen presence"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:49.886812"
+  },
+  {
+    "id": 185105,
+    "original_text": "**Diagnostic Features Observed in the Image**: Upon analyzing the retinal image, the most prominent features include numerous small yellowish-white deposits located within the retinal layers, particularly in the macular region. These deposits are characterized by their well-defined borders and are often seen in clusters. The presence of these features indicates potential changes in the retinal structure and suggests a disturbance in retinal metabolism.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "yellowish-white deposits",
+          "description": "numerous small deposits with well-defined borders located within the retinal layers, particularly in the macular region"
+        },
+        {
+          "id": "f2",
+          "label": "retinal structure changes",
+          "description": "indicates potential changes in the retinal structure suggesting a disturbance in retinal metabolism"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:52.182416"
+  },
+  {
+    "id": 187633,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image likely shows the presence of small yellow-white deposits located in the retinal pigment epithelium (RPE) layer. These deposits, known as drusen, can vary in size and number. They are typically found in clusters and may appear as rounded or irregular shapes. The surrounding retinal tissue may show signs of pigmentary alteration or atrophy which can accompany the presence of drusen. Additionally, the overall retinal architecture should be evaluated to rule out other pathologies, such as macular degeneration or diabetic retinopathy.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "small yellow-white deposits located in the retinal pigment epithelium (RPE) layer"
+        },
+        {
+          "id": "f2",
+          "label": "pigmentary alteration",
+          "description": "changes in the surrounding retinal tissue accompanying the presence of drusen"
+        },
+        {
+          "id": "f3",
+          "label": "atrophy",
+          "description": "possible atrophy of the retinal tissue associated with drusen"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:47:58.481404"
+  },
+  {
+    "id": 187754,
+    "original_text": "### [Rationale]\n\n1. **Diagnostic Features Observed in the Image:**\n   - In the provided retinal image, there are distinct yellow-white deposits seen beneath the retinal pigment epithelium (RPE). These deposits appear as small, round, and often clustered formations, typically located in the macular region. The presence of these deposits is indicative of localized thickening of the retinal layers, which may suggest the accumulation of lipids or proteins.\n   - The overall architecture of the retina appears intact, with no signs of significant retinal detachment or hemorrhage. The surrounding retinal tissue does not exhibit edema or abnormal vascularization, which are common in more advanced retinal pathologies.\n\n2. **Diagnostic Reasoning Based on Findings:**\n   - The presence of these yellow-white deposits aligns with known characteristics of drusen, which are extracellular deposits that form between the RPE and Bruch's membrane. Drusen are commonly associated with age-related macular degeneration (AMD) but can also be seen in younger individuals as part of normal aging or in certain genetic conditions.\n   - The lack of significant retinal changes such as exudates, hemorrhage, or edema suggests that the deposits are early-stage drusen rather than advanced AMD. Additionally, the absence of neovascularization further supports the diagnosis of drusen rather than more severe retinal conditions.\n\n3. **Conclusion:**\n   - Given the features observed in the retinal image, particularly the presence of yellow-white deposits characteristic of drusen, and the absence of other pathological signs, it can be concluded that the specific condition based on the retinal findings is consistent with the presence of drusen.\n   \nTherefore, the correct diagnosis is **drusen**.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "yellow-white deposits",
+          "description": "small, round, and often clustered formations beneath the RPE indicative of drusen"
+        },
+        {
+          "id": "f2",
+          "label": "intact retinal architecture",
+          "description": "no signs of significant retinal detachment, hemorrhage, or edema"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:00.440896"
+  },
+  {
+    "id": 185803,
+    "original_text": "**Diagnostic Features Observed in the Image**: The retinal image likely displays a variety of characteristic features commonly associated with age-related macular degeneration (AMD), particularly in its early stages. One of the most notable features could be the presence of small yellowish-white subretinal deposits known as drusen, which are typically found beneath the retinal pigment epithelium (RPE). These drusen can vary in size and can be seen as distinct, well-defined spots scattered throughout the macula. In addition to drusen, other potential features may include changes in the retinal pigment epithelium, such as hyperpigmentation or hypopigmentation, which can indicate underlying pathological changes associated with AMD.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "small yellowish-white subretinal deposits beneath the RPE"
+        },
+        {
+          "id": "f2",
+          "label": "hyperpigmentation",
+          "description": "increased pigmentation in the retinal pigment epithelium"
+        },
+        {
+          "id": "f3",
+          "label": "hypopigmentation",
+          "description": "decreased pigmentation in the retinal pigment epithelium"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:03.122337"
+  },
+  {
+    "id": 183834,
+    "original_text": "In analyzing the retinal image provided, several diagnostic features may be observed. These features could include the presence of yellowish-white lesions scattered throughout the retinal surface, which could indicate the presence of drusen. Drusen typically appear as small, distinct deposits located between the retinal pigment epithelium (RPE) and Bruch's membrane. Their size and arrangement can vary, and they often present as soft or hard drusen, with soft drusen being larger and more confluent. The image may also show retinal thinning or pigmentary changes surrounding the drusen, which can be indicative of age-related macular degeneration (AMD).",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "yellowish-white lesions scattered throughout the retinal surface, appearing as small, distinct deposits between the RPE and Bruch's membrane"
+        },
+        {
+          "id": "f2",
+          "label": "retinal thinning",
+          "description": "thinning of the retinal tissue surrounding the drusen"
+        },
+        {
+          "id": "f3",
+          "label": "pigmentary changes",
+          "description": "changes in pigmentation surrounding the drusen, indicative of age-related macular degeneration (AMD)"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:06.291221"
+  },
+  {
+    "id": 184899,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nThe retinal image presents several key features consistent with early changes in the retinal architecture. Notably, there are multiple small, yellow-white lesions scattered throughout the macula and periphery. These lesions are relatively uniform in size and shape, with well-defined edges. They appear to be localized deposits that do not disrupt the surrounding retinal tissue significantly. Additionally, the retinal vasculature appears normal, without evidence of hemorrhages or exudates that would suggest more acute pathology.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "yellow-white lesions",
+          "description": "multiple small, yellow-white lesions scattered throughout the macula and periphery with well-defined edges"
+        },
+        {
+          "id": "f2",
+          "label": "normal retinal vasculature",
+          "description": "retinal vasculature appears normal without evidence of hemorrhages or exudates"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:09.404069"
+  },
+  {
+    "id": 184040,
+    "original_text": "**Diagnostic Features Observed:**\nIn the retinal image, several characteristic features are observed that suggest early changes associated with age-related macular degeneration (AMD). Notably, the presence of multiple yellowish-white deposits, known as drusen, can be seen scattered throughout the retinal surface. These deposits vary in size and are located beneath the retinal pigment epithelium. The surrounding retinal tissue appears generally normal, but there may be slight alterations in pigmentation or subtle changes in the retinal architecture.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "multiple yellowish-white deposits beneath the retinal pigment epithelium"
+        },
+        {
+          "id": "f2",
+          "label": "alterations in pigmentation",
+          "description": "slight changes in pigmentation of the surrounding retinal tissue"
+        },
+        {
+          "id": "f3",
+          "label": "changes in retinal architecture",
+          "description": "subtle changes in the structure of the retinal tissue"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:11.560904"
+  },
+  {
+    "id": 188532,
+    "original_text": "**Diagnostic Features Observed in the Image**: The retinal image shows the presence of multiple small, yellowish-white lesions scattered throughout the retinal surface. These lesions appear to be discrete and small in size, often described as having a soft or fluffy appearance. The surrounding retinal tissue appears normal without any significant edema or hemorrhage. There is also no evident neovascularization or significant retinal pigment epithelium (RPE) disturbance.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "yellowish-white lesions",
+          "description": "multiple small, discrete lesions with a soft or fluffy appearance"
+        },
+        {
+          "id": "f2",
+          "label": "normal surrounding retinal tissue",
+          "description": "no significant edema or hemorrhage observed"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:14.115989"
+  },
+  {
+    "id": 189729,
+    "original_text": "Diagnostic Features Observed:\nIn the analyzed retinal image, the retinal fundus exhibits multiple small, yellow-white lesions that are well-defined and located primarily in the outer retinal layers. These lesions, known as drusen, can vary in size and are typically scattered throughout the retina. The surrounding retinal tissue appears normal, and there is no significant edema or hemorrhage noted in the image. The presence of these drusen is often indicative of early retinal degeneration or aging changes.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "multiple small, yellow-white lesions that are well-defined and located primarily in the outer retinal layers"
+        },
+        {
+          "id": "f2",
+          "label": "normal surrounding retinal tissue",
+          "description": "the surrounding retinal tissue appears normal with no significant edema or hemorrhage"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:16.503345"
+  },
+  {
+    "id": 185759,
+    "original_text": "**Diagnostic Features Observed in the Image:**\n   - The retinal image appears to show multiple yellowish-white lesions located primarily in the macular region and surrounding areas. These lesions are consistent in appearance and size, resembling small, round deposits. Additionally, their distribution does not suggest any signs of hemorrhage, exudates, or significant vascular changes, which are often associated with other retinal pathologies.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "yellowish-white lesions",
+          "description": "multiple yellowish-white lesions located primarily in the macular region and surrounding areas, resembling small, round deposits"
+        },
+        {
+          "id": "f2",
+          "label": "absence of hemorrhage",
+          "description": "no signs of hemorrhage observed in the retinal image"
+        },
+        {
+          "id": "f3",
+          "label": "absence of exudates",
+          "description": "no signs of exudates observed in the retinal image"
+        },
+        {
+          "id": "f4",
+          "label": "absence of significant vascular changes",
+          "description": "no significant vascular changes observed in the retinal image"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:19.719255"
+  },
+  {
+    "id": 184943,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nUpon examination of the provided retinal image, several key features are notable. The presence of multiple yellowish-white lesions scattered throughout the retinal surface suggests the presence of small, well-defined deposits. These deposits are typically located within the retinal pigment epithelium (RPE) layer and appear as distinct, round structures. Additionally, the image may show the absence of significant retinal edema or hemorrhages, indicating that there are no acute diabetic changes or other pathologies at this time. The overall appearance of the retina appears relatively normal aside from these deposits.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "yellowish-white lesions",
+          "description": "multiple well-defined deposits within the retinal pigment epithelium"
+        },
+        {
+          "id": "f2",
+          "label": "absence of retinal edema",
+          "description": "no significant retinal edema observed"
+        },
+        {
+          "id": "f3",
+          "label": "absence of hemorrhages",
+          "description": "no acute hemorrhages detected"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:22.268533"
+  },
+  {
+    "id": 188034,
+    "original_text": "Upon examining the retinal image provided, several diagnostic features are noteworthy. There appears to be the presence of multiple small, yellowish-white lesions on the retinal surface, which are irregularly distributed. These features are indicative of localized deposits within the retinal layers. The lesions do not exhibit significant edema or hemorrhaging, and their appearance suggests a chronic condition rather than an acute inflammatory process.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "yellowish-white lesions",
+          "description": "multiple small lesions on the retinal surface, irregularly distributed"
+        },
+        {
+          "id": "f2",
+          "label": "no significant edema",
+          "description": "absence of significant swelling in the retinal layers"
+        },
+        {
+          "id": "f3",
+          "label": "no hemorrhaging",
+          "description": "absence of bleeding in the retinal layers"
+        },
+        {
+          "id": "f4",
+          "label": "chronic condition",
+          "description": "suggestive of a long-standing process rather than acute inflammation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:26.082725"
+  },
+  {
+    "id": 185421,
+    "original_text": "**Diagnostic Features Observed:**\nThe image likely depicts characteristic findings such as small, yellow-white spots on the retinal surface, which are typically indicative of the presence of drusen. Drusen can vary in size and may appear in clusters or as individual spots. These lesions are often located beneath the retinal pigment epithelium (RPE) and can be observed during a comprehensive retinal examination using optical coherence tomography (OCT) or fundus photography. In addition to the presence of drusen, there may be associated changes in the retinal pigment epithelium, such as hyperpigmentation or atrophy, and alterations in the surrounding retinal architecture.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "drusen",
+          "description": "small, yellow-white spots on the retinal surface, indicative of deposits beneath the RPE"
+        },
+        {
+          "id": "f2",
+          "label": "RPE changes",
+          "description": "hyperpigmentation or atrophy of the retinal pigment epithelium"
+        },
+        {
+          "id": "f3",
+          "label": "retinal architecture alterations",
+          "description": "changes in the surrounding retinal structure observed during examination"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:28.749844"
+  },
+  {
+    "id": 64618,
+    "original_text": "**Diagnostic Features Observed in the Image:**  \nThe retinal image likely shows localized areas of retinal edema, hemorrhages, and possibly cotton wool spots. These findings may be concentrated in a specific quadrant of the retina, typically where the retinal vein is occluded. The presence of exudates, particularly soft exudates (cotton wool spots) and hard exudates, can indicate areas of ischemia and previous microinfarctions. There may also be dilated and tortuous retinal veins in the affected area, suggesting venous congestion.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal edema",
+          "description": "localized areas of swelling in the retina"
+        },
+        {
+          "id": "f2",
+          "label": "hemorrhages",
+          "description": "presence of blood leakage in the retina"
+        },
+        {
+          "id": "f3",
+          "label": "cotton wool spots",
+          "description": "soft exudates indicating areas of ischemia"
+        },
+        {
+          "id": "f4",
+          "label": "hard exudates",
+          "description": "lipid deposits indicating previous microinfarctions"
+        },
+        {
+          "id": "f5",
+          "label": "dilated retinal veins",
+          "description": "enlarged and tortuous veins suggesting venous congestion"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:32.645425"
+  },
+  {
+    "id": 64603,
+    "original_text": "**Diagnostic Features Observed in the Image**: In the retinal image, there are several key features that can be noted. The presence of localized retinal hemorrhages, particularly in the quadrant corresponding to the affected vein, is a prominent observation. These hemorrhages may appear as flame-shaped or dot-and-blot types and are typically found adjacent to the areas of retinal edema. Additionally, there may be observable cotton wool spots, indicative of localized ischemia, and possibly some retinal exudates such as hard exudates or soft exudates. The vascular changes may include tortuosity and dilation of the affected vein, as well as potential collateral circulation formation.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "localized retinal hemorrhages",
+          "description": "hemorrhages appearing as flame-shaped or dot-and-blot types adjacent to areas of retinal edema"
+        },
+        {
+          "id": "f2",
+          "label": "cotton wool spots",
+          "description": "indicators of localized ischemia"
+        },
+        {
+          "id": "f3",
+          "label": "retinal exudates",
+          "description": "presence of hard exudates or soft exudates"
+        },
+        {
+          "id": "f4",
+          "label": "vascular changes",
+          "description": "tortuosity and dilation of the affected vein, potential collateral circulation formation"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:37.712774"
+  },
+  {
+    "id": 64638,
+    "original_text": "Upon examining the retinal image, several diagnostic features may be observed that indicate vascular changes. These could include localized retinal edema, the presence of cotton wool spots, and the presence of retinal hemorrhages, particularly in a specific quadrant of the retina. Additionally, we might see dilated and tortuous retinal veins in the affected area, which can indicate venous obstruction. The surrounding retinal tissues may show signs of ischemia or changes in the retinal pigment epithelium, suggesting chronicity or ongoing pathophysiological processes.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "localized retinal edema",
+          "description": "swelling in a specific area of the retina"
+        },
+        {
+          "id": "f2",
+          "label": "cotton wool spots",
+          "description": "white fluffy patches on the retina indicating localized ischemia"
+        },
+        {
+          "id": "f3",
+          "label": "retinal hemorrhages",
+          "description": "bleeding within the retina, particularly in a specific quadrant"
+        },
+        {
+          "id": "f4",
+          "label": "dilated and tortuous retinal veins",
+          "description": "enlarged and twisted veins in the retina indicating venous obstruction"
+        },
+        {
+          "id": "f5",
+          "label": "ischemia",
+          "description": "reduced blood flow to the retinal tissues"
+        },
+        {
+          "id": "f6",
+          "label": "changes in retinal pigment epithelium",
+          "description": "alterations in the retinal pigment epithelium suggesting chronicity or ongoing pathophysiological processes"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:42.181837"
+  },
+  {
+    "id": 64624,
+    "original_text": "**Diagnostic Features Observed in the Image:**\nIn the retinal image, several key features are typically observed in cases related to branch retinal vein occlusion (BRVO). These may include the presence of retinal hemorrhages, often located in a characteristic pattern that follows the distribution of the affected vein. Cotton wool spots may also be noted, indicating localized retinal ischemia. Additionally, there may be signs of retinal edema, particularly in the areas surrounding the occluded vein. The optic disc may appear normal or show some degree of swelling if there is significant edema. The overall appearance of the retinal fundus may range from mild to severe based on the extent of the occlusion and associated complications.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "retinal hemorrhages",
+          "description": "hemorrhages located in a characteristic pattern following the distribution of the affected vein"
+        },
+        {
+          "id": "f2",
+          "label": "cotton wool spots",
+          "description": "localized retinal ischemia indicated by cotton wool spots"
+        },
+        {
+          "id": "f3",
+          "label": "retinal edema",
+          "description": "swelling in areas surrounding the occluded vein"
+        },
+        {
+          "id": "f4",
+          "label": "optic disc appearance",
+          "description": "optic disc may appear normal or show some degree of swelling if there is significant edema"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:49.382156"
+  },
+  {
+    "id": 3749,
+    "original_text": "Upon analyzing the retinal image, several diagnostic features can be observed that are critical for determining the underlying pathology. Key findings include the presence of opacities in the lens, which appear as a whitish or cloudy area obstructing the normal clarity of the retina. There may also be signs of light scattering, which indicates that the lens is not properly transmitting light due to these opacities. Additionally, if there are any changes in the surrounding retinal structures, such as the presence of retinal edema or alterations in retinal pigmentation, these could further enhance the suspicion of lens-related issues.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "lens opacities",
+          "description": "whitish or cloudy area obstructing the normal clarity of the retina"
+        },
+        {
+          "id": "f2",
+          "label": "light scattering",
+          "description": "indicates that the lens is not properly transmitting light due to opacities"
+        },
+        {
+          "id": "f3",
+          "label": "retinal edema",
+          "description": "swelling of the retinal tissue"
+        },
+        {
+          "id": "f4",
+          "label": "alterations in retinal pigmentation",
+          "description": "changes in the color or appearance of the retinal pigment"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:54.528350"
+  },
+  {
+    "id": 3682,
+    "original_text": "The image provided likely exhibits certain diagnostic features indicative of cataract formation. These features may include a cloudy or opacified lens, which appears less transparent than a normal lens. The presence of a yellowish or brownish tint in the lens can also be observed, which is characteristic of age-related cataracts. Additionally, there may be signs of lens displacement or subluxation, depending on the severity of the cataract. The surrounding ocular structures such as the anterior chamber and the cornea may appear clear, while the lens itself exhibits opacification or irregularities in its surface.",
+    "extracted_features": {
+      "features": [
+        {
+          "id": "f1",
+          "label": "cloudy lens",
+          "description": "lens appears less transparent than a normal lens"
+        },
+        {
+          "id": "f2",
+          "label": "yellowish or brownish tint",
+          "description": "characteristic coloration of age-related cataracts"
+        },
+        {
+          "id": "f3",
+          "label": "lens displacement",
+          "description": "possible signs of lens displacement or subluxation"
+        },
+        {
+          "id": "f4",
+          "label": "clear anterior chamber",
+          "description": "anterior chamber appears clear"
+        },
+        {
+          "id": "f5",
+          "label": "clear cornea",
+          "description": "cornea appears clear"
+        },
+        {
+          "id": "f6",
+          "label": "opacification of lens",
+          "description": "lens exhibits opacification or irregularities in its surface"
+        }
+      ]
+    },
+    "processing_timestamp": "2025-10-16 15:48:58.120848"
   }
 ]
